@@ -13,14 +13,6 @@ items:
   target: "/projets/"
   kind: page
   children: []
-- title: Équipe
-  target: "/equipe/"
-  kind: page
-  children: []
-- title: Organisations
-  target: "/organisations/"
-  kind: page
-  children: []
 - title: Contenus
   target: "/contenus/"
   kind: page
@@ -29,4 +21,12 @@ items:
     target: "/contenus/medias/"
     kind: page
     children: []
+- title: Équipe
+  target: "/equipe/"
+  kind: page
+  children: []
+- title: Organisations
+  target: "/organisations/"
+  kind: page
+  children: []
 
