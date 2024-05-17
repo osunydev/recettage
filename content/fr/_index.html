@@ -106,10 +106,10 @@ contents:
   - kind: block
     template: agenda
     title: >-
-      
+      À venir
     ranks:
-      self: false
-      children: 2
+      self: 2
+      children: 3
     data:
       mode: all
       layout: grid
@@ -119,15 +119,34 @@ contents:
       no_event_message: >-
         
 
-      show_summary: false
-      show_category: false
-      show_status: false
+      show_summary: true
+      show_category: true
+      show_status: true
       title_link: "/agenda/"
       events:
         - path: "/agenda/2024-06-06-assemblee-osuny-7/"
           file: "events/2024-06-06-assemblee-osuny-7.html"
         - path: "/agenda/2024-11-27-communs-numerique-et-interet-general/"
           file: "events/2024-11-27-communs-numerique-et-interet-general.html"
+
+
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 2
+    data:
+      mode: all
+      layout: grid
+      projects:
+        - slug: "bonnes-notes"
+          file: "projects/2023-bonnes-notes.html"
+        - slug: "nig"
+          file: "projects/2023-nig.html"
+        - slug: "ran-coper"
+          file: "projects/2023-ran-coper.html"
 
 
 
