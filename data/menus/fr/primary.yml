@@ -21,4 +21,8 @@ items:
   target: "/organisations/"
   kind: page
   children: []
+- title: Médias
+  target: "/medias/"
+  kind: page
+  children: []
 
