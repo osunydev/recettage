@@ -24,5 +24,9 @@ items:
 - title: Contenus
   target: "/contenus/"
   kind: page
-  children: []
+  children:
+  - title: Médias
+    target: "/contenus/medias/"
+    kind: page
+    children: []
 
