@@ -13,10 +13,6 @@ items:
   target: "/projets/"
   kind: page
   children: []
-- title: Médias
-  target: "/medias/"
-  kind: page
-  children: []
 - title: Équipe
   target: "/equipe/"
   kind: page
@@ -28,5 +24,9 @@ items:
 - title: Contenus
   target: "/contenus/"
   kind: page
-  children: []
+  children:
+  - title: Médias
+    target: "/contenus/medias/"
+    kind: page
+    children: []
 
