@@ -29,4 +29,8 @@ items:
     target: "/contenus/medias/"
     kind: page
     children: []
+  - title: 'Chronologie '
+    target: "/contenus/chronologie/"
+    kind: page
+    children: []
 
