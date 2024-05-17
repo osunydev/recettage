@@ -72,9 +72,9 @@ summary: >
   
 
 contents_reading_time:
-  seconds: 134
+  seconds: 200
   text: >-
-    2 minutes
+    3 minutes
 contents:
   - kind: block
     template: chapter
@@ -169,6 +169,29 @@ contents:
       layout: no_background
       text: >-
         <p><b>Des corrections sur l’accessibilité : a</b><b>mélioration de la lightbox et des galeries d’images pour les lecteurs d’écran<br></b>Un problème a été mis en évidence par un utilisateur aveugle dans le système de lightbox qui s'affiche dans la zone d'entête et dans les blocs de galeries. La technologie d'assistance détectait l'image et ne lisait pas le texte alternatif. On a choisi que le lecteur d'écran lise d'abord l'image et ensuite lise le texte alternatif et ouvre ensuite la lightbox. Ajustements également dans la navigation qui est en français maintenant. Rajout d'un attribut html pour donner plus d'infos aux lecteurs d'assistance.</p><p><b>Bloc actualités : nouvel affichage en carousel<br></b>Développé par Olivia, cet affichage permet de slider les actualités. Ce système prend peu de place en hauteur et il marche également en  pleine largeur. Voici un exemple de cet affichage : <a href="https://example.osuny.org/fr/blocks/blocs-de-liste/actualites-1/">https://example.osuny.org/fr/blocks/blocs-de-liste/actualites-1/</a></p><p><b>Bloc formation : nouvel affichage en grille<br></b>Développé par Clara, il permet d'afficher maintenant les formations en format grille et non plus uniquement en liste. L'idée est de présenter l'image et le chapô de la formation. On peut préciser le ratio de l'image en fonction de chaque site. Voici un exemple de cet affichage :  <a href="https://example.osuny.org/fr/blocks/blocs-de-liste/programmes/" target="_blank">https://example.osuny.org/fr/blocks/blocs-de-liste/programmes/</a></p><p><b>Bloc chiffre clé : ajout d'images dans les chiffres clés<br></b>Nous pouvons rajouter des images à l'intérieur de ce bloc maintenant. L'image est limitée à une taille par défaut de 128px, quipeut se modifier dans les variables du fichier de configuration sass. Voici un exemple de cet affichage : https ://example.osuny.org/fr/blocks/blocks-narratifs/chiffre-cles/<b><br></b></p><p><b>Possibilité d’ajouter un bouton principal dans le hero des pages<br></b>Avant, nous avions un titre, une image, un sommaire, nous pouvons ajouter un bouton désormais avec un titre et un lien externe.</p><p><b>Ajout d’un darkmode simple à activer</b><br>Ce darkmode est intégré mais il n'est pas activé par défaut. Pour cela, il faut préciser les variables dans le fichier de configuration, c'est à dire les couleurs du site en lightmode et en darkmode. Cela va s'adapter par défaut aux préférences utilisateurs.<br></p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p><b>Quand on est en mode développeur, ajout d'une petite box où on a des raccourcis pour faciliter l'intégration : </b></p><ul>  <li>mise en place d'une petite réglette pour s'assurer des alignements ; </li>  <li>un système qui permet avec ctrl + W d'afficher en mode pleine largeur ; </li>  <li>un contrôle des tailles d'images, comme on veut maximiser l'optimisation des images, création d'un outil de debug qui signale la taille chargée réellement et la taille nécessaire, la configuration idéale en fonction de la taille de l'écran ;</li>  <li>mise en place d'un raccourci ctrl + p, qui permet d'ouvrir dans un autre onglet la page sur laquelle on est en train de travailler en local (dev) dans sa version en ligne.</li>  </ul><p><b>Faciliter la gestion des grilles et colonnes avec de nouveau outils<br><br></b>On a changé ce système là de façon à être plus proche du colonnage en UI. L'idée c'est de ne plus être tributaire de la largeur du parent. Si j'ai besoin que ça fasse 4 colonnes, je l'indique en utilisant le mixins columns(4) et ça s'adapte peu importe le contexte CSS.</p><p><b>Factorisation du code et simplification de certains partials</b></p><p>On a relu, corrigé quelques sémantiques html et mis en place des ajustements techniques. On a un html plus proche de ce qu'on voulait, plus pur. En utilisant du schema.org on standardise le web, c'est plus clair pour les moteurs de recherche et donc cela améliore le référencement.</p>
 
       notes: >-
         
