@@ -157,12 +157,25 @@ contents:
       
     ranks:
       self: false
+      children: 2
     data:
-      show_main_description: false
+      show_main_description: true
       show_descriptions: false
-      show_images: false
+      show_images: true
       layout: grid
       pages:
+        - path: "/actualites/"
+          slug: "actualites"
+          file: "posts/_index.html"
+          external: false
+        - path: "/agenda/"
+          slug: "agenda"
+          file: "events/_index.html"
+          external: false
+        - path: "/contenus/"
+          slug: "contenus"
+          file: "pages/contenus/_index.html"
+          external: false
 
 
 
