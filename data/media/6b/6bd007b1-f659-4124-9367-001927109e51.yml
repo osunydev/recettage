@@ -5,6 +5,6 @@ width: 1280
 height: 1920
 ratio: 0.6666666666666666
 format: portrait
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjZiZDAwN2IxLWY2NTktNDEyNC05MzY3LTAwMTkyNzEwOWU1MSIsInB1ciI6ImJsb2JfaWQifX0=--79a1ab18747b5f21ddfb987a12f6e1f859a11a47/DTS_HERBAL-PIONEER_BY-FELIX-NIKADO_3-jpg.jpg
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/hrw78n8frzcqwqc5c1d9uqqkevcm
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjZiZDAwN2IxLWY2NTktNDEyNC05MzY3LTAwMTkyNzEwOWU1MSIsInB1ciI6ImJsb2JfaWQifX0=--24931576e1c5f88238b4419569be11dc0db40db5/DTS_HERBAL-PIONEER_BY-FELIX-NIKADO_3-jpg.jpg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/hrw78n8frzcqwqc5c1d9uqqkevcm
 
