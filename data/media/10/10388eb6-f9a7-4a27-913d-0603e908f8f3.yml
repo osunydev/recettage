@@ -5,6 +5,6 @@ width: 1500
 height: 1000
 ratio: 1.5
 format: landscape
-url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjEwMzg4ZWI2LWY5YTctNGEyNy05MTNkLTA2MDNlOTA4ZjhmMyIsInB1ciI6ImJsb2JfaWQifX0=--e364a7fbf2d30faddd459b22b140666d7f9ed99a/Editeur.jpg
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/gtk732z5rzk64qywft7r3ibu9s31
+url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjEwMzg4ZWI2LWY5YTctNGEyNy05MTNkLTA2MDNlOTA4ZjhmMyIsInB1ciI6ImJsb2JfaWQifX0=--7d03f708130277c1e998a423d119babd10fca693/Editeur.jpg
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/gtk732z5rzk64qywft7r3ibu9s31
 

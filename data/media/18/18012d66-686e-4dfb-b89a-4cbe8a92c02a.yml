@@ -5,6 +5,6 @@ width: 1500
 height: 1035
 ratio: 1.4492753623188406
 format: landscape
-url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjE4MDEyZDY2LTY4NmUtNGRmYi1iODlhLTRjYmU4YTkyYzAyYSIsInB1ciI6ImJsb2JfaWQifX0=--0a1805c9e617a5df6e4cf21ef83984d03d8eeb05/Bonnes-notes.jpg
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/3wnmfc84w9ttwzpfpbceqqz15nj5
+url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjE4MDEyZDY2LTY4NmUtNGRmYi1iODlhLTRjYmU4YTkyYzAyYSIsInB1ciI6ImJsb2JfaWQifX0=--99fcc1f1f0e4543618dc9f141a6cd8c3873e63f4/Bonnes-notes.jpg
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/3wnmfc84w9ttwzpfpbceqqz15nj5
 

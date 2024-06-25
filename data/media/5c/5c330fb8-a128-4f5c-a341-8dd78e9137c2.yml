@@ -5,6 +5,6 @@ width: 1920
 height: 1280
 ratio: 1.5
 format: landscape
-url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjVjMzMwZmI4LWExMjgtNGY1Yy1hMzQxLThkZDc4ZTkxMzdjMiIsInB1ciI6ImJsb2JfaWQifX0=--07a18cc2604864d8532ce50c01709bd6417d5def/Ran-coper.jpeg
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/kmkfqbax3sckdz5h038pyxbeyl67
+url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjVjMzMwZmI4LWExMjgtNGY1Yy1hMzQxLThkZDc4ZTkxMzdjMiIsInB1ciI6ImJsb2JfaWQifX0=--df380a8d3518493a831c9b6b374a112106a6b8d6/Ran-coper.jpeg
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/kmkfqbax3sckdz5h038pyxbeyl67
 
