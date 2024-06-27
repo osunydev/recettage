@@ -21,12 +21,8 @@ items:
     target: "/contenus/medias/"
     kind: page
     children: []
-  - title: Textes
-    target: "/contenus/textes/"
-    kind: page
-    children: []
-  - title: Pleine largeur
-    target: "/contenus/pleine-largeur/"
+  - title: Histoires
+    target: "/contenus/histoires/"
     kind: page
     children: []
 - title: Équipe
