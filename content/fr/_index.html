@@ -23,7 +23,7 @@ design:
 
 position: 1
 weight: 1
-translationKey: communication-website-page-12818774-a975-4a57-a82e-63d82b447648
+translationKey: communication-website-page-c0741dd4-8732-4517-8750-d1f43da2e8c2
 
 bodyclass: >-
   
@@ -52,7 +52,7 @@ header_cta:
     
   target: ""
 contents_reading_time:
-  seconds: 4
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
@@ -63,9 +63,8 @@ contents:
     ranks:
       self: false
     data:
-      layout: accent_background
       text: >-
-        <p>Site de recettage Osuny</p>
+        <p>Site de recettage</p>
 
 
       alt: >-
@@ -128,17 +127,17 @@ contents:
       show_status: true
       title_link: "/agenda/"
       events:
-        - path: "/agenda/2024-11-27-communs-numerique-et-interet-general-1/"
-          file: "events/2024-11-27-communs-numerique-et-interet-general-1.html"
+        - path: "/agenda/2024-11-27-communs-numerique-et-interet-general/"
+          file: "events/2024-11-27-communs-numerique-et-interet-general.html"
 
 
   - kind: block
     template: projects
     title: >-
-      Les derniers projets
+      
     ranks:
-      self: 2
-      children: 3
+      self: false
+      children: 2
     data:
       mode: all
       all: true
@@ -146,10 +145,37 @@ contents:
       projects:
         - slug: "bonnes-notes"
           file: "projects/2023-bonnes-notes.html"
-        - slug: "numerique-d-interet-general"
-          file: "projects/2023-numerique-d-interet-general.html"
+        - slug: "nig"
+          file: "projects/2023-nig.html"
         - slug: "ran-coper"
           file: "projects/2023-ran-coper.html"
+
+
+  - kind: block
+    template: pages
+    title: >-
+      
+    ranks:
+      self: false
+      children: 2
+    data:
+      show_main_description: true
+      show_descriptions: false
+      show_images: true
+      layout: grid
+      pages:
+        - path: "/actualites/"
+          slug: "actualites"
+          file: "posts/_index.html"
+          external: false
+        - path: "/agenda/"
+          slug: "agenda"
+          file: "events/_index.html"
+          external: false
+        - path: "/contenus/"
+          slug: "contenus"
+          file: "pages/contenus/_index.html"
+          external: false
 
 
 
