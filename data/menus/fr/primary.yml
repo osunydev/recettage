@@ -37,4 +37,8 @@ items:
   target: "/organisations/"
   kind: page
   children: []
+- title: Showcase
+  target: "/showcase/"
+  kind: page
+  children: []
 
