@@ -21,8 +21,12 @@ items:
     target: "/contenus/medias/"
     kind: page
     children: []
-  - title: Histoires
-    target: "/contenus/histoires/"
+  - title: Textes
+    target: "/contenus/textes/"
+    kind: page
+    children: []
+  - title: Pleine largeur
+    target: "/contenus/pleine-largeur/"
     kind: page
     children: []
 - title: Équipe
@@ -31,6 +35,10 @@ items:
   children: []
 - title: Organisations
   target: "/organisations/"
+  kind: page
+  children: []
+- title: Showcase
+  target: "/showcase/"
   kind: page
   children: []
 
