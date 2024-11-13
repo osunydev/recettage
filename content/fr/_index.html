@@ -4,13 +4,13 @@ breadcrumb_title: >-
 title: >-
   Accueil
 url: "/"
+slug: ""
 date: 2024-05-17T17:12:05+02:00
 lastmod: 2024-09-29T09:28:29+02:00
 meta:
   hugo:
     permalink: "/"
     file: "content/fr/_index.html"
-    path: ""
     slug: ""
   dates:
     created_at: 2024-05-17T17:12:05+02:00
@@ -129,9 +129,9 @@ contents:
         summary: true
 
       posts:
-        - "2024/2024-05-17-lapplication-osuny-presente-le-niveau-de-securite-bon"
-        - "2024/2024-05-17-osuny-hal"
-        - "2024/2024-05-17-lediteur-de-contenu-vient-de-sameliorer"
+        - "/actualites/2024-05-17-lapplication-osuny-presente-le-niveau-de-securite-bon/"
+        - "/actualites/2024-05-17-osuny-hal/"
+        - "/actualites/2024-05-17-lediteur-de-contenu-vient-de-sameliorer/"
 
 
   - kind: block
@@ -163,7 +163,7 @@ contents:
       title_link: "/agenda/"
       events:
         - path: "/agenda/2024-11-27-communs-numerique-et-interet-general/"
-          file: "events/2024-11-27-communs-numerique-et-interet-general.html"
+          file: "content/fr/events/2024-11-27-communs-numerique-et-interet-general.html"
 
 
   - kind: block
@@ -188,11 +188,11 @@ contents:
 
       projects:
         - slug: "bonnes-notes"
-          file: "projects/2023-bonnes-notes.html"
+          file: "content/fr/projects/2023-bonnes-notes.html"
         - slug: "nig"
-          file: "projects/2023-nig.html"
+          file: "content/fr/projects/2023-nig.html"
         - slug: "ran-coper"
-          file: "projects/2023-ran-coper.html"
+          file: "content/fr/projects/2023-ran-coper.html"
 
 
   - kind: block
@@ -212,18 +212,12 @@ contents:
 
       layout: grid
       pages:
-        - path: "/actualites/"
-          slug: "actualites"
-          file: "posts/_index.html"
-          external: false
-        - path: "/agenda/"
-          slug: "agenda"
-          file: "events/_index.html"
-          external: false
-        - path: "/contenus/"
-          slug: "contenus"
-          file: "pages/contenus/_index.html"
-          external: false
+        - slug: "actualites"
+          file: "content/fr/posts/_index.html"
+        - slug: "agenda"
+          file: "content/fr/events/_index.html"
+        - slug: "contenus"
+          file: "content/fr/pages/contenus/_index.html"
 
 
 
