@@ -69,4 +69,8 @@ items:
     target: "/campus/"
     kind: page
     children: []
+- title: La recherche
+  target: ''
+  kind: blank
+  children: []
 
