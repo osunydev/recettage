@@ -5,6 +5,26 @@ items:
   target: "/actualites/"
   kind: page
   children: []
+- title: L'école
+  target: ''
+  kind: blank
+  children:
+  - title: Équipe
+    target: "/equipe/"
+    kind: page
+    children: []
+  - title: Campus
+    target: "/campus/"
+    kind: page
+    children: []
+  - title: Diplômes
+    target: "/diplomes/"
+    kind: page
+    children: []
+  - title: Formations
+    target: "/formations/"
+    kind: page
+    children: []
 - title: Agenda
   target: "/agenda/"
   kind: page
@@ -37,26 +57,6 @@ items:
   target: "/showcase/"
   kind: page
   children: []
-- title: L'école
-  target: ''
-  kind: blank
-  children:
-  - title: Équipe
-    target: "/equipe/"
-    kind: page
-    children: []
-  - title: Campus
-    target: "/campus/"
-    kind: page
-    children: []
-  - title: Diplômes
-    target: "/diplomes/"
-    kind: page
-    children: []
-  - title: Formations
-    target: "/formations/"
-    kind: page
-    children: []
 - title: La recherche
   target: ''
   kind: blank
