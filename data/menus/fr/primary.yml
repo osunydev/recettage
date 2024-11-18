@@ -41,10 +41,6 @@ items:
   target: "/showcase/"
   kind: page
   children: []
-- title: Formations
-  target: "/formations/"
-  kind: page
-  children: []
 - title: Volumes
   target: "/volumes/"
   kind: page
@@ -67,6 +63,10 @@ items:
   children:
   - title: Diplômes
     target: "/diplomes/"
+    kind: page
+    children: []
+  - title: Formations
+    target: "/formations/"
     kind: page
     children: []
 
