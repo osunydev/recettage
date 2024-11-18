@@ -53,10 +53,6 @@ items:
   target: "/publications/"
   kind: page
   children: []
-- title: Campus
-  target: "/campus/"
-  kind: page
-  children: []
 - title: L'école
   target: ''
   kind: blank
@@ -67,6 +63,10 @@ items:
     children: []
   - title: Formations
     target: "/formations/"
+    kind: page
+    children: []
+  - title: Campus
+    target: "/campus/"
     kind: page
     children: []
 
