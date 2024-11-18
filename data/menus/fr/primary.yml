@@ -65,4 +65,8 @@ items:
   target: "/campus/"
   kind: page
   children: []
+- title: L'école
+  target: ''
+  kind: blank
+  children: []
 
