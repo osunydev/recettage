@@ -41,10 +41,6 @@ items:
   target: "/showcase/"
   kind: page
   children: []
-- title: Volumes
-  target: "/volumes/"
-  kind: page
-  children: []
 - title: Papiers
   target: "/papiers/"
   kind: page
@@ -72,5 +68,9 @@ items:
 - title: La recherche
   target: ''
   kind: blank
-  children: []
+  children:
+  - title: Volumes
+    target: "/volumes/"
+    kind: page
+    children: []
 
