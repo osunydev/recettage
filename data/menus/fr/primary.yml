@@ -21,6 +21,22 @@ items:
     target: "/formations/"
     kind: page
     children: []
+- title: La recherche
+  target: ''
+  kind: blank
+  children:
+  - title: Volumes
+    target: "/volumes/"
+    kind: page
+    children: []
+  - title: Papiers
+    target: "/papiers/"
+    kind: page
+    children: []
+  - title: Publications HAL
+    target: "/publications/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
@@ -57,20 +73,4 @@ items:
   target: "/showcase/"
   kind: page
   children: []
-- title: La recherche
-  target: ''
-  kind: blank
-  children:
-  - title: Volumes
-    target: "/volumes/"
-    kind: page
-    children: []
-  - title: Papiers
-    target: "/papiers/"
-    kind: page
-    children: []
-  - title: Publications HAL
-    target: "/publications/"
-    kind: page
-    children: []
 
