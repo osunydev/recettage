@@ -41,10 +41,6 @@ items:
   target: "/showcase/"
   kind: page
   children: []
-- title: Publications HAL
-  target: "/publications/"
-  kind: page
-  children: []
 - title: L'école
   target: ''
   kind: blank
@@ -71,6 +67,10 @@ items:
     children: []
   - title: Papiers
     target: "/papiers/"
+    kind: page
+    children: []
+  - title: Publications HAL
+    target: "/publications/"
     kind: page
     children: []
 
