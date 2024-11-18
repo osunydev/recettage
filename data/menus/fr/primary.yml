@@ -29,10 +29,6 @@ items:
     target: "/contenus/pleine-largeur/"
     kind: page
     children: []
-- title: Équipe
-  target: "/equipe/"
-  kind: page
-  children: []
 - title: Organisations
   target: "/organisations/"
   kind: page
@@ -45,6 +41,10 @@ items:
   target: ''
   kind: blank
   children:
+  - title: Équipe
+    target: "/equipe/"
+    kind: page
+    children: []
   - title: Diplômes
     target: "/diplomes/"
     kind: page
