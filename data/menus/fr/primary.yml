@@ -49,6 +49,14 @@ items:
     target: "/publications/"
     kind: page
     children: []
+- title: Organisations
+  target: "/organisations/"
+  kind: page
+  children: []
+- title: Showcase
+  target: "/showcase/"
+  kind: page
+  children: []
 - title: Contenus
   target: "/contenus/"
   kind: page
@@ -65,12 +73,4 @@ items:
     target: "/contenus/pleine-largeur/"
     kind: page
     children: []
-- title: Organisations
-  target: "/organisations/"
-  kind: page
-  children: []
-- title: Showcase
-  target: "/showcase/"
-  kind: page
-  children: []
 
