@@ -18,6 +18,7 @@ fr:
     posts_categories: /actualites/:slug/
     diplomas: /diplomes/:slug/
     programs: /formations/:slug/
+    publications: /publications/:year-:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     authors: /equipe/:slug/actualites/
