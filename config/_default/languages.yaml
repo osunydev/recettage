@@ -21,7 +21,6 @@ fr:
     publications: /publications/:year-:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
-    authors: /equipe/:slug/actualites/
     researchers: /equipe/:slug/publications/
     teachers: /equipe/:slug/programs/
   taxonomies:
