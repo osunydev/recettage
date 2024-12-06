@@ -10,6 +10,8 @@ url: ""
 contact_details:
   postal_address:
     data:
+      address_name: >-
+        
       address: >-
         5 Rue Frédéric Joliot Curie
       address_additional: >-
@@ -25,11 +27,24 @@ contact_details:
           FR
         alpha3: >-
           FRA
-      country: >-
-        France
+    geolocation:
+      latitude: 
+      longitude: 
     text: >-
       5 Rue Frédéric Joliot Curie 33150 Cenon FRANCE
     html: >-
       <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">5 Rue Frédéric Joliot Curie</span> <span itemprop="postalCode">33150</span> <span itemprop="addressLocality">Cenon</span> <span itemprop="addressCountry">FRANCE</span></address>
+
+  phone_numbers:
+
+
+  emails:
+
+  websites:
+
+
+  social_networks:
+
+
 roles: []
 ---

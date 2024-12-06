@@ -4,14 +4,13 @@ breadcrumb_title: >-
 title: >-
   Accueil
 url: "/"
-slug: ""
 date: 2024-05-17T17:12:05+02:00
 lastmod: 2024-11-29T16:05:15+01:00
 meta:
   hugo:
     permalink: "/"
-    path: "/"
     file: "content/fr/_index.html"
+    path: ""
     slug: ""
   dates:
     created_at: 2024-05-17T17:12:05+02:00
@@ -128,19 +127,9 @@ contents:
         summary: true
 
       posts:
-        - permalink: "/actualites/2024-05-17-lapplication-osuny-presente-le-niveau-de-securite-bon/"
-          path: "/posts/2024/2024-05-17-lapplication-osuny-presente-le-niveau-de-securite-bon"
-          slug: "lapplication-osuny-presente-le-niveau-de-securite-bon"
-          file: "content/fr/posts/2024/2024-05-17-lapplication-osuny-presente-le-niveau-de-securite-bon.html"
-        - permalink: "/actualites/2024-05-17-osuny-hal/"
-          path: "/posts/2024/2024-05-17-osuny-hal"
-          slug: "osuny-hal"
-          file: "content/fr/posts/2024/2024-05-17-osuny-hal.html"
-        - permalink: "/actualites/2024-05-17-lediteur-de-contenu-vient-de-sameliorer/"
-          path: "/posts/2024/2024-05-17-lediteur-de-contenu-vient-de-sameliorer"
-          slug: "lediteur-de-contenu-vient-de-sameliorer"
-          file: "content/fr/posts/2024/2024-05-17-lediteur-de-contenu-vient-de-sameliorer.html"
-
+        - "2024/2024-05-17-lapplication-osuny-presente-le-niveau-de-securite-bon"
+        - "2024/2024-05-17-osuny-hal"
+        - "2024/2024-05-17-lediteur-de-contenu-vient-de-sameliorer"
 
 
 
@@ -164,19 +153,13 @@ contents:
         summary: false
         year: true
 
-      projets:
-        - permalink: "/projets/2023-bonnes-notes/"
-          path: "/projects/2023-bonnes-notes"
-          slug: "bonnes-notes"
-          file: "content/fr/projects/2023-bonnes-notes.html"
-        - permalink: "/projets/2023-nig/"
-          path: "/projects/2023-nig"
-          slug: "nig"
-          file: "content/fr/projects/2023-nig.html"
-        - permalink: "/projets/2023-ran-coper/"
-          path: "/projects/2023-ran-coper"
-          slug: "ran-coper"
-          file: "content/fr/projects/2023-ran-coper.html"
+      projects:
+        - slug: "bonnes-notes"
+          file: "projects/2023-bonnes-notes.html"
+        - slug: "nig"
+          file: "projects/2023-nig.html"
+        - slug: "ran-coper"
+          file: "projects/2023-ran-coper.html"
 
 
   - kind: block
@@ -196,19 +179,18 @@ contents:
 
       layout: grid
       pages:
-        - permalink: "/actualites/"
-          path: "/posts"
+        - path: "/actualites/"
           slug: "actualites"
-          file: "content/fr/posts/_index.html"
-        - permalink: "/agenda/"
-          path: "/events"
+          file: "posts/_index.html"
+          external: false
+        - path: "/agenda/"
           slug: "agenda"
-          file: "content/fr/events/_index.html"
-        - permalink: "/contenus/"
-          path: "/pages/contenus"
+          file: "events/_index.html"
+          external: false
+        - path: "/contenus/"
           slug: "contenus"
-          file: "content/fr/pages/contenus/_index.html"
-
+          file: "pages/contenus/_index.html"
+          external: false
 
 
   - kind: block
@@ -228,19 +210,9 @@ contents:
         summary: true
 
       programs:
-        - permalink: "/formations/accessibilite/"
-          path: "/programs/accessibilite"
-          slug: "accessibilite"
-          file: "content/fr/programs/accessibilite/_index.html"
-        - permalink: "/formations/css/"
-          path: "/programs/css"
-          slug: "css"
-          file: "content/fr/programs/css/_index.html"
-        - permalink: "/formations/ruby-on-rails/"
-          path: "/programs/ruby-on-rails"
-          slug: "ruby-on-rails"
-          file: "content/fr/programs/ruby-on-rails/_index.html"
-
+        - path: "/accessibilite/"
+        - path: "/css/"
+        - path: "/ruby-on-rails/"
 
 
 
