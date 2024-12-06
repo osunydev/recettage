@@ -5,8 +5,8 @@ address: >-
 zipcode: "33150"
 city: "Cenon"
 country: "France"
-phone: ""
-url: ""
+phone: "1111111111"
+url: "https://recettage.demo.osuny.site/"
 contact_details:
   postal_address:
     data:
@@ -36,11 +36,21 @@ contact_details:
       <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">5 Rue Frédéric Joliot Curie</span> <span itemprop="postalCode">33150</span> <span itemprop="addressLocality">Cenon</span> <span itemprop="addressCountry">FRANCE</span></address>
 
   phone_numbers:
+    phone:
+      label: >-
+        1111111111
+      value: >-
+        tel:1111111111
 
 
   emails:
 
   websites:
+    website:
+      label: >-
+        recettage.demo.osuny.site/
+      value: >-
+        https://recettage.demo.osuny.site/
 
 
   social_networks:
