@@ -6,8 +6,8 @@ slug: "campus-de-talence"
 meta:
   hugo:
     permalink: "/campus/campus-de-talence/"
-    path: "/locations/campus-de-talence"
     file: "content/fr/locations/campus-de-talence/_index.html"
+    path: "campus-de-talence"
     slug: "campus-de-talence"
   dates:
     created_at: 2024-11-18T15:15:30+01:00
@@ -43,6 +43,8 @@ summary: >-
 contact_details:
   postal_address:
     data:
+      address_name: >-
+        Talence
       address: >-
         avenue de Talence
       address_additional: >-
@@ -51,78 +53,43 @@ contact_details:
         33400
       city: >-
         Talence
-      country: >-
+      country:
         name: >-
           France
         alpha2: >-
           FR
         alpha3: >-
           FRA
-      country: >-
-        France
+    geolocation:
+      latitude: 
+      longitude: 
     text: >-
-      avenue de Talence 33400 Talence FRANCE
+      Talence avenue de Talence 33400 Talence FRANCE
     html: >-
-      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">avenue de Talence</span> <span itemprop="postalCode">33400</span> <span itemprop="addressLocality">Talence</span> <span itemprop="addressCountry">FRANCE</span></address>
-  address:
-    label: "avenue de Talence"
-    value: "avenue de Talence"
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="name">Talence</span> <span itemprop="streetAddress">avenue de Talence</span> <span itemprop="postalCode">33400</span> <span itemprop="addressLocality">Talence</span> <span itemprop="addressCountry">FRANCE</span></address>
+  phone_numbers:
+    phone:
+      label: >-
+        05 56 56 56 56
+      value: >-
+        tel:0556565656
 
-  address_name:
-    label: "Talence"
-    value: "Talence"
-
-
-  zipcode:
-    label: "33400"
-    value: "33400"
-
-  city:
-    label: "Talence"
-    value: "Talence"
-
-  country:
-    label: "France"
-    value: "FR"
-
-
-  phone:
-    label: "05 56 56 56 56"
-    value: "tel:0556565656"
-
-  geolocation:
-    latitude: 
-    longitude: 
 programs:
-  - permalink: "/formations/css/"
-    path: "/programs/css"
-    slug: "css"
-    file: "content/fr/programs/css/_index.html"
-  - permalink: "/formations/ruby-on-rails/"
-    path: "/programs/ruby-on-rails"
-    slug: "ruby-on-rails"
-    file: "content/fr/programs/ruby-on-rails/_index.html"
-
+  - /formations/ruby-on-rails/
+  - /formations/css/
 diplomas:
   - name: >-
       Plome
-    permalink: "/diplomes/plome/"
-    path: "/diplomas/plome"
-    slug: "plome"
-    file: "content/fr/diplomas/plome/_index.html"
+    path: plome
     programs:
       - label: >-
           CSS
-        permalink: "/formations/css/"
-        path: "/programs/css"
-        slug: "css"
-        file: "content/fr/programs/css/_index.html"
+        path: "/formations/css/"
+        slug: "/css/"
       - label: >-
           Ruby on Rails
-        permalink: "/formations/ruby-on-rails/"
-        path: "/programs/ruby-on-rails"
-        slug: "ruby-on-rails"
-        file: "content/fr/programs/ruby-on-rails/_index.html"
+        path: "/formations/ruby-on-rails/"
+        slug: "/ruby-on-rails/"
 
 contents_reading_time:
   seconds: 0
