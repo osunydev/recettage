@@ -7,13 +7,25 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      email: >-
-        email@mail.fr
-      instagram: >-
-        https://www.instagram.com/
-      facebook: >-
-        https://fr-fr.facebook.com/
+    contact_details:
+      emails:
+        email:
+          label: >-
+            email@mail.fr
+          value: >-
+            mailto:email@mail.fr
+      social_networks:
+        facebook:
+          label: >-
+            fr-fr.
+          value: >-
+            https://www.facebook.com/fr-fr.
+        instagram:
+          label: >-
+            
+          value: >-
+            https://instagram.com/
+
   permalinks:
     locations: /campus/:slug/
     events: /agenda/:year-:month-:day-:slug/
