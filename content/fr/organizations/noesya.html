@@ -6,8 +6,8 @@ slug: "noesya"
 meta:
   hugo:
     permalink: "/organisations/noesya/"
+    path: "/organizations/noesya"
     file: "content/fr/organizations/noesya.html"
-    path: "noesya"
     slug: "noesya"
   dates:
     created_at: 2022-11-28T11:21:47+01:00
@@ -42,8 +42,10 @@ backlinks:
   current_website:
     name: "Recettage"
     pages:
-      - path: "/blocs-de-test/"
-        file: "pages/blocs-de-test/_index.html"
+      - permalink: "/blocs-de-test/"
+        path: "/pages/blocs-de-test"
+        slug: "blocs-de-test"
+        file: "content/fr/pages/blocs-de-test/_index.html"
     posts:
     events:
     projects:
@@ -58,8 +60,6 @@ kind:
 contact_details:
   postal_address:
     data:
-      address_name: >-
-        
       address: >-
         15 rue des Bouviers
       address_additional: >-
@@ -75,53 +75,54 @@ contact_details:
           FR
         alpha3: >-
           FRA
-    geolocation:
-      latitude: 44.8328992
-      longitude: -0.5654338
+      country: >-
+        France
     text: >-
       15 rue des Bouviers 33000 Bordeaux FRANCE
     html: >-
       <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">15 rue des Bouviers</span> <span itemprop="postalCode">33000</span> <span itemprop="addressLocality">Bordeaux</span> <span itemprop="addressCountry">FRANCE</span></address>
 
-  phone_numbers:
-    phone:
-      label: >-
-        1111111111
-      value: >-
-        tel:1111111111
+  address:
+    label: "15 rue des Bouviers"
+    value: "15 rue des Bouviers"
 
 
-  emails:
-    email:
-      label: >-
-        contact@noesya.coop
-      value: >-
-        mailto:contact@noesya.coop
+  zipcode:
+    label: "33000"
+    value: "33000"
+
+  city:
+    label: "Bordeaux"
+    value: "Bordeaux"
+
+  country:
+    label: "France"
+    value: "FR"
+
+  website:
+    label: "www.noesya.coop"
+    value: "https://www.noesya.coop"
+
+  linkedin:
+    label: "noesyacoop"
+    value: "https://www.linkedin.com/company/noesyacoop"
+
+  twitter:
+    label: "noesya_coop"
+    value: "https://x.com/noesya_coop"
 
 
-  websites:
-    website:
-      label: >-
-        www.noesya.coop
-      value: >-
-        https://www.noesya.coop
+  phone:
+    label: "1111111111"
+    value: "tel:1111111111"
 
+  email:
+    label: "contact@noesya.coop"
+    value: "mailto:contact@noesya.coop"
 
-  social_networks:
-    linkedin:
-      label: >-
-        noesyacoop
-      value: >-
-        https://www.linkedin.com/company/noesyacoop
-
-    twitter:
-      label: >-
-        noesya_coop
-      value: >-
-        https://x.com/noesya_coop
-
-
-
+  geolocation:
+    latitude: 44.8328992
+    longitude: -0.5654338
 logo: "3d97a956-9f44-436e-b20a-6a7ad929c37e"
 
 contents_reading_time:
