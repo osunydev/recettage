@@ -12,10 +12,28 @@ fr:
       phone_numbers:
 
       emails:
+        email:
+          label: >-
+            email@mail.fr
+          value: >-
+            mailto:email@mail.fr
+
 
       websites:
 
       social_networks:
+        facebook:
+          label: >-
+            fr-fr.
+          value: >-
+            https://www.facebook.com/fr-fr.
+
+        instagram:
+          label: >-
+            
+          value: >-
+            https://instagram.com/
+
 
 
   permalinks:
