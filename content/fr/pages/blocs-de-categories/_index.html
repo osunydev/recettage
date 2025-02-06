@@ -89,7 +89,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 12
+  seconds: 14
   text: >-
     moins d'une minute
 contents:
@@ -270,37 +270,44 @@ contents:
   - kind: block
     template: categories
     title: >-
-      
+      Catégories libres de projets
     slug: >-
-      
+      categories-libres-de-projets
     ranks:
       base: 2
+      self: 2
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Catégories libres de projets
+        heading: 2
+      description: >-
+        <p>En grille, sans description</p>
     data:
       layout: grid
       description: >-
-        
+        <p>En grille, sans description</p>
 
       options:
         count: true
         image: true
-        summary: true
+        summary: false
 
-      category_kind: pages
+      category_kind: projects
       taxonomy_id: 
 
       categories:
-        - permalink: "/blocs/"
-          path: "/pages_categories/blocs"
-          slug: "blocs"
-          file: "content/fr/pages_categories/blocs/_index.html"
+        - permalink: "/projets/production/"
+          path: "/projects_categories/production"
+          slug: "production"
+          file: "content/fr/projects_categories/production/_index.html"
           name: ""
           count: 2
-        - permalink: "/test/"
-          path: "/pages_categories/test"
-          slug: "test"
-          file: "content/fr/pages_categories/test/_index.html"
+        - permalink: "/projets/interet-general/"
+          path: "/projects_categories/interet-general"
+          slug: "interet-general"
+          file: "content/fr/projects_categories/interet-general/_index.html"
           name: ""
           count: 2
 
