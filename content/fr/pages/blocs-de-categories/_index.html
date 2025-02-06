@@ -89,7 +89,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 6
+  seconds: 9
   text: >-
     moins d'une minute
 contents:
@@ -186,39 +186,40 @@ contents:
   - kind: block
     template: categories
     title: >-
-      
+      Catégories libres des personnes
     slug: >-
-      
+      categories-libres-des-personnes
     ranks:
       base: 2
+      self: 2
     top:
-      active: false
-    data:
-      layout: grid
+      active: true
+      title: 
+        value: >-
+          Catégories libres des personnes
+        heading: 2
       description: >-
-        
+        <p>Pas d'image et pas de description</p>
+    data:
+      layout: list
+      description: >-
+        <p>Pas d'image et pas de description</p>
 
       options:
         count: true
-        image: true
-        summary: true
+        image: false
+        summary: false
 
-      category_kind: pages
+      category_kind: persons
       taxonomy_id: 
 
       categories:
-        - permalink: "/blocs/"
-          path: "/pages_categories/blocs"
-          slug: "blocs"
-          file: "content/fr/pages_categories/blocs/_index.html"
+        - permalink: "/equipe/categories/categorie-libre/"
+          path: "/persons_categories/categorie-libre"
+          slug: "categorie-libre"
+          file: "content/fr/persons_categories/categorie-libre/_index.html"
           name: ""
-          count: 2
-        - permalink: "/test/"
-          path: "/pages_categories/test"
-          slug: "test"
-          file: "content/fr/pages_categories/test/_index.html"
-          name: ""
-          count: 2
+          count: 1
 
 
 
