@@ -2,6 +2,11 @@
 
 baseURL: https://recettage.demo.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: 27ccefe4-753c-49b3-ae4d-31675fc53ce5
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
