@@ -5,7 +5,7 @@ width: 2048
 height: 1382
 ratio: 1.4819102749638204
 format: landscape
-url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjVjZDM3ZWQ1LWM4NTYtNGVlMC05NTZhLTFlMTEyZmFjMWEwZCIsInB1ciI6ImJsb2JfaWQifX0=--13929770401f44481efc9b6b02de9a5bde921d41/selective-focus-photography-of-machine-with-gears-ooR1jY2yFr4.jpg
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/i45rqb8j19mozo577a26ajs2b5xk
-download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjVjZDM3ZWQ1LWM4NTYtNGVlMC05NTZhLTFlMTEyZmFjMWEwZCIsInB1ciI6ImJsb2JfaWQifX0=--13929770401f44481efc9b6b02de9a5bde921d41
+url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjVjZDM3ZWQ1LWM4NTYtNGVlMC05NTZhLTFlMTEyZmFjMWEwZCIsInB1ciI6ImJsb2JfaWQifX0=--925060425b3ea439ee2c22975b8795ca90a82cdf/selective-focus-photography-of-machine-with-gears-ooR1jY2yFr4.jpg
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/i45rqb8j19mozo577a26ajs2b5xk
+download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjVjZDM3ZWQ1LWM4NTYtNGVlMC05NTZhLTFlMTEyZmFjMWEwZCIsInB1ciI6ImJsb2JfaWQifX0=--925060425b3ea439ee2c22975b8795ca90a82cdf
 
