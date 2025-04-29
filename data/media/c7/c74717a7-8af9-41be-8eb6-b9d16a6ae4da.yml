@@ -5,7 +5,7 @@ width: 2048
 height: 2731
 ratio: 0.7499084584401318
 format: portrait
-url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6ImM3NDcxN2E3LThhZjktNDFiZS04ZWI2LWI5ZDE2YTZhZTRkYSIsInB1ciI6ImJsb2JfaWQifX0=--749a29035fdee5e3c1060843d2ef1b2d281b873d/person-in-white-shoes-standing-on-gray-concrete-road-1pAwJiCD60c.jpg
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/sc46g5ilsk7xodqt0r3qb4c8m5eq
-download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImM3NDcxN2E3LThhZjktNDFiZS04ZWI2LWI5ZDE2YTZhZTRkYSIsInB1ciI6ImJsb2JfaWQifX0=--749a29035fdee5e3c1060843d2ef1b2d281b873d
+url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6ImM3NDcxN2E3LThhZjktNDFiZS04ZWI2LWI5ZDE2YTZhZTRkYSIsInB1ciI6ImJsb2JfaWQifX0=--d9260418cba4487e50b78a6d1ef8b2892ba95121/person-in-white-shoes-standing-on-gray-concrete-road-1pAwJiCD60c.jpg
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/sc46g5ilsk7xodqt0r3qb4c8m5eq
+download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImM3NDcxN2E3LThhZjktNDFiZS04ZWI2LWI5ZDE2YTZhZTRkYSIsInB1ciI6ImJsb2JfaWQifX0=--d9260418cba4487e50b78a6d1ef8b2892ba95121
 
