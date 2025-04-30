@@ -5,7 +5,7 @@ width: 2400
 height: 1600
 ratio: 1.5
 format: landscape
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjFlYjU4MDIxLTJmMTMtNDYzYS05NGM1LTE4NTlkMjlkNTQ2ZSIsInB1ciI6ImJsb2JfaWQifX0=--0e57e9b7550fcbab86a18b7d977213e90ee0ae3d/markus-winkler-xJbN5iGVJB0-unsplash.jpg
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/14wum8t0ri5hskuggk9qwgnpnviv
-download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjFlYjU4MDIxLTJmMTMtNDYzYS05NGM1LTE4NTlkMjlkNTQ2ZSIsInB1ciI6ImJsb2JfaWQifX0=--0e57e9b7550fcbab86a18b7d977213e90ee0ae3d
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjFlYjU4MDIxLTJmMTMtNDYzYS05NGM1LTE4NTlkMjlkNTQ2ZSIsInB1ciI6ImJsb2JfaWQifX0=--b469d9c3d20e0b1fe4d4b321ce4c192566e4c403/markus-winkler-xJbN5iGVJB0-unsplash.jpg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/14wum8t0ri5hskuggk9qwgnpnviv
+download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjFlYjU4MDIxLTJmMTMtNDYzYS05NGM1LTE4NTlkMjlkNTQ2ZSIsInB1ciI6ImJsb2JfaWQifX0=--b469d9c3d20e0b1fe4d4b321ce4c192566e4c403
 
