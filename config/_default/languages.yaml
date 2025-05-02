@@ -33,7 +33,6 @@ fr:
             https://instagram.com/
 
   permalinks:
-    locations: /campus/:slug/
     events: /agenda/:year/:slug/
     exhibitions: /expositions/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
@@ -42,16 +41,11 @@ fr:
     projects_categories: /projets/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
-    diplomas: /diplomes/:slug/
-    programs_categories: /formations/categories/:slug/
-    programs: /formations/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
-    researchers: /equipe/:slug/publications/
-    teachers: /equipe/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
