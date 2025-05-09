@@ -5,7 +5,7 @@ width: 1500
 height: 643
 ratio: 2.332814930015552
 format: landscape
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjcyZWFjODRmLTkxZjMtNGY2NC1iZGI0LTMzMjYwNjliMTczMiIsInB1ciI6ImJsb2JfaWQifX0=--55c5f9bfd1ad04e1dbe8e0bd409f98d0f56e63d4/5_Les-Ambassadeurs-d-Holbeinweb.jpeg
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/1abe75tejb48qa2batp727zbea75
-download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjcyZWFjODRmLTkxZjMtNGY2NC1iZGI0LTMzMjYwNjliMTczMiIsInB1ciI6ImJsb2JfaWQifX0=--55c5f9bfd1ad04e1dbe8e0bd409f98d0f56e63d4
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjcyZWFjODRmLTkxZjMtNGY2NC1iZGI0LTMzMjYwNjliMTczMiIsInB1ciI6ImJsb2JfaWQifX0=--efa6cccaf5b9ff07565c0f97f4fb348a0b2a80ae/5_Les-Ambassadeurs-d-Holbeinweb.jpeg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/1abe75tejb48qa2batp727zbea75
+download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjcyZWFjODRmLTkxZjMtNGY2NC1iZGI0LTMzMjYwNjliMTczMiIsInB1ciI6ImJsb2JfaWQifX0=--efa6cccaf5b9ff07565c0f97f4fb348a0b2a80ae
 
