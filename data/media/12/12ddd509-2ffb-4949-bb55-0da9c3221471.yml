@@ -5,7 +5,7 @@ width: 1600
 height: 2400
 ratio: 0.6666666666666666
 format: portrait
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjEyZGRkNTA5LTJmZmItNDk0OS1iYjU1LTBkYTljMzIyMTQ3MSIsInB1ciI6ImJsb2JfaWQifX0=--eb496a5c2276732c86c2420e2ed517177538bcbd/DTS_BY-WATER_BY-DANIEL-FARO_1.jpg
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/0ijxrxbf7ne6iqqnq2qvwoxcmyn9
-download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjEyZGRkNTA5LTJmZmItNDk0OS1iYjU1LTBkYTljMzIyMTQ3MSIsInB1ciI6ImJsb2JfaWQifX0=--eb496a5c2276732c86c2420e2ed517177538bcbd
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjEyZGRkNTA5LTJmZmItNDk0OS1iYjU1LTBkYTljMzIyMTQ3MSIsInB1ciI6ImJsb2JfaWQifX0=--6ab5881083573d923e79947ecef9fa9b7b8886a6/DTS_BY-WATER_BY-DANIEL-FARO_1.jpg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/0ijxrxbf7ne6iqqnq2qvwoxcmyn9
+download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjEyZGRkNTA5LTJmZmItNDk0OS1iYjU1LTBkYTljMzIyMTQ3MSIsInB1ciI6ImJsb2JfaWQifX0=--6ab5881083573d923e79947ecef9fa9b7b8886a6
 

@@ -2,7 +2,7 @@
 name: ambient.mp3
 size: 660429
 format: square
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6Ijk1MTI2NjM0LWYxYzAtNDZlOS05YTQ5LTRiMzY5ODc3ODQxNSIsInB1ciI6ImJsb2JfaWQifX0=--9978103475e6f216171d7f3fc1dd7f79a4b8c4d3/ambient.mp3
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/vugugkzxujydjvqx7ow9m4vdswj1
-download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6Ijk1MTI2NjM0LWYxYzAtNDZlOS05YTQ5LTRiMzY5ODc3ODQxNSIsInB1ciI6ImJsb2JfaWQifX0=--9978103475e6f216171d7f3fc1dd7f79a4b8c4d3
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6Ijk1MTI2NjM0LWYxYzAtNDZlOS05YTQ5LTRiMzY5ODc3ODQxNSIsInB1ciI6ImJsb2JfaWQifX0=--0b681adac65be9489625bac84c838dd0212ba3fa/ambient.mp3
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/vugugkzxujydjvqx7ow9m4vdswj1
+download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6Ijk1MTI2NjM0LWYxYzAtNDZlOS05YTQ5LTRiMzY5ODc3ODQxNSIsInB1ciI6ImJsb2JfaWQifX0=--0b681adac65be9489625bac84c838dd0212ba3fa
 

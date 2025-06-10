@@ -4,7 +4,7 @@ breadcrumb_title: >-
 title: >-
   Équipe
 bodyclass: >-
-   
+  ancestor-test 
 url: "/equipe/"
 slug: "equipe"
 date: 2024-05-17T17:12:05+02:00
@@ -21,6 +21,7 @@ meta:
     published_at: 2024-05-17T17:12:05+02:00
 search:
   id: "227cba48-7e1f-4400-b29b-1a0878b8aef2"
+  about_id: "727106c2-dd80-4c62-a5a9-69b8b724adb1"
   url: "/equipe/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -45,12 +46,13 @@ design:
     offcanvas: false
 
 has:
-  administrators: 
+  administrators: false
   authors: false
-  researchers: 
-  teachers: 
-position: 5
-weight: 5
+  researchers: true
+  teachers: true
+
+position: 6
+weight: 6
 
 translationKey: communication-website-page-727106c2-dd80-4c62-a5a9-69b8b724adb1
 
@@ -103,6 +105,13 @@ section_taxonomies:
         file: "content/fr/persons_categories/metier/developpement-web/_index.html"
         name: >-
           Développement web
+        count: 4
+      - permalink: "/equipe/categories/metier/audit/"
+        path: "/persons_categories/metier/audit"
+        slug: "metier/audit"
+        file: "content/fr/persons_categories/metier/audit/_index.html"
+        name: >-
+          Audit
         count: 1
   - name: >-
       Entreprise
@@ -115,7 +124,7 @@ section_taxonomies:
         file: "content/fr/persons_categories/entreprise/noesya/_index.html"
         name: >-
           noesya
-        count: 1
+        count: 3
   - name: >-
       Genre
     slug: "genre"
@@ -127,7 +136,7 @@ section_taxonomies:
         file: "content/fr/persons_categories/genre/musique/_index.html"
         name: >-
           Musique
-        count: 1
+        count: 3
 
 contents_reading_time:
   seconds: 0
