@@ -5,7 +5,7 @@ width: 817
 height: 319
 ratio: 2.561128526645768
 format: landscape
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjBjMWZmMGQ1LWYxMmYtNGY0Ni1hMzFkLWYwMmUyMzRjMWI5ZiIsInB1ciI6ImJsb2JfaWQifX0=--22025a0c211d6b02331b56b48404e2cb237ca577/Liberation-logo-EPS.png
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/qigu4u66vlpk7q3rp0qolr8dcu3p
-download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjBjMWZmMGQ1LWYxMmYtNGY0Ni1hMzFkLWYwMmUyMzRjMWI5ZiIsInB1ciI6ImJsb2JfaWQifX0=--22025a0c211d6b02331b56b48404e2cb237ca577
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjBjMWZmMGQ1LWYxMmYtNGY0Ni1hMzFkLWYwMmUyMzRjMWI5ZiIsInB1ciI6ImJsb2JfaWQifX0=--40f67de915008d1e0e2a86ae80ce6d4ac63a29c2/Liberation-logo-EPS.png
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/qigu4u66vlpk7q3rp0qolr8dcu3p
+download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjBjMWZmMGQ1LWYxMmYtNGY0Ni1hMzFkLWYwMmUyMzRjMWI5ZiIsInB1ciI6ImJsb2JfaWQifX0=--40f67de915008d1e0e2a86ae80ce6d4ac63a29c2
 

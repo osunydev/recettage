@@ -5,7 +5,7 @@ width: 1024
 height: 683
 ratio: 1.499267935578331
 format: landscape
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjM3ZGIzMTRkLWI3MzUtNGMzYi1iNWI4LWY1NDYzZTc5NTkxMCIsInB1ciI6ImJsb2JfaWQifX0=--789397e93da223aa96f5dcc28f744199255efc59/2021_Priya_Ragu_Nico_M-3-1024x683.jpg
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/1yntsbyrpeutscjo3u7tndo1eaxs
-download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjM3ZGIzMTRkLWI3MzUtNGMzYi1iNWI4LWY1NDYzZTc5NTkxMCIsInB1ciI6ImJsb2JfaWQifX0=--789397e93da223aa96f5dcc28f744199255efc59
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjM3ZGIzMTRkLWI3MzUtNGMzYi1iNWI4LWY1NDYzZTc5NTkxMCIsInB1ciI6ImJsb2JfaWQifX0=--318515177e5044b4b582f888d4f3b88392054a9b/2021_Priya_Ragu_Nico_M-3-1024x683.jpg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/1yntsbyrpeutscjo3u7tndo1eaxs
+download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjM3ZGIzMTRkLWI3MzUtNGMzYi1iNWI4LWY1NDYzZTc5NTkxMCIsInB1ciI6ImJsb2JfaWQifX0=--318515177e5044b4b582f888d4f3b88392054a9b
 
