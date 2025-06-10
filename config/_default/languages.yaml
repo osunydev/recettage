@@ -32,21 +32,6 @@ fr:
           value: >-
             https://instagram.com/
 
-  permalinks:
-    events: /agenda/:year/:slug/
-    exhibitions: /expositions/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
-    jobs: /offres-d-emploi/:year/:slug/
-    jobs_categories: /offres-d-emploi/:slug/
-    pages_categories: /:slug/
-    projects: /projets/:year-:slug/
-    projects_categories: /projets/:slug/
-    posts: /actualites/:year-:month-:day-:slug/
-    posts_categories: /actualites/:slug/
-    organizations: /organisations/:slug/
-    organizations_categories: /organisations/categories/:slug/
-    persons: /equipe/:slug/
-    persons_categories: /equipe/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
