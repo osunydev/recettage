@@ -53,6 +53,13 @@ items:
   children: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
+- title: Showcase
+  target: "/showcase/"
+  kind: page
+  new_tab: false
+  children: []
+  path: 
+  file: 
 - title: Contenus
   target: "/contenus/"
   kind: page
