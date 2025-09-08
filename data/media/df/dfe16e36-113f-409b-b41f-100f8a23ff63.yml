@@ -1,7 +1,10 @@
 ---
 name: 327540.png
 size: 76817
-format: square
+width: 2048
+height: 1363
+ratio: 1.5025678650036685
+format: landscape
 url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6ImRmZTE2ZTM2LTExM2YtNDA5Yi1iNDFmLTEwMGY4YTIzZmY2MyIsInB1ciI6ImJsb2JfaWQifX0=--3216bb252373a2c11e253cf35c69c5abc2718ce5/327540.png
 direct_url: https://osuny-staging.s3.fr-par.scw.cloud/ct1fltru58wke325r2vrrmb8goty
 download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImRmZTE2ZTM2LTExM2YtNDA5Yi1iNDFmLTEwMGY4YTIzZmY2MyIsInB1ciI6ImJsb2JfaWQifX0=--3216bb252373a2c11e253cf35c69c5abc2718ce5
