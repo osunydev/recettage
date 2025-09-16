@@ -1,7 +1,10 @@
 ---
 name: a-crowd-of-people-at-a-concert-E-jsH4kcJ2o.jpg
 size: 419955
-format: square
+width: 2048
+height: 1152
+ratio: 1.7777777777777777
+format: landscape
 url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjIzYWMzMzRjLTVjMjAtNDY5ZS1hOTNmLTZhOWJjM2ViMjk3OSIsInB1ciI6ImJsb2JfaWQifX0=--9de8cdaf9e51991ef8b0981a42d4176548570676/a-crowd-of-people-at-a-concert-E-jsH4kcJ2o.jpg
 direct_url: https://osuny-staging.s3.fr-par.scw.cloud/007xzmcirlsivtgjnta411dcxz1t
 download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjIzYWMzMzRjLTVjMjAtNDY5ZS1hOTNmLTZhOWJjM2ViMjk3OSIsInB1ciI6ImJsb2JfaWQifX0=--9de8cdaf9e51991ef8b0981a42d4176548570676

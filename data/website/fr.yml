@@ -1,0 +1,76 @@
+about:
+  label: Laboratoire de test
+default:
+contents_reading_time:
+  seconds: 5
+  text: >-
+    moins d'une minute
+contents:
+  - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 2
+    top:
+      active: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Bloc de test</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: video
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 2
+    top:
+      active: false
+    data:
+      description: >-
+        
+
+      url: >-
+        https://www.youtube.com/watch?v=QA-tldY0qOQ
+
+      video_title: >-
+        UNDER THE POLE Education • L'acidification des Océans
+
+      layout: player
+      transcription: >-
+        
+
+      video_iframe: >-
+        <iframe class="youtube" loading="lazy" src="https://www.youtube-nocookie.com/embed/QA-tldY0qOQ" title="UNDER THE POLE Education • L'acidification des Océans"></iframe>
+      video: 
+        platform: "youtube"
+        identifier: "QA-tldY0qOQ"
+        title: >-
+          UNDER THE POLE Education • L'acidification des Océans
+        poster: >-
+          https://img.youtube.com/vi/QA-tldY0qOQ/hqdefault.jpg
+        embed: >-
+          https://www.youtube-nocookie.com/embed/QA-tldY0qOQ
+        embed_with_defaults: >-
+          https://www.youtube-nocookie.com/embed/QA-tldY0qOQ?autoplay=1&modestbranding=1&rel=0
+        iframe: >-
+          <iframe class="youtube" loading="lazy" src="https://www.youtube-nocookie.com/embed/QA-tldY0qOQ" title="UNDER THE POLE Education • L'acidification des Océans"></iframe>
+
+
