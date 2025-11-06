@@ -3,7 +3,8 @@ theme: osuny
 enableRobotsTXT: true
 removePathAccents: true
 params:
-  keycdn: https://osunystaging-1b4da.kxcdn.com
+  keycdn:
+    url: https://osunystaging-1b4da.kxcdn.com
   summary:
     position: hero
   search:
