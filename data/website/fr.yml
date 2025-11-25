@@ -8,14 +8,13 @@ contents_reading_time:
 contents:
   - kind: block
     template: chapter
-    title: >-
-      
-    slug: >-
-      
+
+
     ranks:
       base: 2
     top:
       active: false
+
     data:
       layout: no_background
       text: >-
@@ -35,14 +34,13 @@ contents:
 
   - kind: block
     template: video
-    title: >-
-      
-    slug: >-
-      
+
+
     ranks:
       base: 2
     top:
       active: false
+
     data:
       description: >-
         
