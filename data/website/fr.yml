@@ -25,9 +25,6 @@ contents:
 
 
 
-
-
-
   - kind: block
     template: video
 
@@ -39,13 +36,11 @@ contents:
 
     data:
 
-
       url: >-
         https://www.youtube.com/watch?v=QA-tldY0qOQ
       video_title: >-
         UNDER THE POLE Education • L'acidification des Océans
       layout: player
-
 
       video_iframe: >-
         <iframe class="youtube" loading="lazy" src="https://www.youtube-nocookie.com/embed/QA-tldY0qOQ" referrerpolicy="strict-origin-when-cross-origin" title="UNDER THE POLE Education • L'acidification des Océans"></iframe>
