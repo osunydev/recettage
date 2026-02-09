@@ -1,84 +1,67 @@
 ---
 title: Menu principal
 items:
-- title: L'école
-  target: ''
-  kind: blank
-  new_tab: false
-  children:
-  - title: Équipe
-    target: "/fr/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/persons"
-    file: content/fr/persons/_index.html
 - title: Actualités
-  target: "/fr/actualites/"
+  target: "/actualites/"
   kind: page
   new_tab: false
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Agenda
-  target: "/fr/agenda/"
+  target: "/agenda/"
   kind: page
   new_tab: false
   children: []
   path: "/events"
   file: content/fr/events/_index.html
 - title: Projets
-  target: "/fr/projets/"
+  target: "/projets/"
   kind: page
   new_tab: false
   children: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: La recherche
-  target: ''
-  kind: blank
-  new_tab: false
-  children:
-  - title: Publications HAL
-    target: "/fr/publications/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/publications"
-    file: content/fr/publications/_index.html
-- title: Organisations
-  target: "/fr/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
 - title: Contenus
-  target: "/fr/contenus/"
+  target: "/contenus/"
   kind: page
   new_tab: false
   children:
   - title: Médias
-    target: "/fr/contenus/medias/"
+    target: "/contenus/medias/"
     kind: page
     new_tab: false
     children: []
     path: "/pages/contenus/medias"
     file: content/fr/pages/contenus/medias/_index.html
-  - title: Textes
-    target: "/fr/contenus/textes/"
+  - title: Histoires
+    target: "/contenus/histoires/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/contenus/textes"
-    file: content/fr/pages/contenus/textes/_index.html
-  - title: Pleine largeur
-    target: "/fr/contenus/pleine-largeur/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/contenus/pleine-largeur"
-    file: content/fr/pages/contenus/pleine-largeur/_index.html
+    path: "/pages/contenus/histoires"
+    file: content/fr/pages/contenus/histoires/_index.html
   path: "/pages/contenus"
   file: content/fr/pages/contenus/_index.html
+- title: Équipe
+  target: "/equipe/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
+- title: Organisations
+  target: "/organisations/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/organizations"
+  file: content/fr/organizations/_index.html
+- title: Expositions
+  target: "/expositions/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/exhibitions"
+  file: content/fr/exhibitions/_index.html
 
