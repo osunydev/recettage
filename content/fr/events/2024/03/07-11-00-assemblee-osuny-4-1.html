@@ -1,0 +1,455 @@
+---
+title: >-
+  Assemblée Osuny #4
+
+subtitle: >-
+  Réunion mensuelle ouverte
+
+
+url: "/agenda/2024/assemblee-osuny-4-1/"
+slug: "assemblee-osuny-4-1"
+aliases:
+  - /agenda/2024-03-07-assemblee-osuny-4-1/
+meta:
+  hugo:
+    permalink: "/agenda/2024/assemblee-osuny-4-1/"
+    path: "/events/2024/03/07-11-00-assemblee-osuny-4-1"
+    file: "content/fr/events/2024/03/07-11-00-assemblee-osuny-4-1.html"
+    slug: "assemblee-osuny-4-1"
+  dates:
+    created_at: 2025-03-14T09:54:35+01:00
+    updated_at: 2025-05-13T11:08:46+02:00
+search:
+  id: "fdf25527-d527-4357-9631-2d90d005d721"
+  about_id: "230d0f27-c070-4fff-b916-2fc5d390f119"
+  url: "/agenda/2024/assemblee-osuny-4-1/"
+  kind: "Communication::Website::Agenda::Event::TimeSlot::Localization"
+  lang: "fr"
+  title: >-
+    Assemblée Osuny #4 Réunion mensuelle ouverte
+
+  body: >-
+    <p>  <br>Nous organisons une réunion mensuelle ouverte, le premier jeudi de chaque mois, dans le but de rassembler toute la communauté Osuny. Cet événement est un moment d'échange et de discussions, pendant lequel l'équipe noesya présente les avancées fonctionnelles. Cet événement est ouvert, vous êtes libre de venir quand vous le souhaitez, il n'y a aucune obligation d'être présent·e chaque mois, c'est à votre convenance. Nous souhaitons co-construire l'ordre du jour de cette réunion mensuelle avec vous, donc nous sommes à l'écoute de vos remarques et/ou questions. Focus dans cette édition sur la nouvelle version du thème, la partie visuelle consultée par les utilisateurs. Il y a beaucoup d’enjeux autour de cette version de thème car nous avons 70 sites en production. C'est la sixième version en un peu plus de deux ans.</p>  <p> Nouveautés  <br>   <br>Des corrections sur l’accessibilité : a mélioration de la lightbox et des galeries d’images pour les lecteurs d’écran Un problème a été mis en évidence par un utilisateur aveugle dans le système de lightbox qui s'affiche dans la zone d'entête et dans les blocs de galeries. La technologie d'assistance détectait l'image et ne lisait pas le texte alternatif. On a choisi que le lecteur d'écran lise d'abord l'image et ensuite lise le texte alternatif et ouvre ensuite la lightbox. Ajustements également dans la navigation qui est en français maintenant. Rajout d'un attribut html pour donner plus d'infos aux lecteurs d'assistance. Bloc actualités : nouvel affichage en carousel Développé par Olivia, cet affichage permet de slider les actualités. Ce système prend peu de place en hauteur et il marche également en  pleine largeur. Voici un exemple de cet affichage :  https://example.osuny.org/fr/blocks/blocs-de-liste/actualites-1/ Bloc formation : nouvel affichage en grille Développé par Clara, il permet d'afficher maintenant les formations en format grille et non plus uniquement en liste. L'idée est de présenter l'image et le chapô de la formation. On peut préciser le ratio de l'image en fonction de chaque site. Voici un exemple de cet affichage :   https://example.osuny.org/fr/blocks/blocs-de-liste/programmes/ Bloc chiffre clé : ajout d'images dans les chiffres clés Nous pouvons rajouter des images à l'intérieur de ce bloc maintenant. L'image est limitée à une taille par défaut de 128px, quipeut se modifier dans les variables du fichier de configuration sass. Voici un exemple de cet affichage : https://example.osuny.org/fr/blocks/blocks-narratifs/chiffre-cles/ Possibilité d’ajouter un bouton principal dans le hero des pages Avant, nous avions un titre, une image, un sommaire, nous pouvons ajouter un bouton désormais avec un titre et un lien externe. Ajout d’un darkmode simple à activer Ce darkmode est intégré mais il n'est pas activé par défaut. Pour cela, il faut préciser les variables dans le fichier de configuration, c'est à dire les couleurs du site en lightmode et en darkmode. Cela va s'adapter par défaut aux préférences utilisateurs.</p>  <p> Ajout d'outils pour aider à l’intégration et à l’éco-conception  <br>   <br>Quand on est en mode développeur, ajout d'une petite box où on a des raccourcis pour faciliter l'intégration :   <br> mise en place d'une petite réglette pour s'assurer des alignements;   <br> un système qui permet avec ctrl + W d'afficher en mode pleine largeur;   <br> un contrôle des tailles d'images, comme on veut maximiser l'optimisation des images, création d'un outil de debug qui signale la taille chargée réellement et la taille nécessaire, la configuration idéale en fonction de la taille de l'écran;  <br> mise en place d'un raccourci ctrl + p, qui permet d'ouvrir dans un autre onglet la page sur laquelle on est en train de travailler en local (dev) dans sa version en ligne.  <br> Faciliter la gestion des grilles et colonnes avec de nouveau outils On a changé ce système là de façon à être plus proche du colonnage en UI. L'idée c'est de ne plus être tributaire de la largeur du parent. Si j'ai besoin que ça fasse 4 colonnes, je l'indique en utilisant le mixins columns(4) et ça s'adapte peu importe le contexte CSS. Factorisation du code et simplification de certains partials On a relu, corrigé quelques sémantiques html et mis en place des ajustements techniques. On a un html plus proche de ce qu'on voulait, plus pur. En utilisant du schema.org on standardise le web, c'est plus clair pour les moteurs de recherche et donc cela améliore le référencement.</p>  <p> Migration  <br>   <br>Une migration réussie pour une soixantaine de sites en production !  La migration a été réalisée en partie manuellement à cause de breaking changes dans la nouvelle version. Nous n'avons pas endommagé de sites, ça c'est bien passé. Nous nous sommes interrogés sur la manière de surveiller les sites pour nous assurer qu'au moment d'une mise à jour du thème ou d'une fonctionnalité, rien ne se casse. Nous avons testé  l’outil de tests de non régression Percy qui permet de préciser et de warner s'il y a des différences visuelles. Le problème de cet outil, c'est le nombre de calcul qu'il y a. Nous avons eu plus de 20 000 screenshots dans différents formats sur 3 sites au moment de la migration. Nous avons décidé de l'arrêter. L'impact carbone est élevé et le coût de la facturation également, surtout si nous devons passer sur 70 sites.  Nous allons organiser une masterclass sur ces enjeux TNR (tests de non régression). L'idée est de voir d'autres outils, notamment libres et d'échanger sur ce sujet là. </p>  <p> Questionnements autour des updates   <br>   <br>La question de comment signaler les mises à jour se pose. L'idée serait de créer un espace indiquant les nouvelles fonctionnalités, de documenter les changements et de les rendre disponibles. Peut-être sur la page d'accueil de l'admin, sur le tableau de bord ? Justin Puyo de l'IUT Bordeaux Montaigne suggère que cela pourrait être intéressant sur le tableau de bord, même si c'est uniquement pour annoncer des fonctionnalités et fournir le lien vers les pages correspondantes.</p>  <p> À venir   <br>   <br>Pour les prochaines améliorations, nous prévoyons de mettre en ligne un portfolio. L'idée est de créer cette nouvelle section en complément des actualités et de l'agenda. Nous pourrons ainsi créer un projet de portfolio, qui devrait être prêt pour le mois prochain. Selon Justin Puyo, cela pourrait être très bénéfique pour l'enseignement, en mettant en avant les projets pédagogiques. Nous travaillons également sur les pages Campus. Il s'agit d'intégrer dans les sites les informations spécifiques à chaque campus. Cette demande provient de l'IUT de Bordeaux, qui possède plusieurs sites physiques à différentes adresses. Des blocs associés seront disponibles. </p>  <p> Un travail est en cours sur la possibilité d'intégrer dans le bloc de formation un lien vers les sites de chaque formation dans le hero. En back, nous sommes en train de revoir le système de mise à jour pour l'optimiser. Nous y travaillons activement et avons identifié plusieurs pistes d'amélioration.</p>
+
+date: "2024-03-07T11:00:00+01:00"
+dates:
+  status: "archive"
+  archive: true
+  computed:
+    short: >-
+      7 mars 2024
+    long: >-
+      Jeudi 7 mars 2024
+    two_lines:
+      short: >-
+        7 mars 2024
+      long: >-
+        Jeudi 7 mars 2024
+  from:
+    day: "2024-03-07"
+  to:
+    day: "2024-03-07"
+  add_to_calendar:
+    google: "https://www.google.com/calendar/render?action=TEMPLATE&text=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&dates=20240307T100000/20240307T120000&ctz=Europe/Paris&details="
+    yahoo: "https://calendar.yahoo.com/?v=60&TITLE=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&ST=20240307T090000Z&DUR=0200&DESC="
+    office: "https://outlook.office.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&subject=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&startdt=2024-03-07T09:00:00Z&enddt=2024-03-07T11:00:00Z&body="
+    outlook: "https://outlook.live.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&subject=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&startdt=2024-03-07T09:00:00Z&enddt=2024-03-07T11:00:00Z&body="
+    ical: "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0APRODID:-//AddToCalendar//RubyGem//EN%0ABEGIN:VEVENT%0ADTSTAMP:20240929T103715Z%0ADTSTART:20240307T090000Z%0ADTEND:20240307T110000Z%0ASUMMARY:Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte%0ADESCRIPTION:%0AUID:-20240307T090000Z-Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte%0AEND:VEVENT%0AEND:VCALENDAR"
+
+
+
+image:
+  id: "9fbe4ec9-ffee-4330-9e2b-c634accc79bb"
+  alt: ""
+  credit: >-
+    <p>Photo by <a href="https://unsplash.com/@ugur?utm_source=osuny&utm_medium=referral"> Ugur Akdemir</a> on <a href="https://unsplash.com/?utm_source=osuny&utm_medium=referral">Unsplash</a></p>
+
+
+events_categories:
+  - "rendez-vous"
+taxonomies:
+  - permalink: ""
+    path: ""
+    slug: ""
+    file: ""
+    name: >-
+      Catégories
+    categories:
+      - permalink: "/agenda/rendez-vous/"
+        path: "/events_categories/rendez-vous"
+        slug: "rendez-vous"
+        file: "content/fr/events_categories/rendez-vous/_index.html"
+        name: >-
+          Rendez-vous
+
+
+breadcrumbs:
+  - title: >-
+      Accueil
+    path: "/"
+  - title: >-
+      Agenda
+    path: "/agenda/"
+  - title: >-
+      Assemblée Osuny #4
+
+design:
+  full_width: false
+  toc:
+    present: true
+    offcanvas: false
+
+current_time_slot:
+  permalink: "/agenda/2024/assemblee-osuny-4-1/"
+  path: "/events/2024/03/07-11-00-assemblee-osuny-4-1"
+  slug: "assemblee-osuny-4-1"
+  file: "content/fr/events/2024/03/07-11-00-assemblee-osuny-4-1.html"
+  start:
+    date: "2024-03-07"
+    time: "11:00"
+    datetime: "2024-03-07T11:00:00+01:00"
+  end:
+    date: "2024-03-07"
+    time: "13:00"
+    datetime: "2024-03-07T13:00:00+01:00"
+  status: "archive"
+
+  add_to_calendar:
+    google: "https://www.google.com/calendar/render?action=TEMPLATE&text=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&dates=20240307T110000/20240307T130000&ctz=Europe/Paris&details="
+    yahoo: "https://calendar.yahoo.com/?v=60&TITLE=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&ST=20240307T100000Z&DUR=0200&DESC="
+    office: "https://outlook.office.com/calendar/0/action/compose?rru=addevent&subject=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&startdt=2024-03-07T10:00:00Z&enddt=2024-03-07T12:00:00Z&body="
+    outlook: "https://outlook.live.com/calendar/0/action/compose?rru=addevent&subject=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&startdt=2024-03-07T10:00:00Z&enddt=2024-03-07T12:00:00Z&body="
+    ical: "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0APRODID:-//AddToCalendar//RubyGem//EN%0ABEGIN:VEVENT%0ADTSTAMP:20250314T085435Z%0ADTSTART:20240307T100000Z%0ADTEND:20240307T120000Z%0ASUMMARY:Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte%0ADESCRIPTION:%0AUID:-20240307T100000Z-Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte%0AEND:VEVENT%0AEND:VCALENDAR"
+
+
+time_slots:
+  - permalink: "/agenda/2024/assemblee-osuny-4-1/"
+    path: "/events/2024/03/07-11-00-assemblee-osuny-4-1"
+    slug: "assemblee-osuny-4-1"
+    file: "content/fr/events/2024/03/07-11-00-assemblee-osuny-4-1.html"
+    start:
+      date: "2024-03-07"
+      time: "11:00"
+      datetime: "2024-03-07T11:00:00+01:00"
+    end:
+      date: "2024-03-07"
+      time: "13:00"
+      datetime: "2024-03-07T13:00:00+01:00"
+    status: "archive"
+
+    add_to_calendar:
+      google: "https://www.google.com/calendar/render?action=TEMPLATE&text=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&dates=20240307T110000/20240307T130000&ctz=Europe/Paris&details="
+      yahoo: "https://calendar.yahoo.com/?v=60&TITLE=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&ST=20240307T100000Z&DUR=0200&DESC="
+      office: "https://outlook.office.com/calendar/0/action/compose?rru=addevent&subject=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&startdt=2024-03-07T10:00:00Z&enddt=2024-03-07T12:00:00Z&body="
+      outlook: "https://outlook.live.com/calendar/0/action/compose?rru=addevent&subject=Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte&startdt=2024-03-07T10:00:00Z&enddt=2024-03-07T12:00:00Z&body="
+      ical: "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0APRODID:-//AddToCalendar//RubyGem//EN%0ABEGIN:VEVENT%0ADTSTAMP:20250314T085435Z%0ADTSTART:20240307T100000Z%0ADTEND:20240307T120000Z%0ASUMMARY:Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte%0ADESCRIPTION:%0AUID:-20240307T100000Z-Assembl%C3%A9e%20Osuny%20%234%20R%C3%A9union%20mensuelle%20ouverte%0AEND:VEVENT%0AEND:VCALENDAR"
+
+
+translationKey: communication-website-agenda-event-1e7dc8f7-290e-49e2-95c1-391ab11e3258
+
+
+meta_description: >-
+  Assemblée Osuny #4
+
+
+header_cta:
+
+contents_reading_time:
+  seconds: 323
+  text: >-
+    5 minutes
+contents:
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+      layout: no_background
+      text: >-
+        <p>Nous organisons une réunion mensuelle ouverte, le premier jeudi de chaque mois, dans le but de rassembler toute la communauté Osuny. Cet événement est un moment d'échange et de discussions, pendant lequel l'équipe noesya présente les avancées fonctionnelles. Cet événement est ouvert, vous êtes libre de venir quand vous le souhaitez, il n'y a aucune obligation d'être présent·e chaque mois, c'est à votre convenance. Nous souhaitons co-construire l'ordre du jour de cette réunion mensuelle avec vous, donc nous sommes à l'écoute de vos remarques et/ou questions.</p><p>Focus dans cette édition sur la nouvelle version du thème, la partie visuelle consultée par les utilisateurs. Il y a beaucoup d’enjeux autour de cette version de thème car nous avons 70 sites en production. C'est la sixième version en un peu plus de deux ans.</p>
+
+
+
+
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: false
+        contact: false
+
+      persons:
+        - permalink: "/equipe/magali-angles/"
+          path: "/persons/magali-angles"
+          slug: "magali-angles"
+          file: "content/fr/persons/magali-angles.html"
+
+        - permalink: "/equipe/alexis-benoit/"
+          path: "/persons/alexis-benoit"
+          slug: "alexis-benoit"
+          file: "content/fr/persons/alexis-benoit.html"
+
+        - permalink: "/equipe/pierre-andre-boissinot/"
+          path: "/persons/pierre-andre-boissinot"
+          slug: "pierre-andre-boissinot"
+          file: "content/fr/persons/pierre-andre-boissinot.html"
+
+        - permalink: "/equipe/bastien-masse/"
+          path: "/persons/bastien-masse"
+          slug: "bastien-masse"
+          file: "content/fr/persons/bastien-masse.html"
+
+        - permalink: "/equipe/anita-munyaneza/"
+          path: "/persons/anita-munyaneza"
+          slug: "anita-munyaneza"
+          file: "content/fr/persons/anita-munyaneza.html"
+
+        - permalink: "/equipe/thiago-maximo/"
+          path: "/persons/thiago-maximo"
+          slug: "thiago-maximo"
+          file: "content/fr/persons/thiago-maximo.html"
+
+        - permalink: "/equipe/yuna-orsini/"
+          path: "/persons/yuna-orsini"
+          slug: "yuna-orsini"
+          file: "content/fr/persons/yuna-orsini.html"
+
+        - permalink: "/equipe/daniela-penaranda/"
+          path: "/persons/daniela-penaranda"
+          slug: "daniela-penaranda"
+          file: "content/fr/persons/daniela-penaranda.html"
+
+        - permalink: "/equipe/justin-puyo/"
+          path: "/persons/justin-puyo"
+          slug: "justin-puyo"
+          file: "content/fr/persons/justin-puyo.html"
+
+        - permalink: "/equipe/clara-rigaud/"
+          path: "/persons/clara-rigaud"
+          slug: "clara-rigaud"
+          file: "content/fr/persons/clara-rigaud.html"
+
+        - permalink: "/equipe/olivia-simonet/"
+          path: "/persons/olivia-simonet"
+          slug: "olivia-simonet"
+          file: "content/fr/persons/olivia-simonet.html"
+
+      quantity: 11
+
+
+  - kind: block
+    template: title
+    title: >-
+      Nouveautés
+    slug: >-
+      nouveautes
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Nouveautés
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+      layout: no_background
+      text: >-
+        <p><b>Des corrections sur l’accessibilité : a</b><b>mélioration de la lightbox et des galeries d’images pour les lecteurs d’écran<br></b>Un problème a été mis en évidence par un utilisateur aveugle dans le système de lightbox qui s'affiche dans la zone d'entête et dans les blocs de galeries. La technologie d'assistance détectait l'image et ne lisait pas le texte alternatif. On a choisi que le lecteur d'écran lise d'abord l'image et ensuite lise le texte alternatif et ouvre ensuite la lightbox. Ajustements également dans la navigation qui est en français maintenant. Rajout d'un attribut html pour donner plus d'infos aux lecteurs d'assistance.</p><p><b>Bloc actualités : nouvel affichage en carousel<br></b>Développé par Olivia, cet affichage permet de slider les actualités. Ce système prend peu de place en hauteur et il marche également en  pleine largeur. Voici un exemple de cet affichage : <a href="https://example.osuny.org/fr/blocks/blocs-de-liste/actualites-1/">https://example.osuny.org/fr/blocks/blocs-de-liste/actualites-1/</a></p><p><b>Bloc formation : nouvel affichage en grille<br></b>Développé par Clara, il permet d'afficher maintenant les formations en format grille et non plus uniquement en liste. L'idée est de présenter l'image et le chapô de la formation. On peut préciser le ratio de l'image en fonction de chaque site. Voici un exemple de cet affichage :  <a href="https://example.osuny.org/fr/blocks/blocs-de-liste/programmes/" target="_blank" rel="noreferrer">https://example.osuny.org/fr/blocks/blocs-de-liste/programmes/ <span class="sr-only">(lien externe)</span></a></p><p><b>Bloc chiffre clé : ajout d'images dans les chiffres clés<br></b>Nous pouvons rajouter des images à l'intérieur de ce bloc maintenant. L'image est limitée à une taille par défaut de 128px, quipeut se modifier dans les variables du fichier de configuration sass. Voici un exemple de cet affichage : https://example.osuny.org/fr/blocks/blocks-narratifs/chiffre-cles/<b><br></b></p><p><b>Possibilité d’ajouter un bouton principal dans le hero des pages<br></b>Avant, nous avions un titre, une image, un sommaire, nous pouvons ajouter un bouton désormais avec un titre et un lien externe.</p><p><b>Ajout d’un darkmode simple à activer</b><br>Ce darkmode est intégré mais il n'est pas activé par défaut. Pour cela, il faut préciser les variables dans le fichier de configuration, c'est à dire les couleurs du site en lightmode et en darkmode. Cela va s'adapter par défaut aux préférences utilisateurs.</p>
+
+
+
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Ajout d'outils pour aider à l’intégration et à l’éco-conception
+    slug: >-
+      ajout-d-outils-pour-aider-a-l-integration-et-a-l-eco-conception
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Ajout d'outils pour aider à l’intégration et à l’éco-conception
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+      layout: no_background
+      text: >-
+        <p><b>Quand on est en mode développeur, ajout d'une petite box où on a des raccourcis pour faciliter l'intégration : </b></p><ul> <li>mise en place d'une petite réglette pour s'assurer des alignements; </li> <li>un système qui permet avec ctrl + W d'afficher en mode pleine largeur; </li> <li>un contrôle des tailles d'images, comme on veut maximiser l'optimisation des images, création d'un outil de debug qui signale la taille chargée réellement et la taille nécessaire, la configuration idéale en fonction de la taille de l'écran;</li> <li>mise en place d'un raccourci ctrl + p, qui permet d'ouvrir dans un autre onglet la page sur laquelle on est en train de travailler en local (dev) dans sa version en ligne.</li> </ul><p><b>Faciliter la gestion des grilles et colonnes avec de nouveau outils<br><br></b>On a changé ce système là de façon à être plus proche du colonnage en UI. L'idée c'est de ne plus être tributaire de la largeur du parent. Si j'ai besoin que ça fasse 4 colonnes, je l'indique en utilisant le mixins columns(4) et ça s'adapte peu importe le contexte CSS.</p><p><b>Factorisation du code et simplification de certains partials</b></p><p>On a relu, corrigé quelques sémantiques html et mis en place des ajustements techniques. On a un html plus proche de ce qu'on voulait, plus pur. En utilisant du schema.org on standardise le web, c'est plus clair pour les moteurs de recherche et donc cela améliore le référencement.</p>
+
+
+
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Migration
+    slug: >-
+      migration
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Migration
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+      layout: no_background
+      text: >-
+        <p>Une migration réussie pour une soixantaine de sites en production ! </p><p>La migration a été réalisée en partie manuellement à cause de breaking changes dans la nouvelle version. Nous n'avons pas endommagé de sites, ça c'est bien passé. Nous nous sommes interrogés sur la manière de surveiller les sites pour nous assurer qu'au moment d'une mise à jour du thème ou d'une fonctionnalité, rien ne se casse.</p><p>Nous avons testé  l’outil de tests de non régression Percy qui permet de préciser et de warner s'il y a des différences visuelles. Le problème de cet outil, c'est le nombre de calcul qu'il y a. Nous avons eu plus de 20 000 screenshots dans différents formats sur 3 sites au moment de la migration. Nous avons décidé de l'arrêter. L'impact carbone est élevé et le coût de la facturation également, surtout si nous devons passer sur 70 sites. </p><p>Nous allons organiser une masterclass sur ces enjeux TNR (tests de non régression). L'idée est de voir d'autres outils, notamment libres et d'échanger sur ce sujet là. </p>
+
+
+
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Questionnements autour des updates
+    slug: >-
+      questionnements-autour-des-updates
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Questionnements autour des updates
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+      layout: no_background
+      text: >-
+        <p>La question de comment signaler les mises à jour se pose. L'idée serait de créer un espace indiquant les nouvelles fonctionnalités, de documenter les changements et de les rendre disponibles. Peut-être sur la page d'accueil de l'admin, sur le tableau de bord ? Justin Puyo de l'IUT Bordeaux Montaigne suggère que cela pourrait être intéressant sur le tableau de bord, même si c'est uniquement pour annoncer des fonctionnalités et fournir le lien vers les pages correspondantes.</p>
+
+
+
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      À venir
+    slug: >-
+      a-venir
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          À venir
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+      layout: no_background
+      text: >-
+        <p>Pour les prochaines améliorations, nous prévoyons de mettre en ligne un portfolio. L'idée est de créer cette nouvelle section en complément des actualités et de l'agenda. Nous pourrons ainsi créer un projet de portfolio, qui devrait être prêt pour le mois prochain. Selon Justin Puyo, cela pourrait être très bénéfique pour l'enseignement, en mettant en avant les projets pédagogiques.</p><p>Nous travaillons également sur les pages Campus. Il s'agit d'intégrer dans les sites les informations spécifiques à chaque campus. Cette demande provient de l'IUT de Bordeaux, qui possède plusieurs sites physiques à différentes adresses. Des blocs associés seront disponibles.</p><p>    </p><p>Un travail est en cours sur la possibilité d'intégrer dans le bloc de formation un lien vers les sites de chaque formation dans le hero.</p><p>En back, nous sommes en train de revoir le système de mise à jour pour l'optimiser. Nous y travaillons activement et avons identifié plusieurs pistes d'amélioration.</p>
+
+
+
+
+
+
+
+---

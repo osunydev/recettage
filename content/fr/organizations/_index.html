@@ -6,27 +6,24 @@ breadcrumb_title: >-
 
 
 
-url: "/fr/"
+url: "/organisations/"
 slug: "organisations"
-aliases:
-  - /organisations/
-  - /fr/organisations/
-date: 2024-05-17T17:12:05+02:00
-lastmod: 2025-09-25T16:40:07+02:00
+date: 2024-05-17T10:47:50+02:00
+lastmod: 2024-09-29T11:21:12+02:00
 meta:
   hugo:
-    permalink: "/fr/"
+    permalink: "/organisations/"
     path: "/organizations"
     file: "content/fr/organizations/_index.html"
     slug: "organisations"
   dates:
-    created_at: 2024-05-17T17:12:05+02:00
-    updated_at: 2025-09-25T16:40:07+02:00
-    published_at: 2024-05-17T17:12:05+02:00
+    created_at: 2024-05-17T10:47:50+02:00
+    updated_at: 2024-09-29T11:21:12+02:00
+    published_at: 2024-05-17T10:47:50+02:00
 search:
-  id: "a6d77abf-12ab-4bfe-97da-e594de8214d2"
-  about_id: "c57092fd-873d-43c0-8565-80143b101762"
-  url: "/fr/"
+  id: "9279cd72-23f1-4757-aae0-194fd0dd3f22"
+  about_id: "8223ccbf-1fe8-43ba-b78e-a0899964f284"
+  url: "/organisations/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
   title: >-
@@ -37,7 +34,9 @@ search:
 breadcrumbs:
   - title: >-
       Accueil
-    path: "/fr/"
+    path: "/"
+  - title: >-
+      Organisations
 
 design:
   full_width: false
@@ -46,15 +45,11 @@ design:
     offcanvas: false
 
 
-build:
-  list: always
-  publishResources: true
-  render: never
 
 position: 6
 weight: 6
 
-translationKey: communication-website-page-c57092fd-873d-43c0-8565-80143b101762
+translationKey: communication-website-page-8223ccbf-1fe8-43ba-b78e-a0899964f284
 
 
 
@@ -64,22 +59,141 @@ header_cta:
 
 section_taxonomies:
   - name: >-
-      Forme Juridique
-    slug: "forme-juridique"
-    path: "/organizations_categories/forme-juridique"
+      Catégories
+    slug: ""
+    path: ""
     categories:
-      - permalink: "/fr/categories/forme-juridique/cooperative/"
-        path: "/organizations_categories/forme-juridique/cooperative"
-        slug: "forme-juridique/cooperative"
-        file: "content/fr/organizations_categories/forme-juridique/cooperative/_index.html"
+      - permalink: "/organisations/categories/monde-associatif/"
+        path: "/organizations_categories/monde-associatif"
+        slug: "monde-associatif"
+        file: "content/fr/organizations_categories/monde-associatif/_index.html"
         name: >-
-          Coopérative
+          Monde associatif
+        count: 2
+      - permalink: "/organisations/categories/mediation/"
+        path: "/organizations_categories/mediation"
+        slug: "mediation"
+        file: "content/fr/organizations_categories/mediation/_index.html"
+        name: >-
+          Médiation
         count: 1
+
+  - name: >-
+      Localisation
+    slug: "localisation"
+    path: "/organizations_categories/localisation"
+    categories:
+      - permalink: "/organisations/categories/localisation/ile-de-france/"
+        path: "/organizations_categories/localisation/ile-de-france"
+        slug: "localisation/ile-de-france"
+        file: "content/fr/organizations_categories/localisation/ile-de-france/_index.html"
+        name: >-
+          Île de France
+        count: 2
+      - permalink: "/organisations/categories/localisation/nouvelle-aquitaine/"
+        path: "/organizations_categories/localisation/nouvelle-aquitaine"
+        slug: "localisation/nouvelle-aquitaine"
+        file: "content/fr/organizations_categories/localisation/nouvelle-aquitaine/_index.html"
+        name: >-
+          Nouvelle Aquitaine
+        count: 6
+  - name: >-
+      Domaine
+    slug: "domaine"
+    path: "/organizations_categories/domaine"
+    categories:
+      - permalink: "/organisations/categories/domaine/numerique/"
+        path: "/organizations_categories/domaine/numerique"
+        slug: "domaine/numerique"
+        file: "content/fr/organizations_categories/domaine/numerique/_index.html"
+        name: >-
+          Numérique
+        count: 2
+      - permalink: "/organisations/categories/domaine/enseignement/"
+        path: "/organizations_categories/domaine/enseignement"
+        slug: "domaine/enseignement"
+        file: "content/fr/organizations_categories/domaine/enseignement/_index.html"
+        name: >-
+          Enseignement
+        count: 3
+  - name: >-
+      Secteur
+    slug: "secteur"
+    path: "/organizations_categories/secteur"
+    categories:
+      - permalink: "/organisations/categories/secteur/public/"
+        path: "/organizations_categories/secteur/public"
+        slug: "secteur/public"
+        file: "content/fr/organizations_categories/secteur/public/_index.html"
+        name: >-
+          Public
+        count: 3
+      - permalink: "/organisations/categories/secteur/prive/"
+        path: "/organizations_categories/secteur/prive"
+        slug: "secteur/prive"
+        file: "content/fr/organizations_categories/secteur/prive/_index.html"
+        name: >-
+          Privé
+        count: 2
 
 contents_reading_time:
   seconds: 0
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      layout: grid
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - permalink: "/organisations/communication-democratie/"
+          path: "/organizations/communication-democratie"
+          slug: "communication-democratie"
+          file: "content/fr/organizations/communication-democratie.html"
+
+        - permalink: "/organisations/mica/"
+          path: "/organizations/mica"
+          slug: "mica"
+          file: "content/fr/organizations/mica.html"
+
+        - permalink: "/organisations/noesya/"
+          path: "/organizations/noesya"
+          slug: "noesya"
+          file: "content/fr/organizations/noesya.html"
+
+        - permalink: "/organisations/ran-coper/"
+          path: "/organizations/ran-coper"
+          slug: "ran-coper"
+          file: "content/fr/organizations/ran-coper.html"
+
+        - permalink: "/organisations/universite-bordeaux-montaigne/"
+          path: "/organizations/universite-bordeaux-montaigne"
+          slug: "universite-bordeaux-montaigne"
+          file: "content/fr/organizations/universite-bordeaux-montaigne.html"
+
+        - permalink: "/organisations/universite-de-bordeaux/"
+          path: "/organizations/universite-de-bordeaux"
+          slug: "universite-de-bordeaux"
+          file: "content/fr/organizations/universite-de-bordeaux.html"
+
+      quantity: 6
+
+
 
 ---
