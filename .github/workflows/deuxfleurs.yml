@@ -8,9 +8,6 @@ jobs:
   build_and_deploy:
     name: Compilation du site Hugo et déploiement Deux fleurs
     runs-on: ubuntu-latest
-    concurrency:
-      group: deuxfleurs
-      cancel-in-progress: true
     steps:
 
     - name: Récupération des données
@@ -28,11 +25,10 @@ jobs:
       run: yarn install
 
     - name: Installation de Hugo
-      uses: noesya/actions-hugo@release
+      uses: peaceiris/actions-hugo@v3.0.0
       with:
-        hugo-version: '0.145.0'
+        hugo-version: '0.136.5'
         extended: true
-        withdeploy: true
 
     - name: Compilation du site
       run: yarn osuny build
