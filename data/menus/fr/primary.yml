@@ -1,9 +1,26 @@
 ---
 title: Menu principal
 items:
+- title: L'école
+  slug: l-ecole
+  target: ''
+  kind: blank
+  new_tab: false
+  children:
+  - title: Équipe
+    slug: equipe
+    target: "/fr/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/persons"
+    file: content/fr/persons/_index.html
+  descendants_targets:
+  - "/fr/"
 - title: Actualités
   slug: actualites
-  target: "/actualites/"
+  target: "/fr/actualites/"
   kind: page
   new_tab: false
   children: []
@@ -12,7 +29,7 @@ items:
   file: content/fr/posts/_index.html
 - title: Agenda
   slug: agenda
-  target: "/agenda/"
+  target: "/fr/agenda/"
   kind: page
   new_tab: false
   children: []
@@ -21,67 +38,76 @@ items:
   file: content/fr/events/_index.html
 - title: Projets
   slug: projets
-  target: "/projets/"
+  target: "/fr/projets/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Contenus
-  slug: contenus
-  target: "/contenus/"
-  kind: page
+- title: La recherche
+  slug: la-recherche
+  target: ''
+  kind: blank
   new_tab: false
   children:
-  - title: Médias
-    slug: medias
-    target: "/contenus/medias/"
+  - title: Publications HAL
+    slug: publications-hal
+    target: "/fr/publications/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/contenus/medias"
-    file: content/fr/pages/contenus/medias/_index.html
-  - title: Histoires
-    slug: histoires
-    target: "/contenus/histoires/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/pages/contenus/histoires"
-    file: content/fr/pages/contenus/histoires/_index.html
+    path: "/publications"
+    file: content/fr/publications/_index.html
   descendants_targets:
-  - "/contenus/histoires/"
-  - "/contenus/medias/"
-  path: "/pages/contenus"
-  file: content/fr/pages/contenus/_index.html
-- title: Équipe
-  slug: equipe
-  target: "/equipe/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
+  - "/fr/publications/"
 - title: Organisations
   slug: organisations
-  target: "/organisations/"
+  target: "/fr/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
-- title: Expositions
-  slug: expositions
-  target: "/expositions/"
+- title: Contenus
+  slug: contenus
+  target: "/fr/contenus/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/exhibitions"
-  file: content/fr/exhibitions/_index.html
+  children:
+  - title: Médias
+    slug: medias
+    target: "/fr/contenus/medias/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/contenus/medias"
+    file: content/fr/pages/contenus/medias/_index.html
+  - title: Textes
+    slug: textes
+    target: "/fr/contenus/textes/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/contenus/textes"
+    file: content/fr/pages/contenus/textes/_index.html
+  - title: Pleine largeur
+    slug: pleine-largeur
+    target: "/fr/contenus/pleine-largeur/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/contenus/pleine-largeur"
+    file: content/fr/pages/contenus/pleine-largeur/_index.html
+  descendants_targets:
+  - "/fr/contenus/medias/"
+  - "/fr/contenus/pleine-largeur/"
+  - "/fr/contenus/textes/"
+  path: "/pages/contenus"
+  file: content/fr/pages/contenus/_index.html
 
