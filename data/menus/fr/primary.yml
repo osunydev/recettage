@@ -9,7 +9,7 @@ items:
   children:
   - title: Équipe
     slug: equipe
-    target: "/"
+    target: "/fr/"
     kind: page
     new_tab: false
     children: []
@@ -17,10 +17,10 @@ items:
     path: "/persons"
     file: content/fr/persons/_index.html
   descendants_targets:
-  - "/"
+  - "/fr/"
 - title: Actualités
   slug: actualites
-  target: "/actualites/"
+  target: "/fr/actualites/"
   kind: page
   new_tab: false
   children: []
@@ -29,7 +29,7 @@ items:
   file: content/fr/posts/_index.html
 - title: Agenda
   slug: agenda
-  target: "/agenda/"
+  target: "/fr/agenda/"
   kind: page
   new_tab: false
   children: []
@@ -38,7 +38,7 @@ items:
   file: content/fr/events/_index.html
 - title: Projets
   slug: projets
-  target: "/projets/"
+  target: "/fr/projets/"
   kind: page
   new_tab: false
   children: []
@@ -53,7 +53,7 @@ items:
   children:
   - title: Publications HAL
     slug: publications-hal
-    target: "/publications/"
+    target: "/fr/publications/"
     kind: page
     new_tab: false
     children: []
@@ -61,10 +61,10 @@ items:
     path: "/publications"
     file: content/fr/publications/_index.html
   descendants_targets:
-  - "/publications/"
+  - "/fr/publications/"
 - title: Organisations
   slug: organisations
-  target: "/"
+  target: "/fr/"
   kind: page
   new_tab: false
   children: []
@@ -73,13 +73,13 @@ items:
   file: content/fr/organizations/_index.html
 - title: Contenus
   slug: contenus
-  target: "/contenus/"
+  target: "/fr/contenus/"
   kind: page
   new_tab: false
   children:
   - title: Médias
     slug: medias
-    target: "/contenus/medias/"
+    target: "/fr/contenus/medias/"
     kind: page
     new_tab: false
     children: []
@@ -88,7 +88,7 @@ items:
     file: content/fr/pages/contenus/medias/_index.html
   - title: Textes
     slug: textes
-    target: "/contenus/textes/"
+    target: "/fr/contenus/textes/"
     kind: page
     new_tab: false
     children: []
@@ -97,7 +97,7 @@ items:
     file: content/fr/pages/contenus/textes/_index.html
   - title: Pleine largeur
     slug: pleine-largeur
-    target: "/contenus/pleine-largeur/"
+    target: "/fr/contenus/pleine-largeur/"
     kind: page
     new_tab: false
     children: []
@@ -105,9 +105,9 @@ items:
     path: "/pages/contenus/pleine-largeur"
     file: content/fr/pages/contenus/pleine-largeur/_index.html
   descendants_targets:
-  - "/contenus/medias/"
-  - "/contenus/pleine-largeur/"
-  - "/contenus/textes/"
+  - "/fr/contenus/medias/"
+  - "/fr/contenus/pleine-largeur/"
+  - "/fr/contenus/textes/"
   path: "/pages/contenus"
   file: content/fr/pages/contenus/_index.html
 
