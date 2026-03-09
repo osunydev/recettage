@@ -1,42 +1,45 @@
 ---
 title: >-
-  Équipe
+  Personnes de l'équipe
 breadcrumb_title: >-
-  Équipe
+  Personnes de l'équipe
 
 
 
-url: "/equipe/"
-slug: "equipe"
-date: 2024-05-17T10:47:49+02:00
-lastmod: 2024-09-29T11:21:06+02:00
+url: "/fr/"
+slug: "personnes"
+aliases:
+  - /../equipe/
+  - /../fr/equipe/
+  - /../fr/personne/
+  - /../fr/personnes/
+date: 2024-05-17T17:12:05+02:00
+lastmod: 2025-09-26T09:46:00+02:00
 meta:
   hugo:
-    permalink: "/equipe/"
+    permalink: "/fr/"
     path: "/persons"
     file: "content/fr/persons/_index.html"
-    slug: "equipe"
+    slug: "personnes"
   dates:
-    created_at: 2024-05-17T10:47:49+02:00
-    updated_at: 2024-09-29T11:21:06+02:00
-    published_at: 2024-05-17T10:47:49+02:00
+    created_at: 2024-05-17T17:12:05+02:00
+    updated_at: 2025-09-26T09:46:00+02:00
+    published_at: 2024-05-17T17:12:05+02:00
 search:
-  id: "3f09c0a6-e256-42bd-8a37-2dbce1b74d70"
-  about_id: "81fb3bfa-82fc-4c36-b881-f849432446f1"
-  url: "/equipe/"
+  id: "227cba48-7e1f-4400-b29b-1a0878b8aef2"
+  about_id: "727106c2-dd80-4c62-a5a9-69b8b724adb1"
+  url: "/fr/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
   title: >-
-    Équipe
+    Personnes de l'équipe
 
 
 
 breadcrumbs:
   - title: >-
       Accueil
-    path: "/"
-  - title: >-
-      Équipe
+    path: "/fr/"
 
 design:
   full_width: false
@@ -45,20 +48,27 @@ design:
     offcanvas: false
 
 has:
-  administrators: 
+  administrators: false
   authors: true
-  researchers: 
-  teachers: 
+  researchers: true
+  teachers: true
+build:
+  list: always
+  publishResources: true
+  render: never
 
 position: 5
 weight: 5
 
-translationKey: communication-website-page-81fb3bfa-82fc-4c36-b881-f849432446f1
+translationKey: communication-website-page-727106c2-dd80-4c62-a5a9-69b8b724adb1
 
 
 
 children:
   - "authors/_index.html"
+  - "administrators/_index.html"
+  - "researchers/_index.html"
+  - "teachers/_index.html"
 
 
 header_cta:
@@ -69,70 +79,49 @@ section_taxonomies:
     slug: ""
     path: ""
     categories:
-      - permalink: "/equipe/categories/gestion-de-projet/"
-        path: "/persons_categories/gestion-de-projet"
-        slug: "gestion-de-projet"
-        file: "content/fr/persons_categories/gestion-de-projet/_index.html"
+      - permalink: "/fr/categories/categorie-libre/"
+        path: "/persons_categories/categorie-libre"
+        slug: "categorie-libre"
+        file: "content/fr/persons_categories/categorie-libre/_index.html"
         name: >-
-          Gestion de projet
-        count: 2
-      - permalink: "/equipe/categories/design/"
-        path: "/persons_categories/design"
-        slug: "design"
-        file: "content/fr/persons_categories/design/_index.html"
-        name: >-
-          Design
-        count: 3
+          Catégorie libre
+        count: 1
 
   - name: >-
-      Développement web
-    slug: "dev"
-    path: "/persons_categories/dev"
+      Métier
+    slug: "metier"
+    path: "/persons_categories/metier"
     categories:
-      - permalink: "/equipe/categories/dev/back/"
-        path: "/persons_categories/dev/back"
-        slug: "dev/back"
-        file: "content/fr/persons_categories/dev/back/_index.html"
+      - permalink: "/fr/categories/metier/developpement-web/"
+        path: "/persons_categories/metier/developpement-web"
+        slug: "metier/developpement-web"
+        file: "content/fr/persons_categories/metier/developpement-web/_index.html"
         name: >-
-          Back
-        count: 2
-      - permalink: "/equipe/categories/dev/front/"
-        path: "/persons_categories/dev/front"
-        slug: "dev/front"
-        file: "content/fr/persons_categories/dev/front/_index.html"
-        name: >-
-          Front
-        count: 2
+          Développement web
+        count: 3
   - name: >-
-      Langues
-    slug: "langues"
-    path: "/persons_categories/langues"
+      Entreprise
+    slug: "entreprise"
+    path: "/persons_categories/entreprise"
     categories:
-      - permalink: "/equipe/categories/langues/anglais/"
-        path: "/persons_categories/langues/anglais"
-        slug: "langues/anglais"
-        file: "content/fr/persons_categories/langues/anglais/_index.html"
+      - permalink: "/fr/categories/entreprise/noesya/"
+        path: "/persons_categories/entreprise/noesya"
+        slug: "entreprise/noesya"
+        file: "content/fr/persons_categories/entreprise/noesya/_index.html"
         name: >-
-          Anglais
-        count: 1
-      - permalink: "/equipe/categories/langues/japonais/"
-        path: "/persons_categories/langues/japonais"
-        slug: "langues/japonais"
-        file: "content/fr/persons_categories/langues/japonais/_index.html"
-        name: >-
-          Japonais
+          noesya
         count: 1
   - name: >-
-      Nationalité
-    slug: "nationalite"
-    path: "/persons_categories/nationalite"
+      Genre
+    slug: "genre"
+    path: "/persons_categories/genre"
     categories:
-      - permalink: "/equipe/categories/nationalite/uruguay/"
-        path: "/persons_categories/nationalite/uruguay"
-        slug: "nationalite/uruguay"
-        file: "content/fr/persons_categories/nationalite/uruguay/_index.html"
+      - permalink: "/fr/categories/genre/musique/"
+        path: "/persons_categories/genre/musique"
+        slug: "genre/musique"
+        file: "content/fr/persons_categories/genre/musique/_index.html"
         name: >-
-          Uruguay
+          Musique
         count: 1
 
 contents_reading_time:
