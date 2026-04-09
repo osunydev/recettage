@@ -10,7 +10,7 @@ subtitle: >-
 url: "/fr/blocs-de-test/fonctionnalites/"
 slug: "fonctionnalites"
 date: 2026-04-09T11:59:24+02:00
-lastmod: 2026-04-09T12:03:42+02:00
+lastmod: 2026-04-09T14:02:54+02:00
 meta:
   hugo:
     permalink: "/fr/blocs-de-test/fonctionnalites/"
@@ -19,7 +19,7 @@ meta:
     slug: "fonctionnalites"
   dates:
     created_at: 2026-04-09T11:59:24+02:00
-    updated_at: 2026-04-09T12:03:42+02:00
+    updated_at: 2026-04-09T14:02:54+02:00
     published_at: 2026-04-09T11:59:24+02:00
 search:
   id: "a229b40a-273e-40c7-9d39-1ad862c8f4c8"
@@ -31,7 +31,7 @@ search:
     Fonctionnalités Support des icônes
 
   body: >-
-    <p>Avec icônes </p>  <p>Une fonctionnalité <br>Lorem ipsum</p>  <p>Fonctionnalité numéro 2 <br>Lorem ipsum</p>  <p> En png </p>  <p>Fonctionnalités numéro 1 <br>Lorem ipsum</p>  <p>Fonctionnalités numéro 2 <br>Lorem ipsum</p>  <p>Fonctionnalités numéro 3 <br>Lorem ipsum</p>  <p> Avec JPEG </p>  <p>Fonctionnalités 1 <br>Lorem ipsum</p>  <p>Fonctionnalités 2 <br>Lorem ipsum</p>  <p>Fonctionnalités 3 <br>Lorem ipsum</p>
+    <p>Sans le mode icônes  <br> Avec icônes </p>  <p>Une fonctionnalité <br>Lorem ipsum</p>  <p>Fonctionnalité numéro 2 <br>Lorem ipsum</p>  <p> En png </p>  <p>Fonctionnalités numéro 1 <br>Lorem ipsum</p>  <p>Fonctionnalités numéro 2 <br>Lorem ipsum</p>  <p>Fonctionnalités numéro 3 <br>Lorem ipsum</p>  <p> Avec JPEG </p>  <p>Fonctionnalités 1 <br>Lorem ipsum</p>  <p>Fonctionnalités 2 <br>Lorem ipsum</p>  <p>Fonctionnalités 3 <br>Lorem ipsum</p>  <p> Avec le mode icônes  <br> Avec icônes </p>  <p>Une fonctionnalité <br>Lorem ipsum</p>  <p>Fonctionnalité numéro 2 <br>Lorem ipsum</p>  <p> En png </p>  <p>Fonctionnalités numéro 1 <br>Lorem ipsum</p>  <p>Fonctionnalités numéro 2 <br>Lorem ipsum</p>  <p>Fonctionnalités numéro 3 <br>Lorem ipsum</p>  <p> Avec JPEG </p>  <p>Fonctionnalités 1 <br>Lorem ipsum</p>  <p>Fonctionnalités 2 <br>Lorem ipsum</p>  <p>Fonctionnalités 3 <br>Lorem ipsum</p>
 
 breadcrumbs:
   - title: >-
@@ -46,7 +46,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 
@@ -102,10 +102,30 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 13
+  seconds: 29
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Sans le mode icônes
+    slug: >-
+      sans-le-mode-icones
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Sans le mode icônes
+        heading: 2
+
+    data:
+      layout: classic
+
+
   - kind: block
     template: features
     title: >-
@@ -113,21 +133,21 @@ contents:
     slug: >-
       avec-icones
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Avec icônes
-        heading: 2
+        heading: 3
 
     data:
       layout: grid
 
       options:
-        icons: true
+        icons: false
 
       elements:
         - 
@@ -157,15 +177,15 @@ contents:
     slug: >-
       en-png
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           En png
-        heading: 2
+        heading: 3
 
     data:
       layout: grid
@@ -210,21 +230,191 @@ contents:
     slug: >-
       avec-jpeg
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Avec JPEG
-        heading: 2
+        heading: 3
 
     data:
       layout: grid
 
       options:
         icons: false
+
+      elements:
+        - 
+          title: >-
+            Fonctionnalités 1
+          description: >-
+            <p>Lorem ipsum</p>
+          image:
+            id: "733bb616-8c50-4de3-ad67-5782cdd1449d"
+
+
+        - 
+          title: >-
+            Fonctionnalités 2
+          description: >-
+            <p>Lorem ipsum</p>
+          image:
+            id: "7ecfa717-ccda-4a67-b25f-38dbc865174a"
+
+
+        - 
+          title: >-
+            Fonctionnalités 3
+          description: >-
+            <p>Lorem ipsum</p>
+          image:
+            id: "2dc6d2ec-76d0-496b-8af8-faecb9b754df"
+
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Avec le mode icônes
+    slug: >-
+      avec-le-mode-icones
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec le mode icônes
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: features
+    title: >-
+      Avec icônes
+    slug: >-
+      avec-icones
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec icônes
+        heading: 3
+
+    data:
+      layout: grid
+
+      options:
+        icons: true
+
+      elements:
+        - 
+          title: >-
+            Une fonctionnalité
+          description: >-
+            <p>Lorem ipsum</p>
+          image:
+            id: "82d55833-b651-4ee9-a390-4fd895c8ff1c"
+
+
+        - 
+          title: >-
+            Fonctionnalité numéro 2
+          description: >-
+            <p>Lorem ipsum</p>
+          image:
+            id: "a25866d1-1287-4a35-8703-8942b46dc7ea"
+
+
+
+
+  - kind: block
+    template: features
+    title: >-
+      En png
+    slug: >-
+      en-png
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          En png
+        heading: 3
+
+    data:
+      layout: grid
+
+      options:
+        icons: true
+
+      elements:
+        - 
+          title: >-
+            Fonctionnalités numéro 1
+          description: >-
+            <p>Lorem ipsum</p>
+          image:
+            id: "2808d9f8-7184-42c5-8134-7960f7a1f0ce"
+
+
+        - 
+          title: >-
+            Fonctionnalités numéro 2
+          description: >-
+            <p>Lorem ipsum</p>
+          image:
+            id: "5716d6d6-4ad1-4e43-8691-b2e711b950fc"
+
+
+        - 
+          title: >-
+            Fonctionnalités numéro 3
+          description: >-
+            <p>Lorem ipsum</p>
+          image:
+            id: "54b2e6e8-1d2b-4b41-919f-b1d13beccf7b"
+
+
+
+
+  - kind: block
+    template: features
+    title: >-
+      Avec JPEG
+    slug: >-
+      avec-jpeg
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec JPEG
+        heading: 3
+
+    data:
+      layout: grid
+
+      options:
+        icons: true
 
       elements:
         - 
