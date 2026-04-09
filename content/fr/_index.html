@@ -55,14 +55,14 @@ translationKey: communication-website-page-c0741dd4-8732-4517-8750-d1f43da2e8c2
 
 children:
   - "posts/_index.html"
+  - "laboratories/_index.html"
+  - "schools/_index.html"
   - "diplomas/_index.html"
   - "programs/_index.html"
-  - "locations/_index.html"
-  - "events/_index.html"
-  - "volumes/_index.html"
-  - "schools/_index.html"
-  - "laboratories/_index.html"
   - "papers/_index.html"
+  - "events/_index.html"
+  - "locations/_index.html"
+  - "volumes/_index.html"
   - "jobs/_index.html"
   - "journals/_index.html"
   - "projects/_index.html"
@@ -78,6 +78,14 @@ child_pages:
     path: "/posts"
     slug: "actualites"
     file: "content/fr/posts/_index.html"
+  - permalink: "/fr/laboratoires/"
+    path: "/laboratories"
+    slug: "laboratoires"
+    file: "content/fr/laboratories/_index.html"
+  - permalink: "/fr/ecoles/"
+    path: "/schools"
+    slug: "ecoles"
+    file: "content/fr/schools/_index.html"
   - permalink: "/fr/diplomes/"
     path: "/diplomas"
     slug: "diplomes"
@@ -86,30 +94,22 @@ child_pages:
     path: "/programs"
     slug: "formations"
     file: "content/fr/programs/_index.html"
-  - permalink: "/fr/campus/"
-    path: "/locations"
-    slug: "campus"
-    file: "content/fr/locations/_index.html"
-  - permalink: "/fr/agenda/"
-    path: "/events"
-    slug: "agenda"
-    file: "content/fr/events/_index.html"
-  - permalink: "/fr/volumes/"
-    path: "/volumes"
-    slug: "volumes"
-    file: "content/fr/volumes/_index.html"
-  - permalink: "/fr/ecoles/"
-    path: "/schools"
-    slug: "ecoles"
-    file: "content/fr/schools/_index.html"
-  - permalink: "/fr/laboratoires/"
-    path: "/laboratories"
-    slug: "laboratoires"
-    file: "content/fr/laboratories/_index.html"
   - permalink: "/fr/papiers/"
     path: "/papers"
     slug: "papiers"
     file: "content/fr/papers/_index.html"
+  - permalink: "/fr/agenda/"
+    path: "/events"
+    slug: "agenda"
+    file: "content/fr/events/_index.html"
+  - permalink: "/fr/campus/"
+    path: "/locations"
+    slug: "campus"
+    file: "content/fr/locations/_index.html"
+  - permalink: "/fr/volumes/"
+    path: "/volumes"
+    slug: "volumes"
+    file: "content/fr/volumes/_index.html"
   - permalink: "/fr/offres-d-emploi/"
     path: "/jobs"
     slug: "offres-d-emploi"
@@ -183,6 +183,45 @@ contents:
           url: >-
             https://recettage.demo.osuny.site/projets/
           target_blank: false
+
+
+  - kind: block
+    template: pages
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Blocs de test
+        heading: 2
+        link: "/fr/blocs-de-test/"
+
+    data:
+      page:
+        permalink: "/fr/blocs-de-test/"
+        path: "/pages/blocs-de-test"
+        slug: "blocs-de-test"
+        file: "content/fr/pages/blocs-de-test/_index.html"
+      options:
+        image: false
+        categories: false
+        main_summary: true
+        summary: false
+
+      layout: list
+      pages:
+        - permalink: "/fr/blocs-de-test/fonctionnalites/"
+          path: "/pages/blocs-de-test/fonctionnalites"
+          slug: "fonctionnalites"
+          file: "content/fr/pages/blocs-de-test/fonctionnalites/_index.html"
+          name: >-
+            Fonctionnalités
+
+      quantity: 1
 
 
   - kind: block
@@ -485,45 +524,6 @@ contents:
 
 
 
-
-
-  - kind: block
-    template: pages
-
-
-    ranks:
-      base: 2
-      children: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Blocs de test
-        heading: 2
-        link: "/fr/blocs-de-test/"
-
-    data:
-      page:
-        permalink: "/fr/blocs-de-test/"
-        path: "/pages/blocs-de-test"
-        slug: "blocs-de-test"
-        file: "content/fr/pages/blocs-de-test/_index.html"
-      options:
-        image: false
-        categories: false
-        main_summary: true
-        summary: false
-
-      layout: list
-      pages:
-        - permalink: "/fr/blocs-de-test/fonctionnalites/"
-          path: "/pages/blocs-de-test/fonctionnalites"
-          slug: "fonctionnalites"
-          file: "content/fr/pages/blocs-de-test/fonctionnalites/_index.html"
-          name: >-
-            Fonctionnalités
-
-      quantity: 1
 
 
 
