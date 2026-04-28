@@ -13,3 +13,1328 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/agenda/2025/10/index.html"
+to = "/fr/agenda/2025/10/"
+
+[[redirects]]
+from = "/organisations/les-inrockuptibles/index.html"
+to = "/fr/organisations/les-inrockuptibles/"
+
+[[redirects]]
+from = "/agenda/2026/11/index.html"
+to = "/fr/agenda/2026/11/"
+
+[[redirects]]
+from = "/fr/radio-nova/index.html"
+to = "/fr/organisations/radio-nova/"
+
+[[redirects]]
+from = "/agenda/2026/06/index.html"
+to = "/fr/agenda/2026/06/"
+
+[[redirects]]
+from = "/diplomes/eco-conception-numerique/index.html"
+to = "/fr/diplomes/eco-conception-numerique/"
+
+[[redirects]]
+from = "/agenda/2025/12/index.html"
+to = "/fr/agenda/2025/12/"
+
+[[redirects]]
+from = "/fr/equipe/categories/categorie-libre/index.html"
+to = "/fr/personnes/categories/categorie-libre/"
+
+[[redirects]]
+from = "/noesya/index.html"
+to = "/fr/organisations/noesya/"
+
+[[redirects]]
+from = "/projets/production/index.html"
+to = "/fr/projets/production/"
+
+[[redirects]]
+from = "/blocs-de-test/index.html"
+to = "/fr/blocs-de-test/"
+
+[[redirects]]
+from = "/agenda/2025/08/index.html"
+to = "/fr/agenda/2025/08/"
+
+[[redirects]]
+from = "/categories/genre/musique/index.html"
+to = "/fr/personnes/categories/genre/musique/"
+
+[[redirects]]
+from = "/equipe/personne-personne/index.html"
+to = "/fr/personnes/personne-personne/"
+
+[[redirects]]
+from = "/actualites/2024-05-17-osuny-hal/index.html"
+to = "/fr/actualites/2024-05-17-osuny-hal/"
+
+[[redirects]]
+from = "/offre-de-formation/index.html"
+to = "/fr/offre-de-formation/"
+
+[[redirects]]
+from = "/formations/categories/master-2/index.html"
+to = "/fr/formations/categories/master-2/"
+
+[[redirects]]
+from = "/laboratoires/index.html"
+to = "/fr/laboratoires/"
+
+[[redirects]]
+from = "/ecoles/index.html"
+to = "/fr/ecoles/"
+
+[[redirects]]
+from = "/agenda/2026/08/index.html"
+to = "/fr/agenda/2026/08/"
+
+[[redirects]]
+from = "/agenda/2026/02/index.html"
+to = "/fr/agenda/2026/02/"
+
+[[redirects]]
+from = "/fr/pierre-andre-boissinot-1/publications/index.html"
+to = "/fr/personnes/pierre-andre-boissinot-1/publications/"
+
+[[redirects]]
+from = "/papiers/index.html"
+to = "/fr/papiers/"
+
+[[redirects]]
+from = "/agenda/2025/rencontres-internationales/les-fantomes-de-la-liberte/index.html"
+to = "/fr/agenda/2025/rencontres-internationales/les-fantomes-de-la-liberte/"
+
+[[redirects]]
+from = "/test-organization/index.html"
+to = "/en/organizations/test-organization/"
+
+[[redirects]]
+from = "/fr/equipe/categories/entreprise/index.html"
+to = "/fr/personnes/categories/entreprise/"
+
+[[redirects]]
+from = "/team/editors/index.html"
+to = "/en/team/editors/"
+
+[[redirects]]
+from = "/agenda/2025/03/07-assemblee-osuny-4/index.html"
+to = "/fr/agenda/2026/assemblee-osuny-4/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival-1/2023-11-02-priya-ragu-1/index.html"
+to = "/agenda/2023/arte-concert-festival/priya-ragu-1/"
+
+[[redirects]]
+from = "/blocs-de-categories/index.html"
+to = "/fr/blocs-de-categories/"
+
+[[redirects]]
+from = "/equipe/pierre-andre-boissinot/index.html"
+to = "/fr/personnes/pierre-andre-boissinot/"
+
+[[redirects]]
+from = "/equipe/pierre-andre-boissinot-1/publications/index.html"
+to = "/fr/personnes/pierre-andre-boissinot-1/publications/"
+
+[[redirects]]
+from = "/fr/equipe/index.html"
+to = "/fr/personnes/"
+
+[[redirects]]
+from = "/equipe/equipe-de-recherche/index.html"
+to = "/fr/personnes/equipe-de-recherche/"
+
+[[redirects]]
+from = "/olivia-simonet/actualites/index.html"
+to = "/fr/personnes/olivia-simonet/actualites/"
+
+[[redirects]]
+from = "/agenda/2026/07/index.html"
+to = "/fr/agenda/2026/07/"
+
+[[redirects]]
+from = "/fr/equipe/olivia-simonet/index.html"
+to = "/fr/personnes/olivia-simonet/"
+
+[[redirects]]
+from = "/organizations/test-organization/index.html"
+to = "/en/organizations/test-organization/"
+
+[[redirects]]
+from = "/agenda/2025/09/28-communs-numerique-et-interet-general/index.html"
+to = "/agenda/2025/communs-numerique-et-interet-general/"
+
+[[redirects]]
+from = "/olivia-simonet/index.html"
+to = "/fr/personnes/olivia-simonet/"
+
+[[redirects]]
+from = "/plan-du-site/index.html"
+to = "/fr/plan-du-site/"
+
+[[redirects]]
+from = "/organisations/fisheye/index.html"
+to = "/fr/organisations/fisheye-magazine/"
+
+[[redirects]]
+from = "/fr/equipe/equipe-editoriale/index.html"
+to = "/fr/personnes/equipe-editoriale/"
+
+[[redirects]]
+from = "/organisations/fisheye-magazine/index.html"
+to = "/fr/organisations/fisheye-magazine/"
+
+[[redirects]]
+from = "/personne-personne/index.html"
+to = "/fr/personnes/personne-personne/"
+
+[[redirects]]
+from = "/priya-ragu/index.html"
+to = "/fr/personnes/priya-ragu/"
+
+[[redirects]]
+from = "/actualites/fonctionnalites/index.html"
+to = "/fr/actualites/fonctionnalites/"
+
+[[redirects]]
+from = "/agenda/2023/02/index.html"
+to = "/fr/agenda/2023/02/"
+
+[[redirects]]
+from = "/equipe/olivia-simonet/index.html"
+to = "/fr/personnes/olivia-simonet/"
+
+[[redirects]]
+from = "/agenda/2023/08/index.html"
+to = "/fr/agenda/2023/08/"
+
+[[redirects]]
+from = "/categories/genre/index.html"
+to = "/fr/personnes/categories/genre/"
+
+[[redirects]]
+from = "/agenda/concert/index.html"
+to = "/fr/agenda/concert/"
+
+[[redirects]]
+from = "/fr/equipe-de-recherche/index.html"
+to = "/fr/personnes/equipe-de-recherche/"
+
+[[redirects]]
+from = "/categories/entreprise/index.html"
+to = "/fr/personnes/categories/entreprise/"
+
+[[redirects]]
+from = "/agenda/2025/01/14-contes-a-paillettes/index.html"
+to = "/agenda/2025/contes-a-paillettes/"
+
+[[redirects]]
+from = "/formations/categories/niveau-denseignement/index.html"
+to = "/fr/formations/categories/niveau-denseignement/"
+
+[[redirects]]
+from = "/pierre-andre-boissinot-1/programs/index.html"
+to = "/fr/personnes/pierre-andre-boissinot-1/programs/"
+
+[[redirects]]
+from = "/fr/hugo-clout/index.html"
+to = "/fr/personnes/hugo-clout/"
+
+[[redirects]]
+from = "/actualites/index.html"
+to = "/fr/actualites/"
+
+[[redirects]]
+from = "/fr/equipe/equipe-administrative/index.html"
+to = "/fr/personnes/equipe-administrative/"
+
+[[redirects]]
+from = "/fr/personne-personne/index.html"
+to = "/fr/personnes/personne-personne/"
+
+[[redirects]]
+from = "/fr/priya-ragu/index.html"
+to = "/fr/personnes/priya-ragu/"
+
+[[redirects]]
+from = "/equipe-pedagogique/index.html"
+to = "/fr/personnes/equipe-pedagogique/"
+
+[[redirects]]
+from = "/agenda/2026/assemblee-osuny-4/index.html"
+to = "/fr/agenda/2026/assemblee-osuny-4/"
+
+[[redirects]]
+from = "/agenda/2025/09/index.html"
+to = "/fr/agenda/2025/09/"
+
+[[redirects]]
+from = "/expositions/2025-02-05-pulse/index.html"
+to = "/fr/expositions/2025-02-05-pulse/"
+
+[[redirects]]
+from = "/radio-nova/index.html"
+to = "/fr/organisations/radio-nova/"
+
+[[redirects]]
+from = "/agenda/2024/11/27-communs-numerique-et-interet-general/index.html"
+to = "/agenda/2025/communs-numerique-et-interet-general/"
+
+[[redirects]]
+from = "/liberation/index.html"
+to = "/fr/organisations/liberation/"
+
+[[redirects]]
+from = "/agenda/2025-02-12-contes-a-paillettes/index.html"
+to = "/agenda/2025/contes-a-paillettes/"
+
+[[redirects]]
+from = "/fisheye-magazine/index.html"
+to = "/fr/organisations/fisheye-magazine/"
+
+[[redirects]]
+from = "/fr/fisheye-magazine/index.html"
+to = "/fr/organisations/fisheye-magazine/"
+
+[[redirects]]
+from = "/agenda/2024/05/index.html"
+to = "/fr/agenda/2024/05/"
+
+[[redirects]]
+from = "/offres-d-emploi/2025/offre-n1/index.html"
+to = "/fr/offres-d-emploi/2025/offre-n1/"
+
+[[redirects]]
+from = "/agenda/2024-03-07-assemblee-osuny-4/index.html"
+to = "/fr/agenda/2026/assemblee-osuny-4/"
+
+[[redirects]]
+from = "/agenda/2025/03/24-noesya-festival/index.html"
+to = "/agenda/2025/noesya-festival/"
+
+[[redirects]]
+from = "/agenda/2026/05/index.html"
+to = "/fr/agenda/2026/05/"
+
+[[redirects]]
+from = "/agenda/2025/03/22-vel-anetha/index.html"
+to = "/agenda/2025/vel-anetha/"
+
+[[redirects]]
+from = "/agenda/2025/06/index.html"
+to = "/fr/agenda/2025/06/"
+
+[[redirects]]
+from = "/agenda/2023/05/index.html"
+to = "/fr/agenda/2023/05/"
+
+[[redirects]]
+from = "/categories/forme-juridique/index.html"
+to = "/fr/organisations/categories/forme-juridique/"
+
+[[redirects]]
+from = "/projets/interet-general/index.html"
+to = "/fr/projets/interet-general/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/css/index.html"
+to = "/fr/actualites/offre-de-formation/css/"
+
+[[redirects]]
+from = "/agenda/2025/03/index.html"
+to = "/fr/agenda/2025/03/"
+
+[[redirects]]
+from = "/expositions/2025-01-20-hommage-a-george-sand--site-demo-staging-demo-osuny-site/index.html"
+to = "/fr/expositions/2025-01-20-hommage-a-george-sand--site-demo-staging-demo-osuny-site/"
+
+[[redirects]]
+from = "/diplomes/index.html"
+to = "/fr/diplomes/"
+
+[[redirects]]
+from = "/agenda/2025/offre-n1/index.html"
+to = "/fr/offres-d-emploi/2025/offre-n1/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival/the-kills/index.html"
+to = "/fr/agenda/2023/arte-concert-festival/the-kills/"
+
+[[redirects]]
+from = "/agenda/2025-03-03-arte-concert-festival/index.html"
+to = "/agenda/2025/arte-concert-festival/"
+
+[[redirects]]
+from = "/equipe/pierre-andre-boissinot-1/programs/index.html"
+to = "/fr/personnes/pierre-andre-boissinot-1/programs/"
+
+[[redirects]]
+from = "/fr/olivia-simonet/actualites/index.html"
+to = "/fr/personnes/olivia-simonet/actualites/"
+
+[[redirects]]
+from = "/contenus/pleine-largeur/index.html"
+to = "/fr/contenus/pleine-largeur/"
+
+[[redirects]]
+from = "/agenda/2023/10/index.html"
+to = "/fr/agenda/2023/10/"
+
+[[redirects]]
+from = "/agenda/2026/les-ambassadeurs-la-face-cachee-du-monde-de-jacques-loeuille/index.html"
+to = "/fr/agenda/2026/les-ambassadeurs-la-face-cachee-du-monde-de-jacques-loeuille/"
+
+[[redirects]]
+from = "/fr/pierre-andre-boissinot-1/programs/index.html"
+to = "/fr/personnes/pierre-andre-boissinot-1/programs/"
+
+[[redirects]]
+from = "/fr/la-blogotheque/index.html"
+to = "/fr/organisations/la-blogotheque/"
+
+[[redirects]]
+from = "/actualites/2025-10-10-brillant-bouleversant--demo-demo-osuny-site/index.html"
+to = "/fr/actualites/2025-10-10-brillant-bouleversant--demo-demo-osuny-site/"
+
+[[redirects]]
+from = "/fr/equipe/sebastien-gaya/actualites/index.html"
+to = "/fr/personnes/sebastien-gaya/actualites/"
+
+[[redirects]]
+from = "/agenda/2025/evenement-federe--/index.html"
+to = "/fr/agenda/2024/evenement-federe--demo-demo-osuny-site/"
+
+[[redirects]]
+from = "/organisations/liberation/index.html"
+to = "/fr/organisations/liberation/"
+
+[[redirects]]
+from = "/test-de-categorie/index.html"
+to = "/fr/test-de-categorie/"
+
+[[redirects]]
+from = "/fr/organisation-test/index.html"
+to = "/fr/organisations/organisation-test/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/index.html"
+to = "/fr/agenda/offre-de-formation/"
+
+[[redirects]]
+from = "/campus/index.html"
+to = "/fr/campus/"
+
+[[redirects]]
+from = "/agenda/2023/06/index.html"
+to = "/fr/agenda/2023/06/"
+
+[[redirects]]
+from = "/actualites/2022-07-04-actualite-perenne/index.html"
+to = "/fr/actualites/2022-07-04-actualite-perenne/"
+
+[[redirects]]
+from = "/agenda/2024-11-27-communs-numerique-et-interet-general/index.html"
+to = "/agenda/2025/communs-numerique-et-interet-general/"
+
+[[redirects]]
+from = "/agenda/2025/arte-concert-festival/priya-ragu/index.html"
+to = "/fr/agenda/2025/arte-concert-festival/priya-ragu/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/css/index.html"
+to = "/fr/agenda/offre-de-formation/css/"
+
+[[redirects]]
+from = "/actualites/2024-05-17-lediteur-de-contenu-vient-de-sameliorer/index.html"
+to = "/fr/actualites/2024-05-17-lediteur-de-contenu-vient-de-sameliorer/"
+
+[[redirects]]
+from = "/fr/categories/entreprise/index.html"
+to = "/fr/personnes/categories/entreprise/"
+
+[[redirects]]
+from = "/categories/forme-juridique/cooperative/index.html"
+to = "/fr/organisations/categories/forme-juridique/cooperative/"
+
+[[redirects]]
+from = "/agenda/2024/evenement-federe--/index.html"
+to = "/fr/agenda/2024/evenement-federe--demo-demo-osuny-site/"
+
+[[redirects]]
+from = "/fr/arnaud-levy/index.html"
+to = "/fr/personnes/arnaud-levy/"
+
+[[redirects]]
+from = "/equipe/categories/genre/musique/index.html"
+to = "/fr/personnes/categories/genre/musique/"
+
+[[redirects]]
+from = "/la-blogotheque/index.html"
+to = "/fr/organisations/la-blogotheque/"
+
+[[redirects]]
+from = "/agenda/2026/01/index.html"
+to = "/fr/agenda/2026/01/"
+
+[[redirects]]
+from = "/projets/2023-nig/index.html"
+to = "/fr/projets/2023-nig/"
+
+[[redirects]]
+from = "/agenda/2023/07/index.html"
+to = "/fr/agenda/2023/07/"
+
+[[redirects]]
+from = "/equipe/hugo-clout/index.html"
+to = "/fr/personnes/hugo-clout/"
+
+[[redirects]]
+from = "/agenda/2024/10/index.html"
+to = "/fr/agenda/2024/10/"
+
+[[redirects]]
+from = "/agenda/2023/09/index.html"
+to = "/fr/agenda/2023/09/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival-1/2023-11-03-the-kills/index.html"
+to = "/agenda/2023/arte-concert-festival/2023-11-03-the-kills/"
+
+[[redirects]]
+from = "/formations/index.html"
+to = "/fr/formations/"
+
+[[redirects]]
+from = "/hugo-clout/index.html"
+to = "/fr/personnes/hugo-clout/"
+
+[[redirects]]
+from = "/fr/les-inrockuptibles/index.html"
+to = "/fr/organisations/les-inrockuptibles/"
+
+[[redirects]]
+from = "/equipe/equipe-administrative/index.html"
+to = "/fr/personnes/equipe-administrative/"
+
+[[redirects]]
+from = "/equipe/sebastien-gaya/index.html"
+to = "/fr/personnes/sebastien-gaya/"
+
+[[redirects]]
+from = "/accessibilite/index.html"
+to = "/fr/accessibilite/"
+
+[[redirects]]
+from = "/agenda/communs/index.html"
+to = "/fr/agenda/communs/"
+
+[[redirects]]
+from = "/agenda/2026/03/06-les-ambassadeurs-la-face-cachee-du-monde-de-jacques-loeuille/index.html"
+to = "/fr/agenda/2026/les-ambassadeurs-la-face-cachee-du-monde-de-jacques-loeuille/"
+
+[[redirects]]
+from = "/agenda/2025-03-06-arte-concert-festival/gonzales/index.html"
+to = "/fr/agenda/2025/arte-concert-festival/gonzales/"
+
+[[redirects]]
+from = "/agenda/2025/noesya-festival/2025-03-25-aperosuny/index.html"
+to = "/fr/agenda/2025/noesya-festival/aperosuny/"
+
+[[redirects]]
+from = "/expositions/2024-04-01-heros-zapatistes/index.html"
+to = "/fr/expositions/2025-04-01-heros-zapatistes/"
+
+[[redirects]]
+from = "/projets/2023-ran-coper/index.html"
+to = "/fr/projets/2023-ran-coper/"
+
+[[redirects]]
+from = "/fr/categories/genre/musique/index.html"
+to = "/fr/personnes/categories/genre/musique/"
+
+[[redirects]]
+from = "/osuny/index.html"
+to = "/fr/sujet/osuny/"
+
+[[redirects]]
+from = "/sujet/essentiel/index.html"
+to = "/fr/sujet/essentiel/"
+
+[[redirects]]
+from = "/agenda/2025/05/index.html"
+to = "/fr/agenda/2025/05/"
+
+[[redirects]]
+from = "/agenda/2024/03/index.html"
+to = "/fr/agenda/2024/03/"
+
+[[redirects]]
+from = "/fr/equipe/arnaud-levy/index.html"
+to = "/fr/personnes/arnaud-levy/"
+
+[[redirects]]
+from = "/equipe/equipe-editoriale/index.html"
+to = "/fr/personnes/equipe-editoriale/"
+
+[[redirects]]
+from = "/agenda/2024/07/index.html"
+to = "/fr/agenda/2024/07/"
+
+[[redirects]]
+from = "/agenda/2024/04/index.html"
+to = "/fr/agenda/2024/04/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/ruby-on-rails/index.html"
+to = "/fr/agenda/offre-de-formation/ruby-on-rails/"
+
+[[redirects]]
+from = "/agenda/2024/index.html"
+to = "/fr/agenda/2024/"
+
+[[redirects]]
+from = "/projets/2023-bonnes-notes/index.html"
+to = "/fr/projets/2023-bonnes-notes/"
+
+[[redirects]]
+from = "/agenda/2024/evenement-federe--demo-demo-osuny-site/index.html"
+to = "/fr/agenda/2024/evenement-federe--demo-demo-osuny-site/"
+
+[[redirects]]
+from = "/campus/campus-agen/index.html"
+to = "/fr/campus/campus-agen/"
+
+[[redirects]]
+from = "/agenda/2024/11/index.html"
+to = "/fr/agenda/2024/11/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/accessibilite/index.html"
+to = "/fr/agenda/offre-de-formation/accessibilite/"
+
+[[redirects]]
+from = "/fr/pierre-andre-boissinot/index.html"
+to = "/fr/personnes/pierre-andre-boissinot/"
+
+[[redirects]]
+from = "/fr/sebastien-gaya/index.html"
+to = "/fr/personnes/sebastien-gaya/"
+
+[[redirects]]
+from = "/agenda/2025/02/index.html"
+to = "/fr/agenda/2025/02/"
+
+[[redirects]]
+from = "/politique-de-confidentialite/index.html"
+to = "/fr/politique-de-confidentialite/"
+
+[[redirects]]
+from = "/fr/equipe/equipe-pedagogique/index.html"
+to = "/fr/personnes/equipe-pedagogique/"
+
+[[redirects]]
+from = "/fr/equipe/priya-ragu/index.html"
+to = "/fr/personnes/priya-ragu/"
+
+[[redirects]]
+from = "/agenda/2025/01/index.html"
+to = "/fr/agenda/2025/01/"
+
+[[redirects]]
+from = "/fr/agenda/2025/quand-une-dystopie-devient-realite-comment-se-situe-less--osuny-staging-demo-netlify-app/index.html"
+to = "/fr/agenda/2025/quand-une-dystopie-devient-realite-comment-se-situe-less--site-demo-staging-demo-osuny-site/"
+
+[[redirects]]
+from = "/agenda/2025-03-07-assemblee-osuny-4/index.html"
+to = "/fr/agenda/2026/assemblee-osuny-4/"
+
+[[redirects]]
+from = "/fr/categories/forme-juridique/index.html"
+to = "/fr/organisations/categories/forme-juridique/"
+
+[[redirects]]
+from = "/fr/equipe/equipe-de-recherche/index.html"
+to = "/fr/personnes/equipe-de-recherche/"
+
+[[redirects]]
+from = "/agenda/2025/arte-concert-festival/2025-03-06-gonzales/index.html"
+to = "/fr/agenda/2025/arte-concert-festival/gonzales/"
+
+[[redirects]]
+from = "/organisations/noesya/index.html"
+to = "/fr/organisations/noesya/"
+
+[[redirects]]
+from = "/personne-test/index.html"
+to = "/en/team/personne-test/"
+
+[[redirects]]
+from = "/agenda/rendez-vous/index.html"
+to = "/fr/agenda/rendez-vous/"
+
+[[redirects]]
+from = "/les-inrockuptibles/index.html"
+to = "/fr/organisations/les-inrockuptibles/"
+
+[[redirects]]
+from = "/agenda/2023/12/index.html"
+to = "/fr/agenda/2023/12/"
+
+[[redirects]]
+from = "/fr/equipe/categories/genre/index.html"
+to = "/fr/personnes/categories/genre/"
+
+[[redirects]]
+from = "/agenda/2025-02-27-vel-anetha/index.html"
+to = "/agenda/2025/vel-anetha/"
+
+[[redirects]]
+from = "/projets/index.html"
+to = "/fr/projets/"
+
+[[redirects]]
+from = "/agenda/2026/index.html"
+to = "/fr/agenda/2026/"
+
+[[redirects]]
+from = "/fr/categories/forme-juridique/cooperative/index.html"
+to = "/fr/organisations/categories/forme-juridique/cooperative/"
+
+[[redirects]]
+from = "/test/index.html"
+to = "/fr/test/"
+
+[[redirects]]
+from = "/formations/categories/optionnel/index.html"
+to = "/fr/formations/categories/optionnel/"
+
+[[redirects]]
+from = "/fr/equipe/pierre-andre-boissinot-1/publications/index.html"
+to = "/fr/personnes/pierre-andre-boissinot-1/publications/"
+
+[[redirects]]
+from = "/pierre-andre-boissinot-1/index.html"
+to = "/fr/personnes/pierre-andre-boissinot-1/"
+
+[[redirects]]
+from = "/team/sebastien-gaya/index.html"
+to = "/en/team/sebastien-gaya/"
+
+[[redirects]]
+from = "/actualites/securite/index.html"
+to = "/fr/actualites/securite/"
+
+[[redirects]]
+from = "/fr/personne/index.html"
+to = "/fr/personnes/"
+
+[[redirects]]
+from = "/sebastien-gaya/publications/index.html"
+to = "/team/sebastien-gaya/publications/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival-2023/2023-11-02-priya-ragu-1/index.html"
+to = "/agenda/2023/arte-concert-festival/priya-ragu-1/"
+
+[[redirects]]
+from = "/formations/categories/licence-1/index.html"
+to = "/fr/formations/categories/licence-1/"
+
+[[redirects]]
+from = "/equipe/categories/metier/index.html"
+to = "/fr/personnes/categories/metier/"
+
+[[redirects]]
+from = "/agenda/2026/03/index.html"
+to = "/fr/agenda/2026/03/"
+
+[[redirects]]
+from = "/categories/metier/developpement-web/index.html"
+to = "/fr/personnes/categories/metier/developpement-web/"
+
+[[redirects]]
+from = "/agenda/2025/02/27-vel-anetha/index.html"
+to = "/agenda/2025/vel-anetha/"
+
+[[redirects]]
+from = "/fr/equipe-editoriale/index.html"
+to = "/fr/personnes/equipe-editoriale/"
+
+[[redirects]]
+from = "/fr/expositions/2025-01-20-hommage-a-george-sand--osuny-staging-demo-netlify-app/index.html"
+to = "/fr/expositions/2025-01-20-hommage-a-george-sand--site-demo-staging-demo-osuny-site/"
+
+[[redirects]]
+from = "/offre-de-formation/ruby-on-rails/index.html"
+to = "/fr/offre-de-formation/ruby-on-rails/"
+
+[[redirects]]
+from = "/page-avec-des-categories/index.html"
+to = "/fr/page-avec-des-categories/"
+
+[[redirects]]
+from = "/equipe/sebastien-gaya/actualites/index.html"
+to = "/fr/personnes/sebastien-gaya/actualites/"
+
+[[redirects]]
+from = "/formations/ruby-on-rails/index.html"
+to = "/fr/formations/ruby-on-rails/"
+
+[[redirects]]
+from = "/agenda/2025/index.html"
+to = "/fr/agenda/2025/"
+
+[[redirects]]
+from = "/volumes/index.html"
+to = "/fr/volumes/"
+
+[[redirects]]
+from = "/team/sebastien-gaya/posts/index.html"
+to = "/en/team/sebastien-gaya/posts/"
+
+[[redirects]]
+from = "/categories/categorie-libre/index.html"
+to = "/fr/personnes/categories/categorie-libre/"
+
+[[redirects]]
+from = "/arnaud-levy/index.html"
+to = "/fr/personnes/arnaud-levy/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival/ascendant-vierge/index.html"
+to = "/fr/agenda/2023/arte-concert-festival/ascendant-vierge/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival-2023/2023-11-03-the-kills/index.html"
+to = "/agenda/2023/arte-concert-festival/2023-11-03-the-kills/"
+
+[[redirects]]
+from = "/actualites/2025-10-30-envoyer-des-data-centers-en-orbite--site-multilingue-demo-osuny-site/index.html"
+to = "/fr/actualites/2025-10-30-envoyer-des-data-centers-en-orbite--site-multilingue-demo-osuny-site/"
+
+[[redirects]]
+from = "/agenda/2025/07/index.html"
+to = "/fr/agenda/2025/07/"
+
+[[redirects]]
+from = "/agenda/2023/01/index.html"
+to = "/fr/agenda/2023/01/"
+
+[[redirects]]
+from = "/expositions/archives-expositions/index.html"
+to = "/fr/expositions/archives-expositions/"
+
+[[redirects]]
+from = "/fr/arte-concert/index.html"
+to = "/fr/organisations/arte-concert/"
+
+[[redirects]]
+from = "/agenda/2025/rencontres-internationales/resistance-fondamentale/index.html"
+to = "/fr/agenda/2025/rencontres-internationales/resistance-fondamentale/"
+
+[[redirects]]
+from = "/agenda/2025/quand-une-dystopie-devient-realite-comment-se-situe-less--site-demo-staging-demo-osuny-site/index.html"
+to = "/fr/agenda/2025/quand-une-dystopie-devient-realite-comment-se-situe-less--site-demo-staging-demo-osuny-site/"
+
+[[redirects]]
+from = "/agenda/2024/06/06-assemblee-osuny-7/index.html"
+to = "/agenda/2024/assemblee-osuny-7/"
+
+[[redirects]]
+from = "/expositions/2025-04-01-heros-zapatistes/index.html"
+to = "/fr/expositions/2025-04-01-heros-zapatistes/"
+
+[[redirects]]
+from = "/fr/actualites/2025-10-10-brillant-bouleversant--/index.html"
+to = "/fr/actualites/2025-10-10-brillant-bouleversant--demo-demo-osuny-site/"
+
+[[redirects]]
+from = "/agenda/club/index.html"
+to = "/fr/agenda/club/"
+
+[[redirects]]
+from = "/mentions-legales/index.html"
+to = "/fr/mentions-legales/"
+
+[[redirects]]
+from = "/formations/categories/format/index.html"
+to = "/fr/formations/categories/format/"
+
+[[redirects]]
+from = "/fr/equipe/categories/metier/index.html"
+to = "/fr/personnes/categories/metier/"
+
+[[redirects]]
+from = "/fr/categories/genre/index.html"
+to = "/fr/personnes/categories/genre/"
+
+[[redirects]]
+from = "/publications/2024-publication-numero-1/index.html"
+to = "/fr/publications/2024-publication-numero-1/"
+
+[[redirects]]
+from = "/agenda/2025/autre-contenu-federe--recettage-school-demo-osuny-site/index.html"
+to = "/fr/agenda/2025/autre-contenu-federe--recettage-school-demo-osuny-site/"
+
+[[redirects]]
+from = "/pierre-andre-boissinot-1/publications/index.html"
+to = "/fr/personnes/pierre-andre-boissinot-1/publications/"
+
+[[redirects]]
+from = "/organisation-test/index.html"
+to = "/fr/organisations/organisation-test/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival-2023/index.html"
+to = "/fr/agenda/2023/arte-concert-festival/"
+
+[[redirects]]
+from = "/fr/categories/entreprise/noesya/index.html"
+to = "/fr/personnes/categories/entreprise/noesya/"
+
+[[redirects]]
+from = "/agenda/2024/12/index.html"
+to = "/fr/agenda/2024/12/"
+
+[[redirects]]
+from = "/en/some-agenda/index.html"
+to = "/fr/agenda/"
+
+[[redirects]]
+from = "/contenus/index.html"
+to = "/fr/contenus/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/css/index.html"
+to = "/fr/projets/offre-de-formation/css/"
+
+[[redirects]]
+from = "/sebastien-gaya/roles/index.html"
+to = "/team/sebastien-gaya/roles/"
+
+[[redirects]]
+from = "/agenda/2024-06-06-assemblee-osuny-7/index.html"
+to = "/agenda/2024/assemblee-osuny-7/"
+
+[[redirects]]
+from = "/fr/categories/categorie-libre/index.html"
+to = "/fr/personnes/categories/categorie-libre/"
+
+[[redirects]]
+from = "/equipe/categories/genre/index.html"
+to = "/fr/personnes/categories/genre/"
+
+[[redirects]]
+from = "/equipe/priya-ragu/index.html"
+to = "/fr/personnes/priya-ragu/"
+
+[[redirects]]
+from = "/expositions/index.html"
+to = "/fr/expositions/"
+
+[[redirects]]
+from = "/organisations/categories/forme-juridique/cooperative/index.html"
+to = "/fr/organisations/categories/forme-juridique/cooperative/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival-1/2023-11-02-ascendant-vierge/index.html"
+to = "/agenda/2023/arte-concert-festival/2023-11-02-ascendant-vierge/"
+
+[[redirects]]
+from = "/fr/equipe/hugo-clout/index.html"
+to = "/fr/personnes/hugo-clout/"
+
+[[redirects]]
+from = "/agenda/index.html"
+to = "/fr/agenda/"
+
+[[redirects]]
+from = "/agenda/2025/11/index.html"
+to = "/fr/agenda/2025/11/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/ruby-on-rails/index.html"
+to = "/fr/actualites/offre-de-formation/ruby-on-rails/"
+
+[[redirects]]
+from = "/equipe/pierre-andre-boissinot-1/index.html"
+to = "/fr/personnes/pierre-andre-boissinot-1/"
+
+[[redirects]]
+from = "/revues-scientifiques/index.html"
+to = "/fr/revues-scientifiques/"
+
+[[redirects]]
+from = "/sebastien-gaya/index.html"
+to = "/fr/personnes/sebastien-gaya/"
+
+[[redirects]]
+from = "/equipe/arnaud-levy/index.html"
+to = "/fr/personnes/arnaud-levy/"
+
+[[redirects]]
+from = "/agenda/2025-03-03-arte-concert-festival/priya-ragu/index.html"
+to = "/agenda/2025/arte-concert-festival/2025-03-03-priya-ragu/"
+
+[[redirects]]
+from = "/agenda/2026/09/index.html"
+to = "/fr/agenda/2026/09/"
+
+[[redirects]]
+from = "/diplomes/plome/index.html"
+to = "/fr/diplomes/plome/"
+
+[[redirects]]
+from = "/equipe/categories/entreprise/noesya/index.html"
+to = "/fr/personnes/categories/entreprise/noesya/"
+
+[[redirects]]
+from = "/agenda/2026/evenement-en-francais--site-multilingue-demo-osuny-site/index.html"
+to = "/fr/agenda/2026/evenement-en-francais--site-multilingue-demo-osuny-site/"
+
+[[redirects]]
+from = "/sebastien-gaya/programs/index.html"
+to = "/team/sebastien-gaya/programs/"
+
+[[redirects]]
+from = "/arte-concert/index.html"
+to = "/fr/organisations/arte-concert/"
+
+[[redirects]]
+from = "/agenda/2025/02/12-contes-a-paillettes/index.html"
+to = "/agenda/2025/contes-a-paillettes/"
+
+[[redirects]]
+from = "/publications/2024-publication-numero-2/index.html"
+to = "/fr/publications/2024-publication-numero-2/"
+
+[[redirects]]
+from = "/fr/agenda/2025/assemblee-osuny-4/index.html"
+to = "/fr/agenda/2026/assemblee-osuny-4/"
+
+[[redirects]]
+from = "/organisations/categories/forme-juridique/index.html"
+to = "/fr/organisations/categories/forme-juridique/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/accessibilite/index.html"
+to = "/fr/projets/offre-de-formation/accessibilite/"
+
+[[redirects]]
+from = "/agenda/2026/12/index.html"
+to = "/fr/agenda/2026/12/"
+
+[[redirects]]
+from = "/contenus/medias/index.html"
+to = "/fr/contenus/medias/"
+
+[[redirects]]
+from = "/offre-de-formation/css/index.html"
+to = "/fr/offre-de-formation/css/"
+
+[[redirects]]
+from = "/organisations/la-blogotheque/index.html"
+to = "/fr/organisations/la-blogotheque/"
+
+[[redirects]]
+from = "/organisations/arte-concert/index.html"
+to = "/fr/organisations/arte-concert/"
+
+[[redirects]]
+from = "/fr/olivia-simonet/index.html"
+to = "/fr/personnes/olivia-simonet/"
+
+[[redirects]]
+from = "/fr/equipe/categories/metier/developpement-web/index.html"
+to = "/fr/personnes/categories/metier/developpement-web/"
+
+[[redirects]]
+from = "/fr/agenda/2024/evenement-federe--/index.html"
+to = "/fr/agenda/2024/evenement-federe--demo-demo-osuny-site/"
+
+[[redirects]]
+from = "/fr/sebastien-gaya/actualites/index.html"
+to = "/fr/personnes/sebastien-gaya/actualites/"
+
+[[redirects]]
+from = "/agenda/2026/10/index.html"
+to = "/fr/agenda/2026/10/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival-2023/2023-11-02-ascendant-vierge/index.html"
+to = "/agenda/2023/arte-concert-festival/2023-11-02-ascendant-vierge/"
+
+[[redirects]]
+from = "/fr/equipe-administrative/index.html"
+to = "/fr/personnes/equipe-administrative/"
+
+[[redirects]]
+from = "/fr/noesya/index.html"
+to = "/fr/organisations/noesya/"
+
+[[redirects]]
+from = "/agenda/2024/02/index.html"
+to = "/fr/agenda/2024/02/"
+
+[[redirects]]
+from = "/pierre-andre-boissinot/index.html"
+to = "/fr/personnes/pierre-andre-boissinot/"
+
+[[redirects]]
+from = "/fr/equipe-pedagogique/index.html"
+to = "/fr/personnes/equipe-pedagogique/"
+
+[[redirects]]
+from = "/equipe/categories/categorie-libre/index.html"
+to = "/fr/personnes/categories/categorie-libre/"
+
+[[redirects]]
+from = "/equipe/categories/metier/developpement-web/index.html"
+to = "/fr/personnes/categories/metier/developpement-web/"
+
+[[redirects]]
+from = "/agenda/2026/04/index.html"
+to = "/fr/agenda/2026/04/"
+
+[[redirects]]
+from = "/agenda/2025/arte-concert-festival/gonzales/index.html"
+to = "/fr/agenda/2025/arte-concert-festival/gonzales/"
+
+[[redirects]]
+from = "/fr/equipe/pierre-andre-boissinot/index.html"
+to = "/fr/personnes/pierre-andre-boissinot/"
+
+[[redirects]]
+from = "/agenda/2023/03/index.html"
+to = "/fr/agenda/2023/03/"
+
+[[redirects]]
+from = "/actualites/2026-01-01-actualite-du-futur/index.html"
+to = "/fr/actualites/2026-01-01-actualite-du-futur/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/index.html"
+to = "/fr/projets/offre-de-formation/"
+
+[[redirects]]
+from = "/sujet/osuny/index.html"
+to = "/fr/sujet/osuny/"
+
+[[redirects]]
+from = "/agenda/2025/04/index.html"
+to = "/fr/agenda/2025/04/"
+
+[[redirects]]
+from = "/agenda/2025/noesya-festival/aperosuny/index.html"
+to = "/fr/agenda/2025/noesya-festival/aperosuny/"
+
+[[redirects]]
+from = "/equipe-editoriale/index.html"
+to = "/fr/personnes/equipe-editoriale/"
+
+[[redirects]]
+from = "/ecoles/ecole-de-test/index.html"
+to = "/fr/ecoles/ecole-de-test/"
+
+[[redirects]]
+from = "/agenda/2023/11/index.html"
+to = "/fr/agenda/2023/11/"
+
+[[redirects]]
+from = "/agenda/2025/assemblee-osuny-4/index.html"
+to = "/fr/agenda/2026/assemblee-osuny-4/"
+
+[[redirects]]
+from = "/categories/entreprise/noesya/index.html"
+to = "/fr/personnes/categories/entreprise/noesya/"
+
+[[redirects]]
+from = "/fr/equipe/categories/genre/musique/index.html"
+to = "/fr/personnes/categories/genre/musique/"
+
+[[redirects]]
+from = "/organisations/radio-nova/index.html"
+to = "/fr/organisations/radio-nova/"
+
+[[redirects]]
+from = "/fr/equipe/pierre-andre-boissinot-1/index.html"
+to = "/fr/personnes/pierre-andre-boissinot-1/"
+
+[[redirects]]
+from = "/formations/accessibilite/index.html"
+to = "/fr/formations/accessibilite/"
+
+[[redirects]]
+from = "/fr/equipe/personne-personne/index.html"
+to = "/fr/personnes/personne-personne/"
+
+[[redirects]]
+from = "/agenda/2023/index.html"
+to = "/fr/agenda/2023/"
+
+[[redirects]]
+from = "/equipe-administrative/index.html"
+to = "/fr/personnes/equipe-administrative/"
+
+[[redirects]]
+from = "/equipe/categories/entreprise/index.html"
+to = "/fr/personnes/categories/entreprise/"
+
+[[redirects]]
+from = "/equipe/equipe-pedagogique/index.html"
+to = "/fr/personnes/equipe-pedagogique/"
+
+[[redirects]]
+from = "/sebastien-gaya/actualites/index.html"
+to = "/fr/personnes/sebastien-gaya/actualites/"
+
+[[redirects]]
+from = "/equipe-de-recherche/index.html"
+to = "/fr/personnes/equipe-de-recherche/"
+
+[[redirects]]
+from = "/contenus/textes/index.html"
+to = "/fr/contenus/textes/"
+
+[[redirects]]
+from = "/organisations/organisation-test/index.html"
+to = "/fr/organisations/organisation-test/"
+
+[[redirects]]
+from = "/fr/liberation/index.html"
+to = "/fr/organisations/liberation/"
+
+[[redirects]]
+from = "/fr/equipe/sebastien-gaya/index.html"
+to = "/fr/personnes/sebastien-gaya/"
+
+[[redirects]]
+from = "/sujet/index.html"
+to = "/fr/sujet/"
+
+[[redirects]]
+from = "/formations/categories/distanciel/index.html"
+to = "/fr/formations/categories/distanciel/"
+
+[[redirects]]
+from = "/formations/css/index.html"
+to = "/fr/formations/css/"
+
+[[redirects]]
+from = "/campus/campus-pessac/index.html"
+to = "/fr/campus/campus-pessac/"
+
+[[redirects]]
+from = "/agenda/2024/09/index.html"
+to = "/fr/agenda/2024/09/"
+
+[[redirects]]
+from = "/agenda/festival/index.html"
+to = "/fr/agenda/festival/"
+
+[[redirects]]
+from = "/offres-d-emploi/index.html"
+to = "/fr/offres-d-emploi/"
+
+[[redirects]]
+from = "/campus/campus-de-talence/index.html"
+to = "/fr/campus/campus-de-talence/"
+
+[[redirects]]
+from = "/fr/categories/metier/developpement-web/index.html"
+to = "/fr/personnes/categories/metier/developpement-web/"
+
+[[redirects]]
+from = "/agenda/2024/06/index.html"
+to = "/fr/agenda/2024/06/"
+
+[[redirects]]
+from = "/agenda/2025/arte-concert-festival/heart-beat/index.html"
+to = "/fr/agenda/2025/arte-concert-festival/heart-beat/"
+
+[[redirects]]
+from = "/publications/index.html"
+to = "/fr/publications/"
+
+[[redirects]]
+from = "/fr/categories/metier/index.html"
+to = "/fr/personnes/categories/metier/"
+
+[[redirects]]
+from = "/expositions/2024-03-02-future/index.html"
+to = "/fr/expositions/2024-03-02-future/"
+
+[[redirects]]
+from = "/fr/equipe/categories/entreprise/noesya/index.html"
+to = "/fr/personnes/categories/entreprise/noesya/"
+
+[[redirects]]
+from = "/agenda/exposition/index.html"
+to = "/fr/agenda/exposition/"
+
+[[redirects]]
+from = "/agenda/2024/08/index.html"
+to = "/fr/agenda/2024/08/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival/2023-11-02-priya-ragu-1/index.html"
+to = "/agenda/2023/arte-concert-festival/priya-ragu-1/"
+
+[[redirects]]
+from = "/fr/pierre-andre-boissinot-1/index.html"
+to = "/fr/personnes/pierre-andre-boissinot-1/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/index.html"
+to = "/fr/actualites/offre-de-formation/"
+
+[[redirects]]
+from = "/offre-de-formation/accessibilite/index.html"
+to = "/fr/offre-de-formation/accessibilite/"
+
+[[redirects]]
+from = "/agenda/archives/index.html"
+to = "/fr/agenda/archives/"
+
+[[redirects]]
+from = "/blocs/index.html"
+to = "/fr/blocs/"
+
+[[redirects]]
+from = "/equipe/index.html"
+to = "/fr/personnes/"
+
+[[redirects]]
+from = "/agenda/2023/04/index.html"
+to = "/fr/agenda/2023/04/"
+
+[[redirects]]
+from = "/formations/categories/presentiel/index.html"
+to = "/fr/formations/categories/presentiel/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/ruby-on-rails/index.html"
+to = "/fr/projets/offre-de-formation/ruby-on-rails/"
+
+[[redirects]]
+from = "/categories/metier/index.html"
+to = "/fr/personnes/categories/metier/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/accessibilite/index.html"
+to = "/fr/actualites/offre-de-formation/accessibilite/"
+
+[[redirects]]
+from = "/agenda/2024/01/index.html"
+to = "/fr/agenda/2024/01/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival-1/index.html"
+to = "/fr/agenda/2023/arte-concert-festival/"
+
