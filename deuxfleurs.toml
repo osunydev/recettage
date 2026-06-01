@@ -83,6 +83,10 @@ from = "/formations/categories/master-2/index.html"
 to = "/fr/formations/categories/master-2/"
 
 [[redirects]]
+from = "/fr/nouvelle-page-ajoutee/enfant-de-page-ajoutee/index.html"
+to = "/fr/test-de-categorie/nouvelle-page-ajoutee/enfant-de-page-ajoutee/"
+
+[[redirects]]
 from = "/laboratoires/index.html"
 to = "/fr/laboratoires/"
 
@@ -1111,10 +1115,6 @@ from = "/fr/equipe/pierre-andre-boissinot/index.html"
 to = "/fr/personnes/pierre-andre-boissinot/"
 
 [[redirects]]
-from = "/fr/test-de-categorie/nouvelle-page-ajoutee/index.html"
-to = "/fr/nouvelle-page-ajoutee/"
-
-[[redirects]]
 from = "/agenda/2023/03/index.html"
 to = "/fr/agenda/2023/03/"
 
@@ -1325,6 +1325,10 @@ to = "/fr/formations/categories/presentiel/"
 [[redirects]]
 from = "/projets/offre-de-formation/ruby-on-rails/index.html"
 to = "/fr/projets/offre-de-formation/ruby-on-rails/"
+
+[[redirects]]
+from = "/fr/nouvelle-page-ajoutee/index.html"
+to = "/fr/test-de-categorie/nouvelle-page-ajoutee/"
 
 [[redirects]]
 from = "/categories/metier/index.html"
