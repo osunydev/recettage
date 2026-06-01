@@ -731,6 +731,10 @@ from = "/actualites/securite/index.html"
 to = "/fr/actualites/securite/"
 
 [[redirects]]
+from = "/fr/nouvelle-page-ajoutee/index.html"
+to = "/fr/test-de-categorie/nouvelle-page-ajoutee/"
+
+[[redirects]]
 from = "/fr/personne/index.html"
 to = "/fr/personnes/"
 
