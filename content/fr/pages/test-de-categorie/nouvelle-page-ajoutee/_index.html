@@ -9,7 +9,7 @@ breadcrumb_title: >-
 url: "/fr/test-de-categorie/nouvelle-page-ajoutee/"
 slug: "nouvelle-page-ajoutee"
 date: 2026-06-01T10:55:36+02:00
-lastmod: 2026-06-01T16:48:20+02:00
+lastmod: 2026-06-01T17:48:19+02:00
 meta:
   hugo:
     permalink: "/fr/test-de-categorie/nouvelle-page-ajoutee/"
@@ -18,7 +18,7 @@ meta:
     slug: "nouvelle-page-ajoutee"
   dates:
     created_at: 2026-06-01T10:55:36+02:00
-    updated_at: 2026-06-01T16:48:20+02:00
+    updated_at: 2026-06-01T17:48:19+02:00
     published_at: 2026-06-01T10:55:36+02:00
 search:
   id: "f1138e0e-9f72-428e-9b43-cdb41a39fc22"
@@ -30,7 +30,7 @@ search:
     Nouvelle page ajoutée
 
   body: >-
-    <p>Bloc de titre  <br> Chap. 1  <br>Chapitre 1</p>  <p> Chap. 2  <br>Chapitre 2</p>  <p> Chap. 3  <br>Chapitre 3</p>  <p> Chap. 4  <br>Chapitre 4</p>
+    <p>Bloc de titre  <br> Chap. 1  <br>Chapitre 1</p>  <p> Chap. 2  <br>Chapitre 2</p>  <p> Chap. 3  <br>Chapitre 3</p>  <p> Chap. 4  <br> Chap. 4  <br>Chapitre 4</p>
 
 breadcrumbs:
   - title: >-
@@ -73,6 +73,23 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: image
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+
+      image:
+        id: "6b608a25-5491-4366-a962-eef11678547f"
+
+
+
+
   - kind: block
     template: organizations
 
@@ -202,9 +219,8 @@ contents:
 
 
 
-
   - kind: block
-    template: chapter
+    template: title
     title: >-
       Chap. 4
     slug: >-
@@ -220,28 +236,31 @@ contents:
         heading: 2
 
     data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      Chap. 4
+    slug: >-
+      chap-4
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Chap. 4
+        heading: 3
+
+    data:
       layout: no_background
       text: >-
         <p>Chapitre 4</p>
 
 
-
-
-
-
-  - kind: block
-    template: image
-
-
-    ranks:
-      base: 2
-    top:
-      active: false
-
-    data:
-
-      image:
-        id: "6b608a25-5491-4366-a962-eef11678547f"
 
 
 
