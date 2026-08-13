@@ -5,7 +5,7 @@ width: 1280
 height: 1920
 ratio: 0.6666666666666666
 format: portrait
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjZiZDAwN2IxLWY2NTktNDEyNC05MzY3LTAwMTkyNzEwOWU1MSIsInB1ciI6ImJsb2JfaWQifX0=--79a1ab18747b5f21ddfb987a12f6e1f859a11a47/DTS_HERBAL-PIONEER_BY-FELIX-NIKADO_3-jpg.jpg
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/hrw78n8frzcqwqc5c1d9uqqkevcm
-download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjZiZDAwN2IxLWY2NTktNDEyNC05MzY3LTAwMTkyNzEwOWU1MSIsInB1ciI6ImJsb2JfaWQifX0=--79a1ab18747b5f21ddfb987a12f6e1f859a11a47
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjZiZDAwN2IxLWY2NTktNDEyNC05MzY3LTAwMTkyNzEwOWU1MSIsInB1ciI6ImJsb2JfaWQifX0=--eb6e9bfa1010b91b2d72a67c2175998400b37c6a/DTS_HERBAL-PIONEER_BY-FELIX-NIKADO_3-jpg.jpg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/hrw78n8frzcqwqc5c1d9uqqkevcm
+download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjZiZDAwN2IxLWY2NTktNDEyNC05MzY3LTAwMTkyNzEwOWU1MSIsInB1ciI6ImJsb2JfaWQifX0=--eb6e9bfa1010b91b2d72a67c2175998400b37c6a
 
