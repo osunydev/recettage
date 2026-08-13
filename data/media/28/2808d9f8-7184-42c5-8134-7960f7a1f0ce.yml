@@ -5,7 +5,7 @@ width: 501
 height: 675
 ratio: 0.7422222222222222
 format: portrait
-url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjI4MDhkOWY4LTcxODQtNDJjNS04MTM0LTc5NjBmN2ExZjBjZSIsInB1ciI6ImJsb2JfaWQifX0=--523fbf51365455ec807f04a92a1759111027abc6/0000_centrales-nucleaires-de-l_IA.png
-direct_url: https://osuny-staging.s3.fr-par.scw.cloud/qyol9kxan03et1g00vessy6sy38u
-download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjI4MDhkOWY4LTcxODQtNDJjNS04MTM0LTc5NjBmN2ExZjBjZSIsInB1ciI6ImJsb2JfaWQifX0=--523fbf51365455ec807f04a92a1759111027abc6
+url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjI4MDhkOWY4LTcxODQtNDJjNS04MTM0LTc5NjBmN2ExZjBjZSIsInB1ciI6ImJsb2JfaWQifX0=--08f400678f5363e3d926e738d5837d80faf9aa87/0000_centrales-nucleaires-de-l_IA.png
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/qyol9kxan03et1g00vessy6sy38u
+download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjI4MDhkOWY4LTcxODQtNDJjNS04MTM0LTc5NjBmN2ExZjBjZSIsInB1ciI6ImJsb2JfaWQifX0=--08f400678f5363e3d926e738d5837d80faf9aa87
 
