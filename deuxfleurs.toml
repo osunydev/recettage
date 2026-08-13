@@ -991,6 +991,10 @@ from = "/agenda/2026/09/index.html"
 to = "/fr/agenda/2026/09/"
 
 [[redirects]]
+from = "/fr/expositions/2024-03-02-future/index.html"
+to = "/fr/expositions/2026-03-02-future/"
+
+[[redirects]]
 from = "/diplomes/plome/index.html"
 to = "/fr/diplomes/plome/"
 
@@ -1272,7 +1276,7 @@ to = "/fr/personnes/categories/metier/"
 
 [[redirects]]
 from = "/expositions/2024-03-02-future/index.html"
-to = "/fr/expositions/2024-03-02-future/"
+to = "/fr/expositions/2026-03-02-future/"
 
 [[redirects]]
 from = "/fr/equipe/categories/entreprise/noesya/index.html"
