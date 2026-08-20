@@ -3,6 +3,7 @@ theme: osuny
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  additional_csp: 'osunystaging-1b4da.kxcdn.com'
   keycdn:
     url: https://osunystaging-1b4da.kxcdn.com
   summary:
