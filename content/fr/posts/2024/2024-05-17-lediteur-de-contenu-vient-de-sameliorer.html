@@ -8,7 +8,7 @@ title: >-
 url: "/fr/actualites/2024-05-17-lediteur-de-contenu-vient-de-sameliorer/"
 slug: "lediteur-de-contenu-vient-de-sameliorer"
 date: 2024-05-17T00:00:00+02:00
-lastmod: 2026-08-28T17:40:35+02:00
+lastmod: 2026-08-17T08:50:07+02:00
 meta:
   hugo:
     permalink: "/fr/actualites/2024-05-17-lediteur-de-contenu-vient-de-sameliorer/"
@@ -17,7 +17,7 @@ meta:
     slug: "lediteur-de-contenu-vient-de-sameliorer"
   dates:
     created_at: 2024-05-17T17:32:26+02:00
-    updated_at: 2026-08-28T17:40:35+02:00
+    updated_at: 2026-08-17T08:50:07+02:00
     published_at: 2024-05-17T00:00:00+02:00
 search:
   id: "57499471-7a70-43d8-b69b-c4c148d044ef"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Le lundi 26 juin, nous avons mis en production une nouvelle version de l'éditeur de blocs, qui améliore son ergonomie, particulièrement pour les contenus long</p>
   body: >-
-    <p>  <br>Dans le précédent éditeur, le plan du document se construisait à partir des noms des blocs. Donc, si l'on voulait créer une partie avec un chapitre, un témoignage et un autre chapitre, il fallait mettre un titre au premier bloc, puis on travaillait "à l'aveugle" sur le bloc témoignage et le chapitre qui le suivait. Sur un document un peu long, on était vite perdu dans le document.  Le nouveau système sépare les titres et les blocs. En plus, il ajoute une prévisualisation du contenu du bloc en quelques lignes. Les documents longs deviennent beaucoup plus simples à éditer ! Pour modifier le plan, on peut déplacer un titre, et tous les blocs suivront. A contrario, on peut déplacer un bloc comme on veut, au sein d'une même partie ou entre deux parties. Il est toujours possible de ne pas créer de titres du tout.</p>  <p>   <br>Le thème Osuny évolue avec ce nouvel éditeur, et passe en version 4. Cela permet de rationaliser les titres, qui avaient une apparence différente en fonction des blocs (parfois petites capitales, parfois pas), et qui changeaient en pleine largeur. Nous avons migré les 40 sites Web en production, et la soixantaine de sites déployés pour des expérimentations.  Le code se simplifie au passage, ce qui facilitera le développement et la maintenance des sites Web produits avec Osuny. C'est aussi plus facile de maintenir le thème lui-même.</p>  <p>  </p>  <p>L'édition d'un article long avec le nouvel éditeur de contenu <br>   <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  But Gideon was experiencing one powerful emotion: being sick of everyone's shit. ​ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  <p>   <br>Dolore magna aliqua.  But Gideon was experiencing one powerful emotion: being sick of everyone's shit. ​ Lorem ipsum.</p>
+    <p>  <br>Dans le précédent éditeur, le plan du document se construisait à partir des noms des blocs. Donc, si l'on voulait créer une partie avec un chapitre, un témoignage et un autre chapitre, il fallait mettre un titre au premier bloc, puis on travaillait "à l'aveugle" sur le bloc témoignage et le chapitre qui le suivait. Sur un document un peu long, on était vite perdu dans le document.  Le nouveau système sépare les titres et les blocs. En plus, il ajoute une prévisualisation du contenu du bloc en quelques lignes. Les documents longs deviennent beaucoup plus simples à éditer ! Pour modifier le plan, on peut déplacer un titre, et tous les blocs suivront. A contrario, on peut déplacer un bloc comme on veut, au sein d'une même partie ou entre deux parties. Il est toujours possible de ne pas créer de titres du tout.</p>  <p>   <br>Le thème Osuny évolue avec ce nouvel éditeur, et passe en version 4. Cela permet de rationaliser les titres, qui avaient une apparence différente en fonction des blocs (parfois petites capitales, parfois pas), et qui changeaient en pleine largeur. Nous avons migré les 40 sites Web en production, et la soixantaine de sites déployés pour des expérimentations.  Le code se simplifie au passage, ce qui facilitera le développement et la maintenance des sites Web produits avec Osuny. C'est aussi plus facile de maintenir le thème lui-même.</p>  <p>  </p>  <p>L'édition d'un article long avec le nouvel éditeur <br> Hello  <br>   <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  But Gideon was experiencing one powerful emotion: being sick of everyone's shit. ​ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  <p>   <br>Dolore magna aliqua.  But Gideon was experiencing one powerful emotion: being sick of everyone's shit. ​ Lorem ipsum.</p>
 
 breadcrumbs:
   - title: >-
@@ -50,11 +50,6 @@ design:
 
 translationKey: communication-website-post-e3bec148-daab-4990-b296-47d5ef1a43e7
 
-image:
-  id: "92eb1d11-bebc-44a6-8237-d308286fda60"
-  alt: ""
-  credit: >-
-    <p>Photo by <a href="https://unsplash.com/@brunus?utm_source=osuny&utm_medium=referral">Bruno Martins</a> on <a href="https://unsplash.com/?utm_source=osuny&utm_medium=referral">Unsplash</a></p>
 
 
 
@@ -96,7 +91,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 84
+  seconds: 83
   text: >-
     1 minute
 contents:
@@ -138,22 +133,25 @@ contents:
 
 
 
+
   - kind: block
-    template: image
-
-
+    template: title
+    title: >-
+      Hello
+    slug: >-
+      hello
     ranks:
       base: 2
+      self: 2
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Hello
+        heading: 2
 
     data:
-      text: >-
-        L'édition d'un article long avec le nouvel éditeur de contenu
-      image:
-        id: "9408dd74-6b0a-4be4-abbe-2f95558d5466"
-
-
+      layout: classic
 
 
   - kind: block
@@ -161,7 +159,7 @@ contents:
 
 
     ranks:
-      base: 2
+      base: 3
     top:
       active: false
 
@@ -180,7 +178,7 @@ contents:
 
 
     ranks:
-      base: 2
+      base: 3
     top:
       active: true
       description: >-
