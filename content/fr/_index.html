@@ -10,7 +10,7 @@ subtitle: >-
 url: "/fr/"
 slug: ""
 date: 2024-05-17T17:12:05+02:00
-lastmod: 2026-08-19T17:55:07+02:00
+lastmod: 2026-08-28T17:40:07+02:00
 meta:
   hugo:
     permalink: "/fr/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2024-05-17T17:12:05+02:00
-    updated_at: 2026-08-19T17:55:07+02:00
+    updated_at: 2026-08-28T17:40:07+02:00
     published_at: 2024-05-17T17:12:05+02:00
 search:
   id: "e69e62f7-1315-4b12-9970-0677b6186638"
@@ -32,7 +32,7 @@ search:
   summary: >-
     <p>Un texte ! Avec des signes doubles : comme ça ; et ça ?</p>
   body: >-
-    <p>Actualités </p>  <p>   <br>Site de recettage</p>  <p>Découvrir les projets <br>https://recettage.demo.osuny.site/projets/</p>  <p> Projets </p>  <p> Pages </p>  <p> Un texte ! Avec des signes doubles : comme ça ; et ça ?  <br>Un texte ! Avec des signes doubles : comme ça ; et ça ? <br>Un texte ! Avec des signes doubles : comme ça ; et ça ?</p>
+    <p>  <br>Site de recettage</p>  <p>Découvrir les projets <br>https://recettage.demo.osuny.site/projets/</p>  <p> Actualités </p>  <p> Projets </p>  <p> Pages </p>  <p> Un texte ! Avec des signes doubles : comme ça ; et ça ?  <br>Un texte ! Avec des signes doubles : comme ça ; et ça ? <br>Un texte ! Avec des signes doubles : comme ça ; et ça ?</p>
 
 breadcrumbs:
   - title: >-
@@ -54,9 +54,9 @@ translationKey: communication-website-page-c0741dd4-8732-4517-8750-d1f43da2e8c2
 
 
 children:
+  - "posts/_index.html"
   - "jobs/_index.html"
   - "locations/_index.html"
-  - "posts/_index.html"
   - "events/_index.html"
   - "journals/_index.html"
   - "papers/_index.html"
@@ -73,9 +73,12 @@ children:
   - "pages/blocs-de-categories/_index.html"
   - "exhibitions/_index.html"
   - "pages/test-de-categorie/_index.html"
-  - "pages/photos/_index.html"
   - "files/_index.html"
 child_pages:
+  - permalink: "/fr/actualites/"
+    path: "/posts"
+    slug: "actualites"
+    file: "content/fr/posts/_index.html"
   - permalink: "/fr/offres-d-emploi/"
     path: "/jobs"
     slug: "offres-d-emploi"
@@ -84,10 +87,6 @@ child_pages:
     path: "/locations"
     slug: "campus"
     file: "content/fr/locations/_index.html"
-  - permalink: "/fr/actualites/"
-    path: "/posts"
-    slug: "actualites"
-    file: "content/fr/posts/_index.html"
   - permalink: "/fr/agenda/"
     path: "/events"
     slug: "agenda"
@@ -152,10 +151,6 @@ child_pages:
     path: "/pages/test-de-categorie"
     slug: "test-de-categorie"
     file: "content/fr/pages/test-de-categorie/_index.html"
-  - permalink: "/fr/photos/"
-    path: "/pages/photos"
-    slug: "photos"
-    file: "content/fr/pages/photos/_index.html"
   - permalink: "/fr/fichiers/"
     path: "/files"
     slug: "fichiers"
@@ -171,66 +166,6 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: block
-    template: posts
-    title: >-
-      Actualités
-    slug: >-
-      actualites
-    ranks:
-      base: 2
-      self: 2
-      children: 3
-    top:
-      active: true
-      title: 
-        value: >-
-          Actualités
-        heading: 2
-        link: "/fr/actualites/"
-
-    data:
-      mode: all
-      all: true
-      layout: grid
-      options:
-        author: true
-        categories: true
-        date: true
-        image: true
-        reading_time: true
-        subtitle: true
-        summary: true
-
-      posts:
-        - permalink: "/fr/actualites/2026-08-31-test-3/"
-          path: "/posts/2026/2026-08-31-test-3"
-          slug: "test-3"
-          file: "content/fr/posts/2026/2026-08-31-test-3.html"
-          name: >-
-            Test 3
-        - permalink: "/fr/actualites/2026-08-31-test-2/"
-          path: "/posts/2026/2026-08-31-test-2"
-          slug: "test-2"
-          file: "content/fr/posts/2026/2026-08-31-test-2.html"
-          name: >-
-            test 2
-        - permalink: "/fr/actualites/2026-08-31-test/"
-          path: "/posts/2026/2026-08-31-test"
-          slug: "test"
-          file: "content/fr/posts/2026/2026-08-31-test.html"
-          name: >-
-            Test
-        - permalink: "/fr/actualites/2025-10-30-envoyer-des-data-centers-en-orbite--site-multilingue-demo-osuny-site/"
-          path: "/posts/2025/2025-10-30-envoyer-des-data-centers-en-orbite"
-          slug: "envoyer-des-data-centers-en-orbite"
-          file: "content/fr/posts/2025/2025-10-30-envoyer-des-data-centers-en-orbite.html"
-          name: >-
-            Envoyer des data centers en orbite
-
-      quantity: 4
-
-
   - kind: block
     template: call_to_action
 
@@ -293,6 +228,78 @@ contents:
             Fonctionnalités
 
       quantity: 1
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Actualités
+    slug: >-
+      actualites
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Actualités
+        heading: 2
+        link: "/fr/actualites/"
+
+    data:
+      mode: all
+      all: true
+      layout: grid
+      options:
+        author: true
+        categories: true
+        date: true
+        image: true
+        reading_time: true
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/fr/actualites/2026-01-01-actualite-du-futur/"
+          path: "/posts/2026/2026-01-01-actualite-du-futur"
+          slug: "actualite-du-futur"
+          file: "content/fr/posts/2026/2026-01-01-actualite-du-futur.html"
+          name: >-
+            Actualité du futur
+        - permalink: "/fr/actualites/2025-10-30-envoyer-des-data-centers-en-orbite--site-multilingue-demo-osuny-site/"
+          path: "/posts/2025/2025-10-30-envoyer-des-data-centers-en-orbite"
+          slug: "envoyer-des-data-centers-en-orbite"
+          file: "content/fr/posts/2025/2025-10-30-envoyer-des-data-centers-en-orbite.html"
+          name: >-
+            Envoyer des data centers en orbite
+        - permalink: "/fr/actualites/2025-10-10-brillant-bouleversant--demo-demo-osuny-site/"
+          path: "/posts/2025/2025-10-10-brillant-bouleversant"
+          slug: "brillant-bouleversant"
+          file: "content/fr/posts/2025/2025-10-10-brillant-bouleversant.html"
+          name: >-
+            Brillant, bouleversant…
+        - permalink: "/fr/actualites/2024-05-17-osuny-hal/"
+          path: "/posts/2024/2024-05-17-osuny-hal"
+          slug: "osuny-hal"
+          file: "content/fr/posts/2024/2024-05-17-osuny-hal.html"
+          name: >-
+            Osuny ❤️ HAL
+        - permalink: "/fr/actualites/2024-05-17-lediteur-de-contenu-vient-de-sameliorer/"
+          path: "/posts/2024/2024-05-17-lediteur-de-contenu-vient-de-sameliorer"
+          slug: "lediteur-de-contenu-vient-de-sameliorer"
+          file: "content/fr/posts/2024/2024-05-17-lediteur-de-contenu-vient-de-sameliorer.html"
+          name: >-
+            L'éditeur de contenu vient de s'améliorer !
+        - permalink: "/fr/actualites/2022-07-04-actualite-perenne/"
+          path: "/posts/2022/2022-07-04-actualite-perenne"
+          slug: "actualite-perenne"
+          file: "content/fr/posts/2022/2022-07-04-actualite-perenne.html"
+          name: >-
+            Actualité pérenne
+
+      quantity: 6
 
 
   - kind: block
@@ -435,18 +442,18 @@ contents:
           file: "content/fr/projects/2023/bonnes-notes.html"
           name: >-
             Bonnes notes
+        - permalink: "/fr/projets/2023-nig/"
+          path: "/projects/2023/nig"
+          slug: "nig"
+          file: "content/fr/projects/2023/nig.html"
+          name: >-
+            NIG
         - permalink: "/fr/projets/2023-ran-coper/"
           path: "/projects/2023/ran-coper"
           slug: "ran-coper"
           file: "content/fr/projects/2023/ran-coper.html"
           name: >-
             Ran Coper
-        - permalink: "/fr/projets/2022-nig/"
-          path: "/projects/2022/nig"
-          slug: "nig"
-          file: "content/fr/projects/2022/nig.html"
-          name: >-
-            NIG
 
       quantity: 3
 
@@ -511,7 +518,7 @@ contents:
     data:
 
       image:
-        id: "81b133dd-8723-494f-97a3-df209181ac0d"
+        id: "3eec3e9c-4859-4264-991d-d62aca0fa251"
 
 
 

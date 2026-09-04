@@ -5,7 +5,7 @@ width: 2048
 height: 2560
 ratio: 0.8
 format: portrait
-url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjJmYWExMDQyLThkMWUtNGRjNS05YzY2LTUxMjE0YjBiMzE5YiIsInB1ciI6ImJsb2JfaWQifX0=--8f45b48aac225216cf996c22bd3adf241227637f/7735230.png
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/4lqugd6qjoqoqzemvzydjj9ptghc
-download_url: http://demo.osuny:3000/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjJmYWExMDQyLThkMWUtNGRjNS05YzY2LTUxMjE0YjBiMzE5YiIsInB1ciI6ImJsb2JfaWQifX0=--8f45b48aac225216cf996c22bd3adf241227637f
+url: https://demo.osuny.dev/media/eyJfcmFpbHMiOnsiZGF0YSI6IjJmYWExMDQyLThkMWUtNGRjNS05YzY2LTUxMjE0YjBiMzE5YiIsInB1ciI6ImJsb2JfaWQifX0=--cf2f3291beb94f39a898346c73fa1c7e4a4c7cdb/7735230.png
+direct_url: https://osuny-staging.s3.fr-par.scw.cloud/4lqugd6qjoqoqzemvzydjj9ptghc
+download_url: https://demo.osuny.dev/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjJmYWExMDQyLThkMWUtNGRjNS05YzY2LTUxMjE0YjBiMzE5YiIsInB1ciI6ImJsb2JfaWQifX0=--cf2f3291beb94f39a898346c73fa1c7e4a4c7cdb
 
