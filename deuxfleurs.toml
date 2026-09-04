@@ -55,6 +55,10 @@ from = "/projets/production/index.html"
 to = "/fr/projets/production/"
 
 [[redirects]]
+from = "/blocs-de-test/index.html"
+to = "/fr/blocs-de-test/"
+
+[[redirects]]
 from = "/agenda/2025/08/index.html"
 to = "/fr/agenda/2025/08/"
 
@@ -157,10 +161,6 @@ to = "/fr/personnes/olivia-simonet/actualites/"
 [[redirects]]
 from = "/agenda/2026/07/index.html"
 to = "/fr/agenda/2026/07/"
-
-[[redirects]]
-from = "/equipe/arnaud-levy/actualites/index.html"
-to = "/fr/personnes/arnaud-levy/actualites/"
 
 [[redirects]]
 from = "/fr/equipe/olivia-simonet/index.html"
@@ -423,6 +423,10 @@ from = "/test-de-categorie/index.html"
 to = "/fr/test-de-categorie/"
 
 [[redirects]]
+from = "/fr/organisation-test/index.html"
+to = "/fr/organisations/organisation-test/"
+
+[[redirects]]
 from = "/agenda/offre-de-formation/index.html"
 to = "/fr/agenda/offre-de-formation/"
 
@@ -484,7 +488,7 @@ to = "/fr/agenda/2026/01/"
 
 [[redirects]]
 from = "/projets/2023-nig/index.html"
-to = "/fr/projets/2022-nig/"
+to = "/fr/projets/2023-nig/"
 
 [[redirects]]
 from = "/agenda/2023/07/index.html"
@@ -613,6 +617,10 @@ to = "/fr/campus/campus-agen/"
 [[redirects]]
 from = "/agenda/2024/11/index.html"
 to = "/fr/agenda/2024/11/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/accessibilite/index.html"
+to = "/fr/agenda/offre-de-formation/accessibilite/"
 
 [[redirects]]
 from = "/fr/pierre-andre-boissinot/index.html"
@@ -895,6 +903,10 @@ from = "/fr/categories/entreprise/noesya/index.html"
 to = "/fr/personnes/categories/entreprise/noesya/"
 
 [[redirects]]
+from = "/en/2026/anrt-resci-programme-27-novembre-2024pdf/index.html"
+to = "/en/files/2026/anrt-resci-programme-27-novembre-2024pdf/"
+
+[[redirects]]
 from = "/agenda/2024/12/index.html"
 to = "/fr/agenda/2024/12/"
 
@@ -983,14 +995,6 @@ from = "/agenda/2026/09/index.html"
 to = "/fr/agenda/2026/09/"
 
 [[redirects]]
-from = "/fr/projets/2023-nig/index.html"
-to = "/fr/projets/2022-nig/"
-
-[[redirects]]
-from = "/fr/expositions/2024-03-02-future/index.html"
-to = "/fr/expositions/2026-03-02-future/"
-
-[[redirects]]
 from = "/diplomes/plome/index.html"
 to = "/fr/diplomes/plome/"
 
@@ -1027,6 +1031,10 @@ from = "/organisations/categories/forme-juridique/index.html"
 to = "/fr/organisations/categories/forme-juridique/"
 
 [[redirects]]
+from = "/projets/offre-de-formation/accessibilite/index.html"
+to = "/fr/projets/offre-de-formation/accessibilite/"
+
+[[redirects]]
 from = "/agenda/2026/12/index.html"
 to = "/fr/agenda/2026/12/"
 
@@ -1057,10 +1065,6 @@ to = "/fr/personnes/categories/metier/developpement-web/"
 [[redirects]]
 from = "/fr/agenda/2024/evenement-federe--/index.html"
 to = "/fr/agenda/2024/evenement-federe--demo-demo-osuny-site/"
-
-[[redirects]]
-from = "/fr/formations/accessibilite/rgaa-auditer-laccessibilite-numerique-des-sites-web/index.html"
-to = "/fr/formations/rgaa-auditer-laccessibilite-numerique-des-sites-web/"
 
 [[redirects]]
 from = "/fr/sebastien-gaya/actualites/index.html"
@@ -1119,6 +1123,10 @@ from = "/agenda/2023/03/index.html"
 to = "/fr/agenda/2023/03/"
 
 [[redirects]]
+from = "/actualites/2026-01-01-actualite-du-futur/index.html"
+to = "/fr/actualites/2026-01-01-actualite-du-futur/"
+
+[[redirects]]
 from = "/projets/offre-de-formation/index.html"
 to = "/fr/projets/offre-de-formation/"
 
@@ -1137,6 +1145,10 @@ to = "/fr/agenda/2025/noesya-festival/aperosuny/"
 [[redirects]]
 from = "/equipe-editoriale/index.html"
 to = "/fr/personnes/equipe-editoriale/"
+
+[[redirects]]
+from = "/ecoles/ecole-de-test/index.html"
+to = "/fr/ecoles/ecole-de-test/"
 
 [[redirects]]
 from = "/agenda/2023/11/index.html"
@@ -1161,6 +1173,10 @@ to = "/fr/organisations/radio-nova/"
 [[redirects]]
 from = "/fr/equipe/pierre-andre-boissinot-1/index.html"
 to = "/fr/personnes/pierre-andre-boissinot-1/"
+
+[[redirects]]
+from = "/formations/accessibilite/index.html"
+to = "/fr/formations/accessibilite/"
 
 [[redirects]]
 from = "/fr/equipe/personne-personne/index.html"
@@ -1260,7 +1276,7 @@ to = "/fr/personnes/categories/metier/"
 
 [[redirects]]
 from = "/expositions/2024-03-02-future/index.html"
-to = "/fr/expositions/2026-03-02-future/"
+to = "/fr/expositions/2024-03-02-future/"
 
 [[redirects]]
 from = "/fr/equipe/categories/entreprise/noesya/index.html"
@@ -1285,6 +1301,10 @@ to = "/fr/personnes/pierre-andre-boissinot-1/"
 [[redirects]]
 from = "/actualites/offre-de-formation/index.html"
 to = "/fr/actualites/offre-de-formation/"
+
+[[redirects]]
+from = "/offre-de-formation/accessibilite/index.html"
+to = "/fr/offre-de-formation/accessibilite/"
 
 [[redirects]]
 from = "/agenda/archives/index.html"
@@ -1317,6 +1337,10 @@ to = "/fr/test-de-categorie/nouvelle-page-ajoutee/"
 [[redirects]]
 from = "/categories/metier/index.html"
 to = "/fr/personnes/categories/metier/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/accessibilite/index.html"
+to = "/fr/actualites/offre-de-formation/accessibilite/"
 
 [[redirects]]
 from = "/agenda/2024/01/index.html"
