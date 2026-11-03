@@ -132,7 +132,7 @@ to = "/fr/agenda/2026/assemblee-osuny-4/"
 
 [[redirects]]
 from = "/agenda/2023/arte-concert-festival-1/2023-11-02-priya-ragu-1/index.html"
-to = "/agenda/2023/arte-concert-festival/priya-ragu-1/"
+to = "/fr/agenda/2023/arte-concert-festival/priya-ragu-1/"
 
 [[redirects]]
 from = "/blocs-de-categories/index.html"
@@ -515,6 +515,10 @@ from = "/formations/index.html"
 to = "/fr/formations/"
 
 [[redirects]]
+from = "/agenda/2023/arte-concert-festival/priya-ragu-1/index.html"
+to = "/fr/agenda/2023/arte-concert-festival/priya-ragu-1/"
+
+[[redirects]]
 from = "/hugo-clout/index.html"
 to = "/fr/personnes/hugo-clout/"
 
@@ -744,7 +748,7 @@ to = "/team/sebastien-gaya/publications/"
 
 [[redirects]]
 from = "/agenda/2023/arte-concert-festival-2023/2023-11-02-priya-ragu-1/index.html"
-to = "/agenda/2023/arte-concert-festival/priya-ragu-1/"
+to = "/fr/agenda/2023/arte-concert-festival/priya-ragu-1/"
 
 [[redirects]]
 from = "/formations/categories/licence-1/index.html"
@@ -952,11 +956,15 @@ to = "/fr/organisations/categories/forme-juridique/cooperative/"
 
 [[redirects]]
 from = "/agenda/2023/arte-concert-festival-1/2023-11-02-ascendant-vierge/index.html"
-to = "/agenda/2023/arte-concert-festival/2023-11-02-ascendant-vierge/"
+to = "/fr/agenda/2023/arte-concert-festival/ascendant-vierge/"
 
 [[redirects]]
 from = "/fr/equipe/hugo-clout/index.html"
 to = "/fr/personnes/hugo-clout/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival/2023-11-02-ascendant-vierge/index.html"
+to = "/fr/agenda/2023/arte-concert-festival/ascendant-vierge/"
 
 [[redirects]]
 from = "/agenda/index.html"
@@ -1076,7 +1084,7 @@ to = "/fr/agenda/2026/10/"
 
 [[redirects]]
 from = "/agenda/2023/arte-concert-festival-2023/2023-11-02-ascendant-vierge/index.html"
-to = "/agenda/2023/arte-concert-festival/2023-11-02-ascendant-vierge/"
+to = "/fr/agenda/2023/arte-concert-festival/ascendant-vierge/"
 
 [[redirects]]
 from = "/fr/equipe-administrative/index.html"
@@ -1292,7 +1300,7 @@ to = "/fr/agenda/2024/08/"
 
 [[redirects]]
 from = "/agenda/2023/arte-concert-festival/2023-11-02-priya-ragu-1/index.html"
-to = "/agenda/2023/arte-concert-festival/priya-ragu-1/"
+to = "/fr/agenda/2023/arte-concert-festival/priya-ragu-1/"
 
 [[redirects]]
 from = "/fr/pierre-andre-boissinot-1/index.html"
