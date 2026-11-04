@@ -508,11 +508,15 @@ to = "/fr/agenda/2023/09/"
 
 [[redirects]]
 from = "/agenda/2023/arte-concert-festival-1/2023-11-03-the-kills/index.html"
-to = "/agenda/2023/arte-concert-festival/2023-11-03-the-kills/"
+to = "/fr/agenda/2023/arte-concert-festival/the-kills/"
 
 [[redirects]]
 from = "/formations/index.html"
 to = "/fr/formations/"
+
+[[redirects]]
+from = "/agenda/2023/arte-concert-festival/2023-11-03-the-kills/index.html"
+to = "/fr/agenda/2023/arte-concert-festival/the-kills/"
 
 [[redirects]]
 from = "/agenda/2023/arte-concert-festival/priya-ragu-1/index.html"
@@ -820,7 +824,7 @@ to = "/fr/agenda/2023/arte-concert-festival/ascendant-vierge/"
 
 [[redirects]]
 from = "/agenda/2023/arte-concert-festival-2023/2023-11-03-the-kills/index.html"
-to = "/agenda/2023/arte-concert-festival/2023-11-03-the-kills/"
+to = "/fr/agenda/2023/arte-concert-festival/the-kills/"
 
 [[redirects]]
 from = "/actualites/2025-10-30-envoyer-des-data-centers-en-orbite--site-multilingue-demo-osuny-site/index.html"
