@@ -136,7 +136,7 @@ to = "/fr/agenda/2023/arte-concert-festival/priya-ragu-1/"
 
 [[redirects]]
 from = "/blocs-de-categories/index.html"
-to = "/fr/blocs-de-categories/"
+to = "/fr/blocs-de-test/blocs-de-categories/"
 
 [[redirects]]
 from = "/equipe/pierre-andre-boissinot/index.html"
@@ -1069,6 +1069,10 @@ to = "/fr/organisations/arte-concert/"
 [[redirects]]
 from = "/fr/olivia-simonet/index.html"
 to = "/fr/personnes/olivia-simonet/"
+
+[[redirects]]
+from = "/fr/blocs-de-categories/index.html"
+to = "/fr/blocs-de-test/blocs-de-categories/"
 
 [[redirects]]
 from = "/fr/equipe/categories/metier/developpement-web/index.html"
