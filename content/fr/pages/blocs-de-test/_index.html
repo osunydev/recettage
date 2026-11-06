@@ -46,8 +46,8 @@ design:
     offcanvas: false
 
 
-position: 22
-weight: 22
+position: 2
+weight: 2
 pages_categories:
   - "sujet/osuny"
 taxonomies:
@@ -76,12 +76,22 @@ image:
 
 
 children:
+  - "pages/blocs-de-test/blocs-de-categories/_index.html"
   - "pages/blocs-de-test/fonctionnalites/_index.html"
+  - "pages/blocs-de-test/appel-a-actions/_index.html"
 child_pages:
+  - permalink: "/fr/blocs-de-test/blocs-de-categories/"
+    path: "/pages/blocs-de-test/blocs-de-categories"
+    slug: "blocs-de-categories"
+    file: "content/fr/pages/blocs-de-test/blocs-de-categories/_index.html"
   - permalink: "/fr/blocs-de-test/fonctionnalites/"
     path: "/pages/blocs-de-test/fonctionnalites"
     slug: "fonctionnalites"
     file: "content/fr/pages/blocs-de-test/fonctionnalites/_index.html"
+  - permalink: "/fr/blocs-de-test/appel-a-actions/"
+    path: "/pages/blocs-de-test/appel-a-actions"
+    slug: "appel-a-actions"
+    file: "content/fr/pages/blocs-de-test/appel-a-actions/_index.html"
 
 
 header_cta:
@@ -237,6 +247,12 @@ contents:
 
       layout: grid
       pages:
+        - permalink: "/fr/blocs-de-test/blocs-de-categories/"
+          path: "/pages/blocs-de-test/blocs-de-categories"
+          slug: "blocs-de-categories"
+          file: "content/fr/pages/blocs-de-test/blocs-de-categories/_index.html"
+          name: >-
+            Blocs de catégories
         - permalink: "/fr/blocs-de-test/fonctionnalites/"
           path: "/pages/blocs-de-test/fonctionnalites"
           slug: "fonctionnalites"
@@ -249,12 +265,6 @@ contents:
           file: "content/fr/pages/page-avec-des-categories/_index.html"
           name: >-
             Page avec des catégories
-        - permalink: "/fr/blocs-de-categories/"
-          path: "/pages/blocs-de-categories"
-          slug: "blocs-de-categories"
-          file: "content/fr/pages/blocs-de-categories/_index.html"
-          name: >-
-            Blocs de catégories
 
       quantity: 3
 
