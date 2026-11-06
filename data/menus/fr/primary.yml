@@ -58,13 +58,24 @@ items:
       descendants_targets: []
       path: "/pages/blocs-de-test/fonctionnalites"
       file: content/fr/pages/blocs-de-test/fonctionnalites/_index.html
+    - title: Appel à actions
+      slug: appel-a-actions
+      target: "/fr/blocs-de-test/appel-a-actions/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/blocs-de-test/appel-a-actions"
+      file: content/fr/pages/blocs-de-test/appel-a-actions/_index.html
     descendants_targets:
+    - "/fr/blocs-de-test/appel-a-actions/"
     - "/fr/blocs-de-test/blocs-de-categories/"
     - "/fr/blocs-de-test/fonctionnalites/"
     path: "/pages/blocs-de-test"
     file: content/fr/pages/blocs-de-test/_index.html
   descendants_targets:
   - "/fr/blocs-de-test/"
+  - "/fr/blocs-de-test/appel-a-actions/"
   - "/fr/blocs-de-test/blocs-de-categories/"
   - "/fr/blocs-de-test/fonctionnalites/"
   - "/fr/contenus/medias/"
