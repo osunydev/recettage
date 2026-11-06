@@ -2,6 +2,8 @@ _merge: deep
 theme: osuny
 params:
   additional_csp: 'osunystaging-1b4da.kxcdn.com'
+  debug:
+    active: true
   keycdn:
     url: https://osunystaging-1b4da.kxcdn.com
   summary:
