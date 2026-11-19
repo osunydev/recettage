@@ -1,0 +1,14 @@
+---
+id: 8505f90f-c591-4c4e-8482-3fc16caf6edb
+title: >-
+  Tester une alerte
+level: info
+content: >-
+  <p>Alerte qui vient au dessus du menu</p>
+button:
+  title: >-
+    Le bouton
+  url: >-
+    #
+  target_blank: true
+---
